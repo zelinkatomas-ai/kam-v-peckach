@@ -1,7 +1,9 @@
 # Kam v Pečkách
 
-Jedna stránka se všemi obchody, službami, řemeslníky, restauracemi a lékaři v Pečkách.
-Statický web bez serveru: `index.html` + `data.js`. Funguje otevřený přímo z disku i na GitHub Pages.
+Jedna stránka se všemi obchody, službami, řemeslníky, restauracemi, lékaři a akcemi v Pečkách.
+Statický web bez serveru: `index.html` + `data.js` + `akce.js`. Funguje otevřený přímo z disku i na GitHub Pages.
+
+**Živá stránka:** https://zelinkatomas-ai.github.io/kam-v-peckach/ (nasazuje se automaticky z větve `main`)
 
 ## Struktura
 
