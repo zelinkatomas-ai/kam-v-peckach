@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kam v Pečkách</title>
+<meta name="description" content="Obchody, služby, restaurace, lékaři a řemeslníci v Pečkách na jedné stránce. Kontakty, adresy, filtrování podle kategorie.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{
+  --bg:#F2F4F3; --surface:#FFFFFF; --ink:#172226; --muted:#5A6B70; --line:#D5DCDA; --line-strong:#B9C4C1;
+  --accent:#1E6E63; --accent-ink:#FFFFFF; --accent-soft:#DDEDE9; --chip:#E9EEEC; --chip-ink:#2E3D41;
+  --warn:#9A4A2A; --warn-soft:#F5E6DE; --focus:#1E6E63;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif; --body:"Source Sans 3","Segoe UI",Roboto,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121819; --surface:#1A2224; --ink:#E4EAE8; --muted:#93A3A7; --line:#2C383B; --line-strong:#3E4D50;
+    --accent:#5DBBA9; --accent-ink:#0F1A18; --accent-soft:#1F3634; --chip:#243033; --chip-ink:#C9D4D2;
+    --warn:#E0906C; --warn-soft:#3A2820; --focus:#5DBBA9;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121819; --surface:#1A2224; --ink:#E4EAE8; --muted:#93A3A7; --line:#2C383B; --line-strong:#3E4D50;
+  --accent:#5DBBA9; --accent-ink:#0F1A18; --accent-soft:#1F3634; --chip:#243033; --chip-ink:#C9D4D2;
+  --warn:#E0906C; --warn-soft:#3A2820; --focus:#5DBBA9;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{color-scheme:light dark}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:3px}
+button,input,select{font:inherit;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* header */
+header.top{border-bottom:1px solid var(--line);background:var(--surface)}
+header.top .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding:18px 20px 14px;flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.brand h1{font:700 34px/1 var(--display);letter-spacing:.01em;margin:0;text-transform:uppercase}
+.brand h1 span{color:var(--accent)}
+.brand .sub{color:var(--muted);font-size:15px}
+.meta{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
+
+/* toolbar */
+.toolbar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 0}
+.toolbar .wrap{display:flex;flex-direction:column;gap:10px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.search{flex:1 1 280px;position:relative;display:block}
+.search input{width:100%;padding:10px 12px 10px 38px;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface);color:var(--ink)}
+.search input::placeholder{color:var(--muted)}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;fill:none;stroke:var(--muted);stroke-width:2}
+select{padding:9px 32px 9px 10px;border:1px solid var(--line-strong);border-radius:6px;background:var(--surface);appearance:none;max-width:100%;
+  background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);
+  background-position:calc(100% - 16px) 50%,calc(100% - 11px) 50%;background-size:5px 5px;background-repeat:no-repeat}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{border:1px solid var(--line-strong);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;font:600 15px/1 var(--display);text-transform:uppercase;letter-spacing:.04em;display:inline-flex;gap:8px;align-items:center}
+.tab b{font-weight:500;color:var(--muted);font-variant-numeric:tabular-nums}
+.tab[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.tab[aria-pressed="true"] b{color:inherit;opacity:.8}
+.toggle{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-strong);background:var(--surface);border-radius:6px;padding:8px 12px;cursor:pointer;font-size:15px}
+.toggle[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
+.toggle:disabled{opacity:.5;cursor:not-allowed}
+.count{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums;margin-left:auto}
+
+/* přepínač Podniky / Akce */
+.mode{display:inline-flex;border:1px solid var(--line-strong);border-radius:6px;overflow:hidden;background:var(--surface)}
+.mode button{border:0;background:transparent;padding:8px 16px;cursor:pointer;font:600 16px/1 var(--display);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.mode button+button{border-left:1px solid var(--line-strong)}
+.mode button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+
+/* akce */
+.day{margin:0 0 22px}
+.day h2{font:600 20px/1 var(--display);text-transform:uppercase;letter-spacing:.04em;margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--ink);display:flex;gap:10px;align-items:baseline}
+.day h2 .rel{font:600 12px/1 var(--body);letter-spacing:.06em;background:var(--accent);color:var(--accent-ink);border-radius:4px;padding:3px 7px;text-transform:uppercase}
+.day h2 .rel.soon{background:var(--accent-soft);color:var(--accent)}
+.ev{display:grid;grid-template-columns:72px 1fr;gap:4px 16px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin-bottom:8px}
+.ev .time{font:600 20px/1.1 var(--display);font-variant-numeric:tabular-nums;color:var(--ink)}
+.ev .time small{display:block;font:400 12px/1.3 var(--body);color:var(--muted);margin-top:3px}
+.ev h3{margin:0;font:600 19px/1.2 var(--display);text-wrap:balance}
+.ev h3 a{color:inherit}
+.ev .where{font-size:14.5px;color:var(--ink)}
+.ev .where span{color:var(--muted)}
+.ev .where .obec{color:var(--ink);font-weight:600}
+.ev .desc{grid-column:2;max-width:70ch}
+.ev .chips{grid-column:2}
+.ev .foot{grid-column:1/-1}
+.ev .foot a{color:var(--accent)}
+@media (max-width:640px){.ev{grid-template-columns:1fr}.ev .desc,.ev .chips{grid-column:1}}
+
+/* list */
+main .wrap{padding:18px 20px 40px}
+.group{margin:0 0 28px}
+.group h2{font:600 22px/1 var(--display);text-transform:uppercase;letter-spacing:.04em;margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;align-items:baseline}
+.group h2 small{font:400 14px/1 var(--body);color:var(--muted);text-transform:none;letter-spacing:0;font-variant-numeric:tabular-nums}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card h3{margin:0;font:600 20px/1.15 var(--display);text-wrap:balance}
+.card h3 a{color:inherit}
+.chips{display:flex;gap:5px;flex-wrap:wrap}
+.chip{background:var(--chip);color:var(--chip-ink);border-radius:4px;padding:2px 7px;font-size:12.5px;letter-spacing:.02em}
+.chip.hours-open{background:var(--accent-soft);color:var(--accent)}
+.chip.hours-closed{background:var(--warn-soft);color:var(--warn)}
+.addr{color:var(--ink);font-size:15px}
+.addr a{color:var(--muted);font-size:13.5px;margin-left:8px;white-space:nowrap}
+.contacts{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;font-size:15px;font-variant-numeric:tabular-nums;margin:0}
+.contacts dt{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.05em;padding-top:2px}
+.contacts dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.desc{color:var(--muted);font-size:14.5px;margin:0;max-width:60ch}
+.hours{font-size:14px;font-variant-numeric:tabular-nums}
+.hours table{border-collapse:collapse}
+.hours td{padding:0 10px 0 0;color:var(--muted)}
+.hours td:first-child{color:var(--ink);width:2.2em}
+.hours tr.today td{color:var(--ink);font-weight:600}
+.foot{display:flex;justify-content:space-between;gap:10px;margin-top:auto;padding-top:8px;border-top:1px dashed var(--line);font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+.foot a{color:var(--muted)}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer .wrap{padding:18px 20px 30px;display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between}
+footer p{margin:0;max-width:70ch}
+@media (max-width:640px){.brand h1{font-size:28px}.grid{grid-template-columns:1fr}.count{margin-left:0;width:100%}}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--line-strong)}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand"><h1>Kam v <span>Pečkách</span></h1><div class="sub" id="sub-title">obchody, služby, řemeslníci, restaurace a lékaři v Pečkách a nejbližším okolí</div></div>
+  <div class="row" style="gap:16px">
+    <div class="mode" role="tablist" aria-label="Sekce"><button type="button" id="modePodniky" role="tab" aria-pressed="true">Podniky</button><button type="button" id="modeAkce" role="tab" aria-pressed="false">Akce</button></div>
+    <div class="meta" id="meta"></div>
+  </div>
+</div></header>
+
+<div class="toolbar"><div class="wrap">
+  <div class="row">
+    <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Hledat název, ulici, telefon, činnost…" autocomplete="off" aria-label="Hledat"></label>
+    <span id="tbPodniky" class="row" style="display:contents">
+      <select id="sub" aria-label="Podkategorie"><option value="">Všechny podkategorie</option></select>
+      <select id="sort" aria-label="Řazení"><option value="nazev">Podle názvu</option><option value="ulice">Podle ulice</option></select>
+      <button class="toggle" id="openNow" aria-pressed="false" type="button" title="Zobrazí jen podniky, které mají uvedenou otevírací dobu a právě mají otevřeno">Otevřeno teď</button>
+    </span>
+    <span id="tbAkce" class="row" style="display:contents" hidden>
+      <select id="akceKat" aria-label="Druh akce"><option value="">Všechny druhy akcí</option></select>
+      <select id="akceKdy" aria-label="Období"><option value="tyden">Tento týden</option><option value="mesic">Příštích 30 dní</option><option value="vse" selected>Vše nadcházející</option></select>
+    </span>
+  </div>
+  <div class="row"><div class="tabs" id="tabs" role="group" aria-label="Kategorie"></div><div class="count" id="count"></div></div>
+</div></div>
+
+<main><div class="wrap" id="list"></div></main>
+
+<footer><div class="wrap">
+  <p id="srcnote">Data pocházejí z katalogu firem na webu města Pečky, z Firmy.cz a z webu OC Pečky. Údaje průběžně ověřujeme, ale mohou být zastaralé. Když najdete chybu nebo tu něco chybí, použijte odkaz „Nahlásit změnu“ u záznamu.</p>
+  <p><a href="#" id="addLink">Přidat podnik nebo službu</a></p>
+</div></footer>
+
+<script src="data.js"></script>
+<script src="akce.js"></script>
+<script>
+(function(){
+  const D = window.PECKY_DATA || {podniky:[], kategorie:[], aktualizovano:"", kontaktEmail:""};
+  const A = window.PECKY_AKCE || {akce:[], aktualizovano:""};
+  const P = D.podniky;
+  const DAYS = ["ne","po","út","st","čt","pá","so"];
+  const $ = s => document.querySelector(s);
+  const norm = s => (s||"").toString().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+  const esc = s => (s||"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const state = {q:"", kat:"", sub:"", sort:"nazev", open:false};
+
+  // hours: {po:[["8:00","12:00"],["13:00","17:00"]], ..., pozn:"..."} or null
+  const toMin = t => { const [h,m] = t.split(":").map(Number); return h*60+(m||0); };
+  function isOpenNow(h){
+    if(!h) return null;
+    const now = new Date(); const d = DAYS[now.getDay()]; const cur = now.getHours()*60+now.getMinutes();
+    const spans = h[d]; if(!spans || !spans.length) return false;
+    return spans.some(([a,b]) => cur >= toMin(a) && cur < toMin(b));
+  }
+  const anyHours = P.some(p => p.otevreno && Object.keys(p.otevreno).some(k => DAYS.includes(k)));
+  if(!anyHours){ const b=$("#openNow"); b.disabled=true; b.title="Zatím u žádného záznamu není otevírací doba. Doplňte ji a filtr se zapne."; }
+
+  const cats = D.kategorie && D.kategorie.length ? D.kategorie : [...new Set(P.map(p=>p.kategorie))];
+  const tabs = $("#tabs");
+  function renderTabs(){
+    const counts = {}; P.forEach(p => counts[p.kategorie] = (counts[p.kategorie]||0)+1);
+    tabs.innerHTML = [["","Vše",P.length], ...cats.map(c=>[c,c,counts[c]||0])]
+      .map(([v,l,n]) => `<button type="button" class="tab" data-kat="${esc(v)}" aria-pressed="${state.kat===v}">${esc(l)} <b>${n}</b></button>`).join("");
+  }
+  tabs.addEventListener("click", e => { const b = e.target.closest(".tab[data-kat]"); if(!b) return; state.kat = b.dataset.kat; state.sub=""; renderTabs(); renderSubs(); render(); });
+
+  function renderSubs(){
+    const pool = state.kat ? P.filter(p=>p.kategorie===state.kat) : P;
+    const subs = [...new Set(pool.flatMap(p=>p.podkategorie||[]))].sort((a,b)=>a.localeCompare(b,"cs"));
+    $("#sub").innerHTML = `<option value="">Všechny podkategorie</option>` + subs.map(s=>`<option value="${esc(s)}"${s===state.sub?" selected":""}>${esc(s)}</option>`).join("");
+  }
+
+  function mapLink(p){
+    const q = encodeURIComponent((p.adresa||p.nazev) + (/pe[čc]ky/i.test(p.adresa||"") ? "" : ", Pečky"));
+    return `https://mapy.cz/zakladni?q=${q}`;
+  }
+  function hoursHtml(p){
+    const h = p.otevreno; if(!h) return "";
+    const today = DAYS[new Date().getDay()];
+    const rows = ["po","út","st","čt","pá","so","ne"].filter(d=>h[d]!==undefined).map(d => {
+      const v = (h[d]||[]).length ? h[d].map(s=>s.join("–")).join(", ") : "zavřeno";
+      return `<tr class="${d===today?"today":""}"><td>${d}</td><td>${esc(v)}</td></tr>`;
+    }).join("");
+    return `<div class="hours"><table>${rows}</table>${h.pozn?`<div class="desc">${esc(h.pozn)}</div>`:""}</div>`;
+  }
+  function card(p){
+    const open = isOpenNow(p.otevreno);
+    const chips = (p.podkategorie||[]).map(s=>`<span class="chip">${esc(s)}</span>`).join("")
+      + (open===true?`<span class="chip hours-open">otevřeno</span>`:open===false?`<span class="chip hours-closed">zavřeno</span>`:"");
+    const tel = (p.telefony||[]).map(t=>`<a href="tel:${t.replace(/\s+/g,"")}">${esc(t)}</a>`).join(", ");
+    const web = p.web ? `<a href="${esc(p.web)}" target="_blank" rel="noopener">${esc(p.web.replace(/^https?:\/\/(www\.)?/,"").replace(/\/$/,""))}</a>` : "";
+    const rows = [
+      tel && `<dt>Tel.</dt><dd>${tel}</dd>`,
+      p.email && `<dt>E-mail</dt><dd><a href="mailto:${esc(p.email)}">${esc(p.email)}</a></dd>`,
+      web && `<dt>Web</dt><dd>${web}</dd>`,
+      p.kontakt && `<dt>Kontakt</dt><dd>${esc(p.kontakt)}</dd>`,
+      p.ico && `<dt>IČ</dt><dd>${esc(p.ico)}</dd>`
+    ].filter(Boolean).join("");
+    const report = D.kontaktEmail ? `<a href="mailto:${esc(D.kontaktEmail)}?subject=${encodeURIComponent("Kam v Pečkách – změna: "+p.nazev)}">Nahlásit změnu</a>` : "";
+    return `<article class="card" id="p${p.id}">
+      <h3>${p.web?`<a href="${esc(p.web)}" target="_blank" rel="noopener">${esc(p.nazev)}</a>`:esc(p.nazev)}</h3>
+      ${chips?`<div class="chips">${chips}</div>`:""}
+      ${p.adresa?`<div class="addr">${esc(p.adresa)}<a href="${mapLink(p)}" target="_blank" rel="noopener">mapa ↗</a></div>`:""}
+      ${rows?`<dl class="contacts">${rows}</dl>`:""}
+      ${hoursHtml(p)}
+      ${p.popis?`<p class="desc">${esc(p.popis)}</p>`:""}
+      <div class="foot"><span>zdroj: ${esc(p.zdroj||"")}${p.zkontrolovano?`, ověřeno ${esc(p.zkontrolovano)}`:""}${p.firmyUrl?` · <a href="${esc(p.firmyUrl)}" target="_blank" rel="noopener">Firmy.cz ↗</a>`:""}</span>${report}</div>
+    </article>`;
+  }
+  function filtered(){
+    const q = norm(state.q).trim();
+    return P.filter(p => {
+      if(state.kat && p.kategorie!==state.kat) return false;
+      if(state.sub && !(p.podkategorie||[]).includes(state.sub)) return false;
+      if(state.open && isOpenNow(p.otevreno)!==true) return false;
+      if(q){
+        const hay = norm([p.nazev,p.adresa,p.popis,p.kontakt,p.email,p.web,(p.telefony||[]).join(" "),(p.podkategorie||[]).join(" ")].join(" ")).replace(/\s+/g," ");
+        const hayNoSpace = hay.replace(/\s/g,"");
+        if(!q.split(" ").every(w => hay.includes(w) || hayNoSpace.includes(w.replace(/\s/g,"")))) return false;
+      }
+      return true;
+    });
+  }
+  const streetOf = a => (a||"").replace(/\s*\d.*$/,"").trim() || "￿";
+  function render(){
+    const list = filtered();
+    list.sort((a,b) => state.sort==="ulice" ? (streetOf(a.adresa).localeCompare(streetOf(b.adresa),"cs") || a.nazev.localeCompare(b.nazev,"cs")) : a.nazev.localeCompare(b.nazev,"cs"));
+    $("#count").textContent = list.length===P.length ? `${P.length} záznamů` : `${list.length} z ${P.length} záznamů`;
+    const el = $("#list");
+    if(!list.length){ el.innerHTML = `<div class="empty">Nic se nenašlo. Zkuste kratší dotaz nebo jinou kategorii.</div>`; return; }
+    if(state.kat){ el.innerHTML = `<div class="grid">${list.map(card).join("")}</div>`; return; }
+    const groups = new Map(); cats.forEach(c=>groups.set(c,[]));
+    list.forEach(p => { if(!groups.has(p.kategorie)) groups.set(p.kategorie,[]); groups.get(p.kategorie).push(p); });
+    el.innerHTML = [...groups].filter(([,v])=>v.length).map(([k,v]) => `<section class="group"><h2>${esc(k)} <small>${v.length}</small></h2><div class="grid">${v.map(card).join("")}</div></section>`).join("");
+  }
+
+  let t; $("#q").addEventListener("input", e => { state.q = e.target.value; clearTimeout(t); t = setTimeout(render, 80); });
+  $("#sub").addEventListener("change", e => { state.sub = e.target.value; render(); });
+  $("#sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+  $("#openNow").addEventListener("click", e => { state.open = !state.open; e.currentTarget.setAttribute("aria-pressed", state.open); render(); });
+  $("#meta").textContent = D.aktualizovano ? `data k ${D.aktualizovano}` : "";
+  const add = $("#addLink"); if(D.kontaktEmail){ add.href = `mailto:${D.kontaktEmail}?subject=${encodeURIComponent("Kam v Pečkách – nový záznam")}`; } else add.parentElement.remove();
+
+  // ================= AKCE =================
+  const ak = {mode:"podniky", kde:"okoli", kat:"", kdy:"vse"};
+  const AK = A.akce.filter(a => a.zacatek);
+  const DNY = ["neděle","pondělí","úterý","středa","čtvrtek","pátek","sobota"];
+  const MES = ["ledna","února","března","dubna","května","června","července","srpna","září","října","listopadu","prosince"];
+  const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };
+  const addDays = (iso, n) => { const d = new Date(iso+"T12:00"); d.setDate(d.getDate()+n); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };
+  const jePecky = a => /pe[čc]ky/i.test(a.obec||"") || /pe[čc]k/i.test(a.misto||"");
+  const isoLocal = s => (s||"").replace(/[-:]/g,"").replace(/T(\d{4})$/,"T$100");
+  function gcal(a){
+    const start = isoLocal(a.zacatek.length>10 ? a.zacatek : a.zacatek+"T09:00");
+    const end = isoLocal(a.konec && a.konec>a.zacatek ? (a.konec.length>10?a.konec:a.konec+"T18:00") : (a.zacatek.length>10 ? a.zacatek.slice(0,11)+String(Math.min(23,+a.zacatek.slice(11,13)+2)).padStart(2,"0")+a.zacatek.slice(13) : a.zacatek+"T18:00"));
+    const p = new URLSearchParams({action:"TEMPLATE", text:a.nazev, dates:`${start}/${end}`, location:[a.misto,a.obec].filter(Boolean).join(", "), details:(a.popis||"")+(a.url?"\n"+a.url:"")});
+    return "https://www.google.com/calendar/render?"+p.toString();
+  }
+  function akceFiltered(){
+    const t = today(); const q = norm(state.q).trim();
+    const lim = ak.kdy==="tyden" ? addDays(t, 7) : ak.kdy==="mesic" ? addDays(t, 30) : "9999";
+    return AK.filter(a => {
+      const end = (a.konec||a.zacatek).slice(0,10);
+      if(end < t) return false;
+      if(a.zacatek.slice(0,10) > lim) return false;
+      if(ak.kde==="pecky" && !jePecky(a)) return false;
+      if(ak.kat && !(a.kategorie||[]).includes(ak.kat)) return false;
+      if(q){ const hay = norm([a.nazev,a.misto,a.obec,a.popis,(a.kategorie||[]).join(" ")].join(" ")); if(!q.split(" ").every(w=>hay.includes(w))) return false; }
+      return true;
+    }).sort((a,b)=>a.zacatek.localeCompare(b.zacatek));
+  }
+  function akceCard(a){
+    const hasTime = a.zacatek.length > 10 && !(a.zacatek.endsWith("T00:00") && a.konec && a.konec.slice(0,10)!==a.zacatek.slice(0,10));
+    const end = a.konec ? (a.konec.slice(0,10)!==a.zacatek.slice(0,10) ? `do ${+a.konec.slice(8,10)}. ${+a.konec.slice(5,7)}.` : (a.konec.length>10 ? `do ${a.konec.slice(11)}` : "")) : "";
+    const kde = [a.misto && a.misto!==a.obec && `<span>${esc(a.misto)}</span>`, a.obec && `<span class="obec">${esc(a.obec)}</span>`].filter(Boolean).join(" · ");
+    const chips = (a.kategorie||[]).map(k=>`<span class="chip">${esc(k)}</span>`).join("");
+    return `<article class="ev">
+      <div class="time">${hasTime ? esc(a.zacatek.slice(11)) : "celý den"}${end?`<small>${esc(end)}</small>`:""}</div>
+      <div><h3>${a.url?`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.nazev)}</a>`:esc(a.nazev)}</h3>${kde?`<div class="where">${kde}</div>`:""}</div>
+      ${a.popis?`<p class="desc">${esc(a.popis)}</p>`:""}
+      ${chips?`<div class="chips">${chips}</div>`:""}
+      <div class="foot"><span>zdroj: ${esc(a.zdroj||"")}</span><a href="${gcal(a)}" target="_blank" rel="noopener">Přidat do kalendáře</a></div>
+    </article>`;
+  }
+  function renderAkce(){
+    const list = akceFiltered(); const t = today(), zitra = addDays(t,1);
+    $("#count").textContent = `${list.length} akcí`;
+    const el = $("#list");
+    if(!list.length){ el.innerHTML = `<div class="empty">${AK.length ? "V tomto období nic není. Zkuste delší období nebo okolí Peček." : "Akce se zatím nestáhly."}</div>`; return; }
+    const groups = new Map();
+    for(const a of list){ const d = a.zacatek.slice(0,10) < t ? t : a.zacatek.slice(0,10); if(!groups.has(d)) groups.set(d,[]); groups.get(d).push(a); }
+    el.innerHTML = [...groups].map(([d,v]) => {
+      const dt = new Date(d+"T12:00");
+      const rel = d===t ? `<span class="rel">dnes</span>` : d===zitra ? `<span class="rel soon">zítra</span>` : "";
+      return `<section class="day"><h2>${DNY[dt.getDay()]} ${dt.getDate()}. ${MES[dt.getMonth()]}${dt.getFullYear()!==new Date().getFullYear()?" "+dt.getFullYear():""} ${rel}</h2>${v.map(akceCard).join("")}</section>`;
+    }).join("");
+  }
+  function renderAkceTabs(){
+    const nP = AK.filter(a=>(a.konec||a.zacatek).slice(0,10)>=today()).filter(jePecky).length, nO = AK.filter(a=>(a.konec||a.zacatek).slice(0,10)>=today()).length;
+    $("#tabs").innerHTML = [["okoli","Pečky a okolí",nO],["pecky","Jen Pečky",nP]].map(([v,l,n])=>`<button type="button" class="tab" data-kde="${v}" aria-pressed="${ak.kde===v}">${l} <b>${n}</b></button>`).join("");
+    const kats = [...new Set(AK.flatMap(a=>a.kategorie||[]))].sort((a,b)=>a.localeCompare(b,"cs"));
+    $("#akceKat").innerHTML = `<option value="">Všechny druhy akcí</option>` + kats.map(k=>`<option value="${esc(k)}"${k===ak.kat?" selected":""}>${esc(k)}</option>`).join("");
+  }
+  function setMode(m){
+    ak.mode = m; const isA = m==="akce";
+    $("#modePodniky").setAttribute("aria-pressed", !isA); $("#modeAkce").setAttribute("aria-pressed", isA);
+    $("#tbPodniky").hidden = isA; $("#tbAkce").hidden = !isA;
+    $("#q").placeholder = isA ? "Hledat akci, místo, obec…" : "Hledat název, ulici, telefon, činnost…";
+    $("#sub-title").textContent = isA ? "co se děje v Pečkách a v okolních obcích: kultura, sport, spolky, město" : "obchody, služby, řemeslníci, restaurace a lékaři v Pečkách a nejbližším okolí";
+    $("#meta").textContent = isA ? (A.aktualizovano ? `akce staženy ${A.aktualizovano}` : "") : (D.aktualizovano ? `data k ${D.aktualizovano}` : "");
+    $("#srcnote").textContent = isA ? "Akce se každý den stahují z kalendáře Pečeckého regionu a z aktualit města Pečky. Pořadatelé, přidejte svou akci do kalendáře na pececkyregion.cz a objeví se i tady." : "Data pocházejí z katalogu firem na webu města Pečky, z Firmy.cz a z webu OC Pečky. Údaje průběžně ověřujeme, ale mohou být zastaralé. Když najdete chybu nebo tu něco chybí, použijte odkaz „Nahlásit změnu“ u záznamu.";
+    const url = new URL(location); if(isA) url.searchParams.set("akce",""); else url.searchParams.delete("akce"); history.replaceState(null,"",url);
+    if(isA){ renderAkceTabs(); renderAkce(); } else { renderTabs(); renderSubs(); render(); }
+  }
+  $("#modePodniky").addEventListener("click", ()=>setMode("podniky"));
+  $("#modeAkce").addEventListener("click", ()=>setMode("akce"));
+  $("#akceKat").addEventListener("change", e=>{ ak.kat = e.target.value; renderAkce(); });
+  $("#akceKdy").addEventListener("change", e=>{ ak.kdy = e.target.value; renderAkce(); });
+  tabs.addEventListener("click", e => { const b = e.target.closest(".tab[data-kde]"); if(!b) return; ak.kde = b.dataset.kde; renderAkceTabs(); renderAkce(); });
+  const origRender = render; render = function(){ if(ak.mode==="akce") renderAkce(); else origRender(); };
+
+  const u = new URLSearchParams(location.search);
+  if(u.get("kat") && cats.includes(u.get("kat"))) state.kat = u.get("kat");
+  if(u.get("q")){ state.q = u.get("q"); $("#q").value = state.q; }
+  if(u.has("akce")) setMode("akce"); else { renderTabs(); renderSubs(); render(); }
+})();
+</script>
+</body>
+</html>

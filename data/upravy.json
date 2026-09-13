@@ -1,0 +1,433 @@
+{
+ "_popis": "Ruční úpravy záznamů importovaných z pecky.cz. Klíč = id záznamu, hodnota = pole, která přepíšou import. _kategorie určuje pořadí kategorií na stránce.",
+ "_kategorie": [
+  "Obchody",
+  "Služby",
+  "Restaurace a občerstvení",
+  "Auto-moto",
+  "Zdravotnictví",
+  "Sport a volný čas",
+  "Město a instituce",
+  "Firmy a výroba"
+ ],
+ "pecky-6492": {
+  "kategorie": "Sport a volný čas",
+  "podkategorie": [
+   "Sportoviště"
+  ]
+ },
+ "pecky-6494": {
+  "podkategorie": [
+   "Technické služby, voda a odpady"
+  ]
+ },
+ "pecky-6495": {
+  "nazev": "Elektroservis Dvořáček",
+  "podkategorie": [
+   "Elektro"
+  ]
+ },
+ "pecky-6496": {
+  "kategorie": "Služby",
+  "podkategorie": [
+   "Řemesla: voda, topení, elektro"
+  ],
+  "popis": "Vzduchotechnika a klimatizace."
+ },
+ "pecky-6497": {
+  "podkategorie": [
+   "Výroba a průmysl"
+  ],
+  "kategorie": "Firmy a výroba"
+ },
+ "pecky-6498": {
+  "podkategorie": [
+   "Výroba a průmysl"
+  ],
+  "kategorie": "Firmy a výroba"
+ },
+ "pecky-6500": {
+  "podkategorie": [
+   "Počítače, internet a IT"
+  ]
+ },
+ "pecky-6501": {
+  "kategorie": "Služby",
+  "nazev": "Stěhování Hrabák",
+  "podkategorie": [
+   "Doprava a stěhování"
+  ]
+ },
+ "pecky-6502": {
+  "podkategorie": [
+   "Autoservis a pneuservis"
+  ]
+ },
+ "pecky-6504": {
+  "podkategorie": [
+   "Zemědělství a chovatelské potřeby"
+  ]
+ },
+ "pecky-6505": {
+  "podkategorie": [
+   "Zemědělství a chovatelské potřeby"
+  ]
+ },
+ "pecky-6506": {
+  "podkategorie": [
+   "Právo, daně a účetnictví"
+  ]
+ },
+ "pecky-6507": {
+  "podkategorie": [
+   "Výroba a průmysl"
+  ],
+  "kategorie": "Firmy a výroba"
+ },
+ "pecky-6508": {
+  "podkategorie": [
+   "Kancelář a nábytek"
+  ]
+ },
+ "pecky-6509": {
+  "podkategorie": [
+   "Výroba a průmysl"
+  ],
+  "kategorie": "Firmy a výroba"
+ },
+ "pecky-6510": {
+  "podkategorie": [
+   "Právo, daně a účetnictví"
+  ]
+ },
+ "pecky-6511": {
+  "podkategorie": [
+   "Výroba a průmysl"
+  ],
+  "kategorie": "Firmy a výroba"
+ },
+ "pecky-6512": {
+  "nazev": "Elektroinstalace Koníček",
+  "podkategorie": [
+   "Řemesla: voda, topení, elektro"
+  ]
+ },
+ "pecky-6513": {
+  "podkategorie": [
+   "Prodej aut, karavanů a dílů"
+  ],
+  "kategorie": "Auto-moto"
+ },
+ "pecky-6514": {
+  "podkategorie": [
+   "Ruční výroba a dárky"
+  ]
+ },
+ "pecky-6515": {
+  "podkategorie": [
+   "Stavebnictví, projekce a geodézie"
+  ]
+ },
+ "pecky-6516": {
+  "kategorie": "Sport a volný čas",
+  "podkategorie": [
+   "Spolky a kluby"
+  ]
+ },
+ "pecky-6517": {
+  "nazev": "Autobazar Růžička",
+  "podkategorie": [
+   "Prodej aut, karavanů a dílů"
+  ],
+  "kategorie": "Auto-moto"
+ },
+ "pecky-6518": {
+  "podkategorie": [
+   "Stavebnictví, projekce a geodézie"
+  ]
+ },
+ "pecky-6519": {
+  "podkategorie": [
+   "Řemesla a stavebnictví"
+  ]
+ },
+ "pecky-6520": {
+  "nazev": "Ing. František Rulík – projekce staveb",
+  "podkategorie": [
+   "Stavebnictví, projekce a geodézie"
+  ]
+ },
+ "pecky-6521": {
+  "nazev": "Webstudio JV – Jiří Valíček",
+  "podkategorie": [
+   "Počítače, internet a IT"
+  ]
+ },
+ "pecky-6522": {
+  "kategorie": "Služby",
+  "podkategorie": [
+   "Stavebnictví, projekce a geodézie"
+  ]
+ },
+ "pecky-6523": {
+  "nazev": "Milan Pavlásek – topení, voda, plyn",
+  "podkategorie": [
+   "Řemesla: voda, topení, elektro"
+  ]
+ },
+ "pecky-6525": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Restaurace"
+  ]
+ },
+ "pecky-6526": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Hospoda a bar"
+  ]
+ },
+ "pecky-6527": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Restaurace",
+   "Bowling"
+  ]
+ },
+ "pecky-6528": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Restaurace"
+  ]
+ },
+ "pecky-6530": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Cukrárna"
+  ],
+  "web": "https://www.facebook.com/Cukr%C3%A1rna-Kl%C3%A1ra-1822996701114573"
+ },
+ "pecky-6535": {
+  "podkategorie": [
+   "Doprava a stěhování"
+  ],
+  "adresa": "Kolín"
+ },
+ "pecky-8828": {
+  "kategorie": "Sport a volný čas",
+  "podkategorie": [
+   "Sportoviště"
+  ]
+ },
+ "pecky-9303": {
+  "podkategorie": [
+   "Právo, daně a účetnictví"
+  ]
+ },
+ "pecky-10044": {
+  "podkategorie": [
+   "Hračky a hry"
+  ]
+ },
+ "pecky-11407": {
+  "kategorie": "Sport a volný čas",
+  "podkategorie": [
+   "Spolky a kluby"
+  ]
+ },
+ "pecky-12096": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Bistro a rozvoz"
+  ]
+ },
+ "pecky-12097": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Bistro a rozvoz"
+  ]
+ },
+ "pecky-12099": {
+  "skryt": true,
+  "_duvod": "Firmy.cz uvádí Pizza Maximo na nové adrese Tř. Jana Švermy 48, starý záznam města je zastaralý."
+ },
+ "pecky-12100": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Restaurace"
+  ]
+ },
+ "pecky-12101": {
+  "kategorie": "Restaurace a občerstvení",
+  "podkategorie": [
+   "Hospoda a bar"
+  ]
+ },
+ "pecky-13229": {
+  "podkategorie": [
+   "Počítače, internet a IT"
+  ],
+  "popis": "Internet, televize, telefon."
+ },
+ "pecky-6489": {
+  "kategorie": "Město a instituce",
+  "podkategorie": [
+   "Kultura a knihovna"
+  ]
+ },
+ "pecky-6481": {
+  "kategorie": "Zdravotnictví",
+  "nazev": "Lékárna na náměstí",
+  "podkategorie": [
+   "Lékárna"
+  ],
+  "kontakt": "Mgr. Jana Žertová",
+  "zdroj": "pecky.cz, sekce Zdravotnictví",
+  "zkontrolovano": "2026-09-13"
+ },
+ "pecky-6534": {
+  "kategorie": "Zdravotnictví",
+  "nazev": "Lékařská pohotovost – Oblastní nemocnice Kolín",
+  "podkategorie": [
+   "Pohotovost"
+  ],
+  "zdroj": "pecky.cz, sekce Zdravotnictví",
+  "zkontrolovano": "2026-09-13"
+ },
+ "pecky-6477": {
+  "kategorie": "Město a instituce",
+  "podkategorie": [
+   "Školy a vzdělávání"
+  ]
+ },
+ "pecky-6490": {
+  "kategorie": "Město a instituce",
+  "podkategorie": [
+   "Kultura a knihovna"
+  ]
+ },
+ "pecky-6484": {
+  "skryt": true,
+  "_duvod": "Na aktuálním webu města (2026) už ordinace není uvedená."
+ },
+ "pecky-6479": {
+  "kategorie": "Zdravotnictví",
+  "podkategorie": [
+   "Gynekologie"
+  ],
+  "adresa": "V. B. Třebízského 292, Pečky",
+  "zdroj": "pecky.cz, sekce Zdravotnictví",
+  "zkontrolovano": "2026-09-13"
+ },
+ "pecky-6483": {
+  "skryt": true,
+  "_duvod": "Na aktuálním webu města (2026) už ordinace není uvedená."
+ },
+ "pecky-6485": {
+  "kategorie": "Zdravotnictví",
+  "podkategorie": [
+   "Praktický lékař pro dospělé"
+  ],
+  "adresa": "J. A. Komenského 184, Pečky",
+  "zdroj": "pecky.cz, sekce Zdravotnictví",
+  "zkontrolovano": "2026-09-13"
+ },
+ "pecky-6482": {
+  "skryt": true,
+  "_duvod": "Na aktuálním webu města (2026) je místo ní MUDr. Malá."
+ },
+ "pecky-6488": {
+  "kategorie": "Zdravotnictví",
+  "podkategorie": [
+   "Zubní lékař"
+  ],
+  "adresa": "V. B. Třebízského 292, Pečky",
+  "zdroj": "pecky.cz, sekce Zdravotnictví",
+  "zkontrolovano": "2026-09-13"
+ },
+ "pecky-6487": {
+  "skryt": true,
+  "_duvod": "Na aktuálním webu města (2026) už ordinace není uvedená."
+ },
+ "pecky-9830": {
+  "kategorie": "Zdravotnictví",
+  "podkategorie": [
+   "Logopedie"
+  ],
+  "adresa": "V. B. Třebízského 292, Pečky",
+  "kontakt": "Mgr. Alena Marešová",
+  "popis": "Soukromá logopedická ambulance.",
+  "otevreno": {
+   "út": [
+    [
+     "8:00",
+     "12:00"
+    ],
+    [
+     "12:30",
+     "15:30"
+    ]
+   ],
+   "pozn": "Ordinuje jen v úterý."
+  },
+  "zdroj": "pecky.cz, sekce Zdravotnictví",
+  "zkontrolovano": "2026-09-13"
+ },
+ "pecky-6493": {
+  "kategorie": "Město a instituce",
+  "podkategorie": [
+   "Sociální služby"
+  ]
+ },
+ "pecky-6480": {
+  "kategorie": "Zdravotnictví",
+  "nazev": "Marie Prasková – fyzioterapie",
+  "podkategorie": [
+   "Rehabilitace a fyzioterapie"
+  ],
+  "adresa": "V. B. Třebízského 292, Pečky",
+  "popis": "Soukromá fyzioterapie.",
+  "zdroj": "pecky.cz, sekce Zdravotnictví",
+  "zkontrolovano": "2026-09-13"
+ },
+ "pecky-6491": {
+  "kategorie": "Sport a volný čas",
+  "podkategorie": [
+   "Spolky a kluby"
+  ]
+ },
+ "pecky-6779": {
+  "kategorie": "Město a instituce",
+  "nazev": "Vzdělávací centrum Pečecka",
+  "podkategorie": [
+   "Školy a vzdělávání"
+  ]
+ },
+ "pecky-6476": {
+  "kategorie": "Město a instituce",
+  "nazev": "Základní škola Pečky",
+  "podkategorie": [
+   "Školy a vzdělávání"
+  ]
+ },
+ "pecky-6478": {
+  "kategorie": "Město a instituce",
+  "podkategorie": [
+   "Školy a vzdělávání"
+  ]
+ },
+ "firmy-355732": {
+  "nazev": "Městský úřad Pečky",
+  "podkategorie": [
+   "Úřady a služby města"
+  ],
+  "popis": "Radnice na Masarykově náměstí: podatelna, matrika, stavební úřad, odbor správy majetku, ekonomický odbor."
+ },
+ "firmy-2537115": {
+  "nazev": "Městský úřad Pečky – odbory",
+  "podkategorie": [
+   "Úřady a služby města"
+  ],
+  "popis": "Odbor správy majetku města a bytového hospodářství, odbor výstavby, zemědělství, vodního hospodářství, dopravy a životního prostředí, odbor ekonomicko-správní."
+ }
+}

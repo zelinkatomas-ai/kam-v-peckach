@@ -1,0 +1,29 @@
+# Každý den ráno stáhne akce z Pečeckého regionu a z aktualit města a commitne akce.js.
+# GitHub Pages pak servíruje aktuální data bez zásahu člověka.
+name: Aktualizace akcí
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # 04:15 UTC = 06:15 letního času
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  akce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/crawl-akce.js
+      - run: node scripts/build.js
+      - name: Commit změn
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/akce.json akce.js
+          git diff --cached --quiet || git commit -m "Aktualizace akcí $(date -u +%Y-%m-%d)"
+          git push
