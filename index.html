@@ -7,6 +7,7 @@
 <meta name="description" content="Obchody, služby, restaurace, lékaři a řemeslníci v Pečkách na jedné stránce. Kontakty, adresy, filtrování podle kategorie.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="leaflet.css">
 <style>
 :root{
   --bg:#F2F4F3; --surface:#FFFFFF; --ink:#172226; --muted:#5A6B70; --line:#D5DCDA; --line-strong:#B9C4C1;
@@ -91,6 +92,32 @@ select{padding:9px 32px 9px 10px;border:1px solid var(--line-strong);border-radi
 .ev .foot a{color:var(--accent)}
 @media (max-width:640px){.ev{grid-template-columns:1fr}.ev .desc,.ev .chips{grid-column:1}}
 
+/* výlety */
+.trip{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;grid-template-columns:64px 1fr;gap:4px 14px;min-width:0}
+.trip .km{font:600 22px/1 var(--display);font-variant-numeric:tabular-nums}
+.trip .km small{display:block;font:400 12px/1.3 var(--body);color:var(--muted);margin-top:3px}
+.trip h3{margin:0;font:600 20px/1.15 var(--display);text-wrap:balance}
+.trip .obec{color:var(--muted);font-size:14px}
+.trip .desc{grid-column:2;max-width:65ch}
+.trip .links{grid-column:2;display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+.trip .links .approx{color:var(--muted)}
+@media (max-width:640px){.trip{grid-template-columns:1fr}.trip .desc,.trip .links{grid-column:1}}
+
+/* mapa */
+#map{height:min(70vh,560px);border:1px solid var(--line);border-radius:8px;margin:0 0 18px;background:var(--chip)}
+#map[hidden]{display:none}
+.leaflet-container{font:14px/1.35 var(--body);color:var(--ink)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--surface);color:var(--ink);box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.leaflet-popup-content{margin:10px 14px}
+.leaflet-popup-content b{font:600 16px/1.2 var(--display)}
+.leaflet-container a.leaflet-popup-close-button{color:var(--muted)}
+.leaflet-bar a{background:var(--surface);color:var(--ink);border-bottom-color:var(--line)}
+.pin{width:14px;height:14px;border-radius:50%;background:var(--accent);border:2px solid var(--surface);box-shadow:0 0 0 1px var(--accent)}
+.pin.hl{background:var(--warn);box-shadow:0 0 0 1px var(--warn)}
+.pin.home{background:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.leaflet-control-attribution{background:var(--surface);color:var(--muted);font-size:10px}
+.leaflet-control-attribution a{color:var(--muted)}
+
 /* list */
 main .wrap{padding:18px 20px 40px}
 .group{margin:0 0 28px}
@@ -129,7 +156,7 @@ footer p{margin:0;max-width:70ch}
 <header class="top"><div class="wrap">
   <div class="brand"><h1>Kam v <span>Pečkách</span></h1><div class="sub" id="sub-title">obchody, služby, řemeslníci, restaurace a lékaři v Pečkách a nejbližším okolí</div></div>
   <div class="row" style="gap:16px">
-    <div class="mode" role="tablist" aria-label="Sekce"><button type="button" id="modePodniky" role="tab" aria-pressed="true">Podniky</button><button type="button" id="modeAkce" role="tab" aria-pressed="false">Akce</button></div>
+    <div class="mode" role="tablist" aria-label="Sekce"><button type="button" id="modePodniky" role="tab" aria-pressed="true">Podniky</button><button type="button" id="modeAkce" role="tab" aria-pressed="false">Akce</button><button type="button" id="modeVylety" role="tab" aria-pressed="false">Výlety</button></div>
     <div class="meta" id="meta"></div>
   </div>
 </div></header>
@@ -147,23 +174,31 @@ footer p{margin:0;max-width:70ch}
       <select id="akceKat" aria-label="Druh akce"><option value="">Všechny druhy akcí</option></select>
       <select id="akceKdy" aria-label="Období"><option value="tyden">Tento týden</option><option value="mesic">Příštích 30 dní</option><option value="vse" selected>Vše nadcházející</option></select>
     </span>
+    <span id="tbVylety" class="row" style="display:contents" hidden>
+      <select id="vylKat" aria-label="Druh místa"><option value="">Všechny druhy míst</option></select>
+      <select id="vylKm" aria-label="Vzdálenost"><option value="2">Do 2 km, pěšky</option><option value="4">Do 4 km</option><option value="99" selected>Vše, i na kolo</option></select>
+    </span>
+    <button class="toggle" id="mapToggle" aria-pressed="false" type="button" title="Zobrazí vybrané záznamy na mapě">Mapa</button>
   </div>
   <div class="row"><div class="tabs" id="tabs" role="group" aria-label="Kategorie"></div><div class="count" id="count"></div></div>
 </div></div>
 
-<main><div class="wrap" id="list"></div></main>
+<main><div class="wrap"><div id="map" hidden role="region" aria-label="Mapa"></div><div id="list"></div></div></main>
 
 <footer><div class="wrap">
   <p id="srcnote">Data pocházejí z katalogu firem na webu města Pečky, z Firmy.cz a z webu OC Pečky. Údaje průběžně ověřujeme, ale mohou být zastaralé. Když najdete chybu nebo tu něco chybí, použijte odkaz „Nahlásit změnu“ u záznamu.</p>
   <p><a href="#" id="addLink">Přidat podnik nebo službu</a></p>
 </div></footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="data.js"></script>
 <script src="akce.js"></script>
+<script src="vylety.js"></script>
 <script>
 (function(){
   const D = window.PECKY_DATA || {podniky:[], kategorie:[], aktualizovano:"", kontaktEmail:""};
   const A = window.PECKY_AKCE || {akce:[], aktualizovano:""};
+  const V = window.PECKY_VYLETY || {mista:[], kategorie:[], vychoziBod:{nazev:"nádraží Pečky", gps:[50.0906,15.0303]}};
   const P = D.podniky;
   const DAYS = ["ne","po","út","st","čt","pá","so"];
   const $ = s => document.querySelector(s);
@@ -328,28 +363,111 @@ footer p{margin:0;max-width:70ch}
     const kats = [...new Set(AK.flatMap(a=>a.kategorie||[]))].sort((a,b)=>a.localeCompare(b,"cs"));
     $("#akceKat").innerHTML = `<option value="">Všechny druhy akcí</option>` + kats.map(k=>`<option value="${esc(k)}"${k===ak.kat?" selected":""}>${esc(k)}</option>`).join("");
   }
+  // ================= VÝLETY =================
+  const vy = {kat:"", km:99};
+  const HOME = (V.vychoziBod && V.vychoziBod.gps) || [50.0906,15.0303];
+  const kmOd = g => { if(!g) return null; const R=6371, dLat=(g[0]-HOME[0])*Math.PI/180, dLon=(g[1]-HOME[1])*Math.PI/180; const x=Math.sin(dLat/2)**2+Math.cos(HOME[0]*Math.PI/180)*Math.cos(g[0]*Math.PI/180)*Math.sin(dLon/2)**2; return 2*R*Math.asin(Math.sqrt(x)); };
+  const VM = (V.mista||[]).map(m => ({...m, km: kmOd(m.gps)}));
+  const vylCats = (V.kategorie && V.kategorie.length) ? V.kategorie : [...new Set(VM.map(m=>m.kategorie))];
+  function vylFiltered(){
+    const q = norm(state.q).trim();
+    return VM.filter(m => {
+      if(vy.kat && m.kategorie!==vy.kat) return false;
+      if(m.km!=null && m.km > vy.km) return false;
+      if(q){ const hay = norm([m.nazev,m.obec,m.popis,m.kategorie].join(" ")); if(!q.split(" ").every(w=>hay.includes(w))) return false; }
+      return true;
+    }).sort((a,b)=>(a.km??99)-(b.km??99));
+  }
+  const fmtKm = k => k==null ? "" : k<1 ? `${Math.round(k*100)*10} m` : `${k.toFixed(1).replace(".",",")} km`;
+  function tripCard(m){
+    const mapy = `https://mapy.cz/turisticka?q=${encodeURIComponent(m.nazev+", "+m.obec)}${m.gps?`&x=${m.gps[1]}&y=${m.gps[0]}&z=16`:""}`;
+    const links = [
+      `<a href="${mapy}" target="_blank" rel="noopener">Mapy.cz ↗</a>`,
+      m.wiki && `<a href="${esc(m.wiki)}" target="_blank" rel="noopener">Wikipedie ↗</a>`,
+      m.web && `<a href="${esc(m.web)}" target="_blank" rel="noopener">${esc(m.web.replace(/^https?:\/\/(www\.)?/,"").split("/")[0])} ↗</a>`,
+      m.gpsPribl && `<span class="approx">přibližná poloha</span>`
+    ].filter(Boolean).join("");
+    return `<article class="trip" id="v${esc(m.id)}">
+      <div class="km">${fmtKm(m.km)}<small>od nádraží</small></div>
+      <div><h3>${esc(m.nazev)}</h3><div class="obec">${esc(m.obec)} · ${esc(m.kategorie)}</div></div>
+      <p class="desc">${esc(m.popis)}</p>
+      <div class="links">${links}</div>
+    </article>`;
+  }
+  function renderVylety(){
+    const list = vylFiltered();
+    $("#count").textContent = `${list.length} míst`;
+    $("#list").innerHTML = list.length ? `<div class="grid">${list.map(tripCard).join("")}</div>` : `<div class="empty">V tomto okruhu nic není. Zkuste větší vzdálenost.</div>`;
+    updateMap();
+  }
+  function renderVylTabs(){
+    const counts = {}; VM.forEach(m => counts[m.kategorie]=(counts[m.kategorie]||0)+1);
+    $("#tabs").innerHTML = [["","Vše",VM.length], ...vylCats.map(c=>[c,c,counts[c]||0])].map(([v,l,n])=>`<button type="button" class="tab" data-vkat="${esc(v)}" aria-pressed="${vy.kat===v}">${esc(l)} <b>${n}</b></button>`).join("");
+    $("#vylKat").innerHTML = `<option value="">Všechny druhy míst</option>` + vylCats.map(c=>`<option value="${esc(c)}"${c===vy.kat?" selected":""}>${esc(c)}</option>`).join("");
+  }
+  $("#vylKat").addEventListener("change", e=>{ vy.kat = e.target.value; renderVylTabs(); renderVylety(); });
+  $("#vylKm").addEventListener("change", e=>{ vy.km = +e.target.value; renderVylety(); });
+  tabs.addEventListener("click", e => { const b = e.target.closest(".tab[data-vkat]"); if(!b) return; vy.kat = b.dataset.vkat; renderVylTabs(); renderVylety(); });
+
+  // ================= MAPA =================
+  let map = null, layer = null, mapOn = false;
+  const pin = cls => L.divIcon({className:"", html:`<div class="pin ${cls}"></div>`, iconSize:[14,14], iconAnchor:[7,7], popupAnchor:[0,-8]});
+  function ensureMap(){
+    if(map || typeof L==="undefined") return map;
+    map = L.map("map", {scrollWheelZoom:false}).setView(HOME, 14);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom:19, attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+    L.marker(HOME, {icon:pin("home"), zIndexOffset:1000}).addTo(map).bindPopup(`<b>${esc((V.vychoziBod&&V.vychoziBod.nazev)||"nádraží Pečky")}</b>`);
+    layer = L.layerGroup().addTo(map);
+    return map;
+  }
+  function mapItems(){
+    if(ak.mode==="vylety") return vylFiltered().filter(m=>m.gps).map(m=>({gps:m.gps, nazev:m.nazev, sub:m.obec, anchor:"v"+m.id}));
+    if(ak.mode==="podniky") return filtered().filter(p=>p.gps).map(p=>({gps:p.gps, nazev:p.nazev, sub:p.adresa, anchor:"p"+p.id}));
+    return [];
+  }
+  function updateMap(){
+    if(!mapOn || !ensureMap()) return;
+    layer.clearLayers();
+    const items = mapItems(); const pts = [HOME];
+    for(const it of items){
+      pts.push(it.gps);
+      L.marker(it.gps, {icon:pin("")}).addTo(layer).bindPopup(`<b>${esc(it.nazev)}</b><br>${esc(it.sub||"")}<br><a href="#${it.anchor}">Zobrazit v seznamu</a>`);
+    }
+    if(pts.length>1) map.fitBounds(L.latLngBounds(pts).pad(0.08), {maxZoom:16}); else map.setView(HOME, 14);
+  }
+  $("#mapToggle").addEventListener("click", e => {
+    mapOn = !mapOn; e.currentTarget.setAttribute("aria-pressed", mapOn); $("#map").hidden = !mapOn;
+    if(mapOn){ if(typeof L==="undefined"){ $("#map").innerHTML = `<div class="empty">Mapa se nenačetla. Zkuste stránku obnovit.</div>`; return; } ensureMap(); setTimeout(()=>{ map.invalidateSize(); updateMap(); }, 0); }
+  });
+
+  // ================= PŘEPÍNÁNÍ SEKCÍ =================
+  const TEXTS = {
+    podniky: {sub:"obchody, služby, řemeslníci, restaurace a lékaři v Pečkách a nejbližším okolí", ph:"Hledat název, ulici, telefon, činnost…", src:"Data pocházejí z katalogu firem na webu města Pečky, z Firmy.cz a z webu OC Pečky. Údaje průběžně ověřujeme, ale mohou být zastaralé. Když najdete chybu nebo tu něco chybí, použijte odkaz „Nahlásit změnu“ u záznamu."},
+    akce: {sub:"co se děje v Pečkách a v okolních obcích: kultura, sport, spolky, město", ph:"Hledat akci, místo, obec…", src:"Akce se každý den stahují z kalendáře Pečeckého regionu a z aktualit města Pečky. Pořadatelé, přidejte svou akci do kalendáře na pececkyregion.cz a objeví se i tady."},
+    vylety: {sub:"kam se vydat z Peček pěšky, na kole nebo vlakem o jednu stanici dál", ph:"Hledat místo, obec, popis…", src:"Místa jsou vybraná ručně. Souřadnice pocházejí z OpenStreetMap, údaje z Wikipedie a webů obcí. Otevírací doby zámku nebo koupaliště ověřte před cestou u provozovatele."}
+  };
   function setMode(m){
-    ak.mode = m; const isA = m==="akce";
-    $("#modePodniky").setAttribute("aria-pressed", !isA); $("#modeAkce").setAttribute("aria-pressed", isA);
-    $("#tbPodniky").hidden = isA; $("#tbAkce").hidden = !isA;
-    $("#q").placeholder = isA ? "Hledat akci, místo, obec…" : "Hledat název, ulici, telefon, činnost…";
-    $("#sub-title").textContent = isA ? "co se děje v Pečkách a v okolních obcích: kultura, sport, spolky, město" : "obchody, služby, řemeslníci, restaurace a lékaři v Pečkách a nejbližším okolí";
-    $("#meta").textContent = isA ? (A.aktualizovano ? `akce staženy ${A.aktualizovano}` : "") : (D.aktualizovano ? `data k ${D.aktualizovano}` : "");
-    $("#srcnote").textContent = isA ? "Akce se každý den stahují z kalendáře Pečeckého regionu a z aktualit města Pečky. Pořadatelé, přidejte svou akci do kalendáře na pececkyregion.cz a objeví se i tady." : "Data pocházejí z katalogu firem na webu města Pečky, z Firmy.cz a z webu OC Pečky. Údaje průběžně ověřujeme, ale mohou být zastaralé. Když najdete chybu nebo tu něco chybí, použijte odkaz „Nahlásit změnu“ u záznamu.";
-    const url = new URL(location); if(isA) url.searchParams.set("akce",""); else url.searchParams.delete("akce"); history.replaceState(null,"",url);
-    if(isA){ renderAkceTabs(); renderAkce(); } else { renderTabs(); renderSubs(); render(); }
+    ak.mode = m;
+    for(const k of ["podniky","akce","vylety"]){ $("#mode"+k[0].toUpperCase()+k.slice(1)).setAttribute("aria-pressed", k===m); $("#tb"+k[0].toUpperCase()+k.slice(1)).hidden = k!==m; }
+    $("#q").placeholder = TEXTS[m].ph; $("#sub-title").textContent = TEXTS[m].sub; $("#srcnote").textContent = TEXTS[m].src;
+    $("#meta").textContent = m==="akce" ? (A.aktualizovano ? `akce staženy ${A.aktualizovano}` : "") : m==="podniky" ? (D.aktualizovano ? `data k ${D.aktualizovano}` : "") : `${VM.length} míst do ${Math.ceil(Math.max(...VM.map(x=>x.km||0)))} km`;
+    $("#mapToggle").disabled = m==="akce"; $("#mapToggle").title = m==="akce" ? "Akce zatím nemají souřadnice" : "Zobrazí vybrané záznamy na mapě";
+    $("#map").hidden = !mapOn || m==="akce";
+    const url = new URL(location); url.searchParams.delete("akce"); url.searchParams.delete("vylety"); if(m!=="podniky") url.searchParams.set(m,""); history.replaceState(null,"",url);
+    if(m==="akce"){ renderAkceTabs(); renderAkce(); } else if(m==="vylety"){ renderVylTabs(); renderVylety(); } else { renderTabs(); renderSubs(); render(); }
   }
   $("#modePodniky").addEventListener("click", ()=>setMode("podniky"));
   $("#modeAkce").addEventListener("click", ()=>setMode("akce"));
+  $("#modeVylety").addEventListener("click", ()=>setMode("vylety"));
   $("#akceKat").addEventListener("change", e=>{ ak.kat = e.target.value; renderAkce(); });
   $("#akceKdy").addEventListener("change", e=>{ ak.kdy = e.target.value; renderAkce(); });
   tabs.addEventListener("click", e => { const b = e.target.closest(".tab[data-kde]"); if(!b) return; ak.kde = b.dataset.kde; renderAkceTabs(); renderAkce(); });
-  const origRender = render; render = function(){ if(ak.mode==="akce") renderAkce(); else origRender(); };
+  const origRender = render; render = function(){ if(ak.mode==="akce") renderAkce(); else if(ak.mode==="vylety") renderVylety(); else { origRender(); updateMap(); } };
 
   const u = new URLSearchParams(location.search);
   if(u.get("kat") && cats.includes(u.get("kat"))) state.kat = u.get("kat");
   if(u.get("q")){ state.q = u.get("q"); $("#q").value = state.q; }
-  if(u.has("akce")) setMode("akce"); else { renderTabs(); renderSubs(); render(); }
+  if(u.has("akce")) setMode("akce"); else if(u.has("vylety")) setMode("vylety"); else { renderTabs(); renderSubs(); render(); }
 })();
 </script>
 </body>

@@ -16,3 +16,10 @@ const akceOut = path.join(__dirname, "..", "akce.js");
 const akce = fs.existsSync(akceSrc) ? JSON.parse(fs.readFileSync(akceSrc, "utf8")) : { aktualizovano: "", akce: [] };
 fs.writeFileSync(akceOut, "// Generováno skriptem scripts/build.js z data/akce.json – neupravovat ručně.\nwindow.PECKY_AKCE = " + JSON.stringify(akce) + ";\n", "utf8");
 console.log(`akce.js: ${akce.akce.length} akcí`);
+
+// vylety.js z data/vylety.json (ručně udržovaný seznam míst)
+const vylSrc = path.join(__dirname, "..", "data", "vylety.json");
+const vylOut = path.join(__dirname, "..", "vylety.js");
+const vyl = fs.existsSync(vylSrc) ? JSON.parse(fs.readFileSync(vylSrc, "utf8")) : { mista: [] };
+fs.writeFileSync(vylOut, "// Generováno skriptem scripts/build.js z data/vylety.json – neupravovat ručně.\nwindow.PECKY_VYLETY = " + JSON.stringify(vyl) + ";\n", "utf8");
+console.log(`vylety.js: ${vyl.mista.length} míst`);

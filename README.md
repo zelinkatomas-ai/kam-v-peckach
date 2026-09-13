@@ -97,7 +97,19 @@ GitHub Pages jsou akce vždy aktuální bez ručního zásahu. Ručně: `node sc
 Formát akce: `{ id, nazev, zacatek: "2026-09-13T14:00", konec, misto, obec, kategorie: [], popis, url, zdroj }`.
 `zacatek` bez času (`"2026-09-13"`) znamená celodenní akci.
 
+## Výlety a mapa
+
+Záložka Výlety je ručně sestavený seznam míst v `data/vylety.json` (do stránky přes `vylety.js`). Každé místo má
+kategorii, obec, souřadnice, popis vlastními slovy a odkazy na Mapy.cz, Wikipedii a web. Vzdálenost od nádraží
+stránka počítá sama ze souřadnic. Souřadnice pocházejí z OpenStreetMap (licence ODbL), fakta z Wikipedie
+a webů obcí. `gpsPribl: true` označuje přibližnou polohu. Nové místo = nový záznam v JSON a `node scripts/build.js`.
+
+Tlačítko Mapa zobrazí právě vyfiltrované podniky nebo výlety na mapě (Leaflet z cdnjs, dlaždice OpenStreetMap,
+styl `leaflet.css` v repozitáři). Akce souřadnice nemají, tam je mapa vypnutá.
+
 ## Odkazy do stránky
+
+`index.html?vylety` otevře záložku Výlety.
 
 `index.html?akce` otevře rovnou záložku Akce.
 
