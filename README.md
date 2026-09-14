@@ -105,7 +105,7 @@ otevře stejný formulář pro nový záznam.
 
 Kam formulář posílá, řídí dvě pole v hlavičce `data/podniky.json`:
 
-- `formEndpoint`: adresa služby, která přijme POST s JSON (Formspree, Getform, Web3Forms a podobné). Když je
+- `formEndpoint`: adresa služby, která přijme formulářový POST (Formspree, Getform, Web3Forms a podobné). Když je
   vyplněná, hlášení odejde na pozadí a odesílatel nemusí mít poštovní klient. Založení na Formspree trvá
   pár minut: nový formulář, zkopírovat adresu ve tvaru `https://formspree.io/f/xxxxxxxx`, vložit sem, spustit
   `node scripts/build.js`.
