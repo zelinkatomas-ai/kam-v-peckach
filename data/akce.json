@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-13 11:45",
+ "aktualizovano": "2026-09-14 09:54",
  "akce": [
   {
    "id": "mesto-459344",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/459344/Petra-Jonasova-Pecky.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-24T19:54",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "mesto-482185",
@@ -62,21 +62,19 @@
    "videno": "2026-09-13"
   },
   {
-   "id": "region-730",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/fotbalove-utkani-as-roma-730_379cs2703.html",
-   "nazev": "Fotbalové utkání AS Roma",
-   "misto": "hřiště",
-   "kategorie": [
-    "fotbal"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=2877&width=500",
-   "zacatek": "2026-09-13T17:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "id": "mesto-461140",
+   "url": "https://pecky.cz/default/report/461140_digitalni-odysea-v-mestske-knihovne",
+   "nazev": "Digitální odysea v městské knihovně",
+   "zacatek": "2026-09-15T09:00",
+   "konec": "2026-11-24T20:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Pokud je vám 65 let a více, můžete využít bezplatné kurzy, které vás naučí: Jak používat tablet a chytrý telefon – např. jak telefonovat, psát zprávy, používat aplikace nebo fotit. Jak se bezpečně pohybovat na internetu – např. jak rozpoznat podvodné e-maily, chránit svá data nebo používat online bankovnictví.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-08-31T07:27",
+   "videno": "2026-09-14"
   },
   {
    "id": "region-823",
@@ -93,7 +91,22 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
+  },
+  {
+   "id": "mesto-461162",
+   "url": "https://pecky.cz/default/report/461162_noc-literatury-2026",
+   "nazev": "Noc Literatury 2026",
+   "zacatek": "2026-09-16T18:00",
+   "konec": "2026-09-16T21:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Noc literatury 2026 v Pečkách. Zveme vás na tradiční literární festival Noc literatury, který představuje současnou evropskou tvorbu v podání zajímavých hlasů a na netradičních místech. Během jednoho večera navštívíme šest různých stanovišť po Pečkách, kde si na neobvyklých místech vyslechnete ukázky z vybraných knižních novinek. Termín: Středa 16. září 2026 Začátek: 18:00 hodin. Místo: Různá stanoviště v Pečkách. Program a harmonogram čtení: 18:00 Vzdělávací centrum Pečecka, 18:30 Prostory Domu s pečovatelskou službou, 19:00 Pergola Senior resortu, 19:30 ZUŠ, 20:00 Evangelický kostel Mistra J",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/461162/plakat-noc-literatury.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-08-31T07:17",
+   "videno": "2026-09-14"
   },
   {
    "id": "region-444",
@@ -111,7 +124,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-445",
@@ -130,7 +143,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-2354",
@@ -147,7 +160,22 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
+  },
+  {
+   "id": "mesto-462068",
+   "url": "https://pecky.cz/default/report/462068_beseda-pivo-je-bozi-dar-a-to-domaci-zvlast",
+   "nazev": "Beseda - Pivo je boží dar a to domácí zvlášť",
+   "zacatek": "2026-09-18T18:00",
+   "konec": "2026-09-18T20:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Beseda o pivu, vaření doma, cestě, jak se stát sládkem, ochutnávka piva různých pivovarníků. Na akci je nutné přihlášení.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/462068/Pivo-je-bozi-dar.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-09-01T07:19",
+   "videno": "2026-09-14"
   },
   {
    "id": "region-2353",
@@ -164,7 +192,7 @@
    "popis": "Vstupné dobrovolné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-399",
@@ -181,7 +209,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-1432",
@@ -201,7 +229,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-852",
@@ -218,7 +246,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
+  },
+  {
+   "id": "region-730",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/fotbalove-utkani-as-roma-730_380cs2703.html",
+   "nazev": "Fotbalové utkání AS Roma",
+   "misto": "hřiště",
+   "kategorie": [
+    "fotbal"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=2877&width=500",
+   "zacatek": "2026-09-27T16:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-14"
   },
   {
    "id": "region-724",
@@ -236,7 +281,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-1454",
@@ -258,7 +303,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-501",
@@ -275,7 +320,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-2369",
@@ -292,7 +337,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-408",
@@ -309,7 +354,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-487",
@@ -326,7 +371,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-2181",
@@ -343,7 +388,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-2177",
@@ -360,7 +405,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   },
   {
    "id": "region-409",
@@ -377,7 +422,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-13"
+   "videno": "2026-09-14"
   }
  ]
 }
