@@ -259,7 +259,7 @@ podniky.sort((a, b) => a.nazev.localeCompare(b.nazev, "cs"));
 const kategorie = (upravy._kategorie || []).slice();
 for (const p of podniky) if (!kategorie.includes(p.kategorie)) kategorie.push(p.kategorie);
 
-fs.writeFileSync(path.join(DATA, "podniky.json"), JSON.stringify({ aktualizovano: TODAY, kontaktEmail: prev.kontaktEmail || "", kategorie, podniky }, null, 1), "utf8");
+fs.writeFileSync(path.join(DATA, "podniky.json"), JSON.stringify({ aktualizovano: TODAY, kontaktEmail: prev.kontaktEmail || "", formEndpoint: prev.formEndpoint || "", kategorie, podniky }, null, 1), "utf8");
 const c = {}; podniky.forEach(p => c[p.kategorie] = (c[p.kategorie] || 0) + 1);
 console.log(`zapsáno ${podniky.length} záznamů (sloučeno ${final.filter(f => f.slouceno).length} duplicit, s otevírací dobou ${podniky.filter(p => p.otevreno).length}, s GPS ${podniky.filter(p => p.gps).length})`);
 console.log(c);

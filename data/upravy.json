@@ -14,7 +14,18 @@
   "kategorie": "Sport a volný čas",
   "podkategorie": [
    "Sportoviště"
-  ]
+  ],
+  "nazev": "Sportovní hala Parkhala",
+  "telefony": [
+   "606 794 582",
+   "602 416 447",
+   "724 026 399"
+  ],
+  "email": "parkhala@pecky.cz",
+  "kontakt": "J. Najbrt a V. Košnar",
+  "popis": "Městská sportovní hala z roku 2000 v parku u fotbalového stadionu: basketbal, volejbal, tenis, florbal, malá kopaná, turnaje a soustředění. Šatny, sprchy, občerstvení.",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-6494": {
   "podkategorie": [
@@ -217,7 +228,10 @@
   "kategorie": "Sport a volný čas",
   "podkategorie": [
    "Sportoviště"
-  ]
+  ],
+  "adresa": "U Benešáku, Pečky",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-9303": {
   "podkategorie": [
@@ -233,7 +247,12 @@
   "kategorie": "Sport a volný čas",
   "podkategorie": [
    "Spolky a kluby"
-  ]
+  ],
+  "kontakt": "Květa Skalická, starostka jednoty",
+  "email": "SkalickaKveta@seznam.cz",
+  "popis": "Sport pro každého bez rozdílu věku v nově zrekonstruované sokolovně. Nabídku oddílů najdete na webu Sokola.",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-12096": {
   "kategorie": "Restaurace a občerstvení",
@@ -273,7 +292,16 @@
   "kategorie": "Město a instituce",
   "podkategorie": [
    "Kultura a knihovna"
-  ]
+  ],
+  "telefony": [
+   "606 506 858"
+  ],
+  "email": "kspecky@seznam.cz",
+  "web": "https://www.facebook.com/kspecky",
+  "kontakt": "Lukáš Hanzelín, ředitel",
+  "popis": "Taneční kurzy pro děti i dospělé, cvičení, přednášky, koncerty, divadlo, plesy a výstavy. Pronájem sálů a kluboven.",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-6481": {
   "kategorie": "Zdravotnictví",
@@ -298,13 +326,64 @@
   "kategorie": "Město a instituce",
   "podkategorie": [
    "Školy a vzdělávání"
-  ]
+  ],
+  "kontakt": "Bc. Květa Bubeníčková, ředitelka",
+  "popis": "Mateřská škola s celodenním provozem, 7 tříd, velká zahrada na okraji lesoparku.",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-6490": {
   "kategorie": "Město a instituce",
   "podkategorie": [
    "Kultura a knihovna"
-  ]
+  ],
+  "web": "http://www.knihovnapecky.cz",
+  "kontakt": "Vladimíra Krulišová, ředitelka",
+  "popis": "Půjčování knih, knihoboxy pro vracení mimo otevírací dobu, prodej vstupenek. Platby jen v hotovosti.",
+  "otevreno": {
+   "po": [
+    [
+     "12:00",
+     "16:00"
+    ]
+   ],
+   "út": [
+    [
+     "8:00",
+     "12:00"
+    ],
+    [
+     "13:00",
+     "18:00"
+    ]
+   ],
+   "st": [
+    [
+     "12:00",
+     "16:00"
+    ]
+   ],
+   "čt": [
+    [
+     "8:00",
+     "12:00"
+    ],
+    [
+     "13:00",
+     "18:00"
+    ]
+   ],
+   "pá": [
+    [
+     "12:00",
+     "16:00"
+    ]
+   ],
+   "so": [],
+   "ne": []
+  },
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-6484": {
   "skryt": true,
@@ -377,7 +456,17 @@
   "kategorie": "Město a instituce",
   "podkategorie": [
    "Sociální služby"
-  ]
+  ],
+  "telefony": [
+   "797 977 088",
+   "321 785 468"
+  ],
+  "email": "info@pspecky.cz",
+  "web": "https://www.pspecky.cz/",
+  "kontakt": "Mgr. Petra Čermáková, ředitelka, 606 383 866",
+  "popis": "Pečovatelská služba, denní stacionář, senior klub a senior doprava. Příspěvková organizace města.",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-6480": {
   "kategorie": "Zdravotnictví",
@@ -401,33 +490,168 @@
   "nazev": "Vzdělávací centrum Pečecka",
   "podkategorie": [
    "Školy a vzdělávání"
-  ]
+  ],
+  "telefony": [
+   "724 811 636"
+  ],
+  "email": "info@vzcentrum.cz",
+  "web": "https://www.vzcentrum.cz/",
+  "kontakt": "Mgr. Jana Kusá, koordinátorka",
+  "popis": "Kroužky, kurzy angličtiny, babysport, příměstské tábory, tvořivé dílny pro děti i dospělé.",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-6476": {
   "kategorie": "Město a instituce",
   "nazev": "Základní škola Pečky",
   "podkategorie": [
    "Školy a vzdělávání"
-  ]
+  ],
+  "kontakt": "Mgr. Tibor Flašík, ředitel",
+  "popis": "Základní škola s 24 třídami a přibližně 720 žáky, školní jídelna a školní klub.",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "pecky-6478": {
   "kategorie": "Město a instituce",
   "podkategorie": [
    "Školy a vzdělávání"
-  ]
+  ],
+  "kontakt": "Petra Vorlíčková, DiS., ředitelka",
+  "ico": "17181186",
+  "web": "https://zuspecky.cz",
+  "popis": "Základní umělecká škola zřízená městem v roce 2022.",
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "firmy-355732": {
   "nazev": "Městský úřad Pečky",
   "podkategorie": [
    "Úřady a služby města"
   ],
-  "popis": "Radnice na Masarykově náměstí: podatelna, matrika, stavební úřad, odbor správy majetku, ekonomický odbor."
+  "popis": "Radnice na Masarykově náměstí: podatelna, matrika, stavební úřad, odbor správy majetku, ekonomický odbor. Datová schránka 8zwbr8t.",
+  "adresa": "Masarykovo náměstí 78, Pečky",
+  "telefony": [
+   "321 785 051"
+  ],
+  "email": "mupecky@pecky.cz",
+  "web": "https://pecky.cz",
+  "otevreno": {
+   "po": [
+    [
+     "6:30",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "17:00"
+    ]
+   ],
+   "út": [
+    [
+     "6:30",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "st": [
+    [
+     "6:30",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "17:00"
+    ]
+   ],
+   "čt": [
+    [
+     "6:30",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "pá": [
+    [
+     "7:00",
+     "11:00"
+    ]
+   ],
+   "so": [],
+   "ne": [],
+   "pozn": "Úřední dny pondělí a středa, ostatní dny po dohodě."
+  },
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
  },
  "firmy-2537115": {
   "nazev": "Městský úřad Pečky – odbory",
   "podkategorie": [
    "Úřady a služby města"
   ],
-  "popis": "Odbor správy majetku města a bytového hospodářství, odbor výstavby, zemědělství, vodního hospodářství, dopravy a životního prostředí, odbor ekonomicko-správní."
+  "popis": "Odbor správy majetku města a bytového hospodářství, odbor výstavby, zemědělství, vodního hospodářství, dopravy a životního prostředí, odbor ekonomicko-správní.",
+  "otevreno": {
+   "po": [
+    [
+     "6:30",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "17:00"
+    ]
+   ],
+   "út": [
+    [
+     "6:30",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "st": [
+    [
+     "6:30",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "17:00"
+    ]
+   ],
+   "čt": [
+    [
+     "6:30",
+     "11:00"
+    ],
+    [
+     "11:30",
+     "15:00"
+    ]
+   ],
+   "pá": [
+    [
+     "7:00",
+     "11:00"
+    ]
+   ],
+   "so": [],
+   "ne": [],
+   "pozn": "Úřední dny pondělí a středa, ostatní dny po dohodě."
+  },
+  "zdroj": "pecky.cz",
+  "zkontrolovano": "2026-09-14"
+ },
+ "firmy-12904492": {
+  "skryt": true,
+  "_duvod": "Duplicita Sportovní haly (pecky-6492), telefon přenesen tam."
  }
 }

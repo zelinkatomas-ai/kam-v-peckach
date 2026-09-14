@@ -97,6 +97,23 @@ GitHub Pages jsou akce vždy aktuální bez ručního zásahu. Ručně: `node sc
 Formát akce: `{ id, nazev, zacatek: "2026-09-13T14:00", konec, misto, obec, kategorie: [], popis, url, zdroj }`.
 `zacatek` bez času (`"2026-09-13"`) znamená celodenní akci.
 
+## Hlášení změn a odkazy na karty
+
+Každá karta má tlačítko **Odkaz** (zkopíruje adresu s kotvou, např. `…/#pfirmy-13001673`; stránka kartu při
+otevření zvýrazní a posune na ni) a **Nahlásit změnu**, které otevře formulář. Odkaz „Přidat podnik“ v patičce
+otevře stejný formulář pro nový záznam.
+
+Kam formulář posílá, řídí dvě pole v hlavičce `data/podniky.json`:
+
+- `formEndpoint`: adresa služby, která přijme POST s JSON (Formspree, Getform, Web3Forms a podobné). Když je
+  vyplněná, hlášení odejde na pozadí a odesílatel nemusí mít poštovní klient. Založení na Formspree trvá
+  pár minut: nový formulář, zkopírovat adresu ve tvaru `https://formspree.io/f/xxxxxxxx`, vložit sem, spustit
+  `node scripts/build.js`.
+- `kontaktEmail`: záložní cesta. Když endpoint chybí nebo odeslání selže, formulář složí e-mail a otevře ho
+  v poštovním klientu.
+
+Import obě pole zachovává.
+
 ## Výlety a mapa
 
 Záložka Výlety je ručně sestavený seznam míst v `data/vylety.json` (do stránky přes `vylety.js`). Každé místo má

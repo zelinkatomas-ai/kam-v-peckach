@@ -1,6 +1,7 @@
 {
- "aktualizovano": "2026-09-13",
+ "aktualizovano": "2026-09-14",
  "kontaktEmail": "zelinka.tomas@gmail.com",
+ "formEndpoint": "",
  "kategorie": [
   "Obchody",
   "Služby",
@@ -39,7 +40,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1999143-afk-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13276054",
@@ -68,11 +69,33 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13745029-alzabox-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13626416",
     "firmy-13745029"
    ]
+  },
+  {
+   "gps": null,
+   "id": "mesto-apartman",
+   "nazev": "Apartmán města Pečky",
+   "kategorie": "Restaurace a občerstvení",
+   "podkategorie": [
+    "Ubytování"
+   ],
+   "adresa": "Tř. 5. května 218, Pečky",
+   "psc": "289 11",
+   "telefony": [
+    "722 984 166"
+   ],
+   "email": "martina.hrazska@pecky.cz",
+   "web": "https://pecky.cz/default/default/22001_apartman",
+   "kontakt": "Martina Hrázská, odbor správy majetku města",
+   "ico": "",
+   "popis": "Ubytování až pro 3 osoby v apartmánu města: manželská postel, rozkládací pohovka, kuchyňský kout. Ceník na webu města.",
+   "otevreno": null,
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
   },
   {
    "gps": [
@@ -141,7 +164,7 @@
     ]
    },
    "zdroj": "ocpecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13824386-asian-wok-pecky.html",
    "slouceno": [
     "firmy-13824386"
@@ -196,7 +219,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12842412-autocentrum-dousa-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6502",
@@ -285,7 +308,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1332344-autosluzby-u-certa-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-1956335",
@@ -315,7 +338,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12749225-autoskola-nohacek-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-12805014",
     "firmy-12749225"
@@ -370,7 +393,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/593775-bankomat-ceske-sporitelny-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2675424",
@@ -399,7 +422,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2675424-bankomat-moneta-bank-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6505",
@@ -421,7 +444,7 @@
    "otevreno": null,
    "gps": null,
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/269486-bartak-mf-pecky.html",
    "slouceno": [
     "firmy-269486"
@@ -454,7 +477,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12835580-basketbal-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6507",
@@ -476,7 +499,7 @@
    "otevreno": null,
    "gps": null,
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/160204-bertrams-pecky-spol-s-r-o-pecky.html",
    "slouceno": [
     "firmy-160204"
@@ -507,7 +530,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13875202-bezkontaktni-mycka-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "gps": [
@@ -575,7 +598,7 @@
     ]
    },
    "zdroj": "ocpecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13740111-billa-pecky.html",
    "slouceno": [
     "firmy-13740111"
@@ -608,7 +631,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2643697-black-storm-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6527",
@@ -672,7 +695,7 @@
     15.027861
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/2403921-bowling-bar-restaurant-sinorita-pecky.html",
    "slouceno": [
     "firmy-2403921"
@@ -744,7 +767,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12725691-bozena-andresova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-12725691"
    ]
@@ -776,7 +799,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13936956-bydli-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13312121",
@@ -805,7 +828,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13312121-celestyn-cz-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13699616",
@@ -834,7 +857,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13699616-centrum-levneho-nakupu-sonya-s-r-o-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13145485",
@@ -863,7 +886,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13145485-co2shop-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6530",
@@ -970,7 +993,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2624288-cykloservis-mojzis-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12986124",
@@ -994,7 +1017,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12986124-cerpaci-stanice-eto-corporation-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12869092",
@@ -1023,7 +1046,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12869092-ceska-krestanska-akademie-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-219360",
@@ -1105,7 +1128,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/219360-ceska-sporitelna-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13074255",
@@ -1172,7 +1195,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13074255-cistirna-peri-mares-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13343570",
@@ -1201,7 +1224,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13343570-cisteni-vozidel-vaclav-husa-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13880320",
@@ -1230,7 +1253,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13880320-clovek-v-tisni-o-p-s-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2530271",
@@ -1259,7 +1282,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2530271-dagmar-mala-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6519",
@@ -1284,7 +1307,7 @@
     15.024139
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/12827517-david-kejda-vase-truhlarna-pecky.html",
    "slouceno": [
     "firmy-12827517"
@@ -1379,7 +1402,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13081726-diana-ryby-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13081726"
    ]
@@ -1433,7 +1456,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13290256-do-oken-cz-zaluzie-plise-rolety-site-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13755250",
@@ -1462,7 +1485,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13950834-dobijeci-stanice-cez-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13950834"
    ]
@@ -1553,7 +1576,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12948971-teta-drogerie-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-12948971"
    ]
@@ -1581,7 +1604,7 @@
     15.039074
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/750443-milos-konicek-pecky.html",
    "slouceno": [
     "firmy-750443"
@@ -1654,7 +1677,7 @@
     15.029275
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/293235-es-pecky-frantisek-dvoracek-pecky.html",
    "slouceno": [
     "firmy-293235"
@@ -1725,7 +1748,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13949400-elektroservis-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13984959",
@@ -1792,7 +1815,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13984959-elektroservispecky-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-143150",
@@ -1816,7 +1839,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/143150-emers-cr-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12831014",
@@ -1888,7 +1911,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12831014-euro-potraviny-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13468514",
@@ -1960,7 +1983,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13468514-eurooil-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-741415",
@@ -1989,7 +2012,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/741415-farni-sbor-ceskobratrske-cirkve-evangelicke-v-peckach-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12838882",
@@ -2018,7 +2041,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12838882-fbc-charisma-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6496",
@@ -2077,7 +2100,7 @@
     15.029252
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/182374-femont-vtz-s-r-o-pecky.html",
    "slouceno": [
     "firmy-182374"
@@ -2110,7 +2133,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13300876-fortuna-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-819692",
@@ -2139,7 +2162,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/819692-foto-a-video-pavel-peska-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13389181",
@@ -2169,7 +2192,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13424243-malovani-na-oblicej-lenka-duskova-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13424243"
    ]
@@ -2202,7 +2225,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12765459-frantisek-vyborny-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-12765459"
    ]
@@ -2234,7 +2257,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13668041-frostyport-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-190163",
@@ -2263,7 +2286,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/190163-gamet-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13797677",
@@ -2292,7 +2315,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13922940-gls-parcel-box-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13922940"
    ]
@@ -2324,7 +2347,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13072063-hangar-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-12101",
@@ -2373,7 +2396,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13977153-hrochoviny-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-622336",
@@ -2397,7 +2420,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/622336-indeco-stavebni-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6520",
@@ -2444,7 +2467,7 @@
     15.028683
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/770930-danovy-poradce-ev-c-1307-ing-jiri-nigrin-pecky.html",
    "slouceno": [
     "firmy-770930"
@@ -2477,7 +2500,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12785016-ing-zuzana-vojnik-viznerova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6500",
@@ -2504,7 +2527,7 @@
     15.027861
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/151547-kkcomp-ing-karel-kristoufek-prodej-a-servis-vypocetni-techniky-pecky.html",
    "slouceno": [
     "firmy-151547"
@@ -2537,7 +2560,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/14031599-instalace-siler-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2349222",
@@ -2567,7 +2590,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2658564-ivana-pankova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-2658564"
    ]
@@ -2599,7 +2622,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1975631-ivanka-konyvkova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "gps": null,
@@ -2724,7 +2747,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12907851-jabbon-spol-s-r-o-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13163592",
@@ -2753,7 +2776,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13163592-jakub-herman-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2691510",
@@ -2782,7 +2805,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2691510-jan-pikner-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-1985272",
@@ -2811,7 +2834,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1985272-jan-pikner-ucetnictvi-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12814238",
@@ -2840,7 +2863,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12814238-jana-hnizdilova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-307009",
@@ -2869,7 +2892,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/307009-jaroslav-eichler-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2182250",
@@ -2898,7 +2921,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2182250-jaroslav-jokl-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2129240",
@@ -2927,7 +2950,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2129240-jaroslav-nykodym-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13045960",
@@ -2956,7 +2979,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13045960-jaroslav-steffen-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2434535",
@@ -2985,7 +3008,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2434535-jaroslav-verner-elektrorevize-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-478920",
@@ -3014,7 +3037,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/478920-jb-ekonomik-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2520013",
@@ -3081,7 +3104,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2520013-jednota-spotrebni-druzstvo-v-nymburce-coop-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13299421",
@@ -3110,7 +3133,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13299421-jeraby-livalift-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-13229",
@@ -3136,7 +3159,7 @@
     15.030169
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13461935-jirivana-net-pecky.html",
    "slouceno": [
     "firmy-13461935"
@@ -3169,7 +3192,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/342549-jirsik-varta-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-248135",
@@ -3198,7 +3221,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/248135-jiri-horacek-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6515",
@@ -3249,7 +3272,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13369515-jiri-koula-pocitace-na-miru-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13266973",
@@ -3278,7 +3301,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13266973-jitka-knebortova-fyzioterapie-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-240941",
@@ -3307,7 +3330,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/240941-jitka-prokopova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2264120",
@@ -3369,7 +3392,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2264120-josef-hajek-j-h-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-298276",
@@ -3398,7 +3421,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/298276-josef-jerabek-nakladni-doprava-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13259001",
@@ -3427,7 +3450,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13259001-josef-misovic-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6510",
@@ -3516,7 +3539,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13001673-kadernictvi-jitka-hendrichova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12877832",
@@ -3545,7 +3568,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12877832-kadernictvi-lenka-holubova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-287274",
@@ -3574,7 +3597,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/287274-kamen-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6513",
@@ -3599,7 +3622,7 @@
     15.03698
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/277275-karavany-zelenka-pecky.html",
    "slouceno": [
     "firmy-277275"
@@ -3629,7 +3652,7 @@
     15.029869
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/641479-kenast-vse-pro-vasi-kancelar-a-skolu-pecky.html",
    "slouceno": [
     "firmy-641479"
@@ -3662,7 +3685,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12980136-keramickecentrum-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2414251",
@@ -3691,7 +3714,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2414251-kkshop-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-192771",
@@ -3721,7 +3744,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/192771-klaro-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13899064",
@@ -3793,7 +3816,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13899064-knihkupectvi-luxor-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-343427",
@@ -3822,7 +3845,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/343427-kobra-formy-cz-spol-s-r-o-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13382917",
@@ -3851,7 +3874,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13382917-kosmetika-make-up-patricie-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12826817",
@@ -3880,7 +3903,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12826817-kovo-satek-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13706546",
@@ -3963,7 +3986,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13706546-krby-kurka-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12769834",
@@ -4030,7 +4053,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12769834-krby-kamna-turyna-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13014406",
@@ -4059,7 +4082,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13014406-krejcovske-studio-gabriela-crkalova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6504",
@@ -4117,7 +4140,7 @@
     15.0377
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/12956068-krizuv-mlyn-pecky-pecky.html",
    "slouceno": [
     "firmy-2419915",
@@ -4152,7 +4175,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2690192-kubistin-sdruzeni-pro-zachranu-a-revitalizaci-evangelickeho-kostela-v-peckach-o-s-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6489",
@@ -4167,17 +4190,17 @@
     "606 506 858"
    ],
    "email": "kspecky@seznam.cz",
-   "web": "http://kulturni-stredisko-pecky.webnode.cz/",
-   "kontakt": "",
+   "web": "https://www.facebook.com/kspecky",
+   "kontakt": "Lukáš Hanzelín, ředitel",
    "ico": "70927022",
-   "popis": "Kulturní středisko města Pečky je příspěvková organizace a náplní je kulturní a společenská činnost.",
+   "popis": "Taneční kurzy pro děti i dospělé, cvičení, přednášky, koncerty, divadlo, plesy a výstavy. Pronájem sálů a kluboven.",
    "otevreno": null,
    "gps": [
     50.092574,
     15.034405
    ],
-   "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/2110607-kulturni-stredisko-mesta-pecky-pecky.html",
    "slouceno": [
     "firmy-2110607"
@@ -4210,7 +4233,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/257447-kv-obaly-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13237454",
@@ -4277,7 +4300,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13237454-kvetinka-misa-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12956999",
@@ -4306,7 +4329,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13184100-e-shop-okluzory-eu-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13184100"
    ]
@@ -4377,7 +4400,7 @@
     ]
    },
    "zdroj": "pecky.cz, sekce Zdravotnictví; otevírací doba ocpecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13747429-benu-lekarna-pecky.html",
    "slouceno": [
     "firmy-13747429"
@@ -4519,7 +4542,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13123485-leo-gabriel-realitni-makler-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6511",
@@ -4570,7 +4593,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12977644-marie-dos-santos-samek-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6480",
@@ -4622,7 +4645,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13781063-enerkom-podlipansko-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13781063"
    ]
@@ -4642,16 +4665,16 @@
    ],
    "email": "info@msmasinkapecky.cz",
    "web": "http://www.msmasinkapecky.cz/",
-   "kontakt": "Bc. Květa Bubeníčková",
+   "kontakt": "Bc. Květa Bubeníčková, ředitelka",
    "ico": "49862359",
-   "popis": "Mateřská škola Mašinka se nachází v poklidné části města Peček, obklopena velkou zahradou a lesoparkem.",
+   "popis": "Mateřská škola s celodenním provozem, 7 tříd, velká zahrada na okraji lesoparku.",
    "otevreno": null,
    "gps": [
     50.091007,
     15.034298
    ],
-   "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/458502-ms-masinka-pecky-pecky.html",
    "slouceno": [
     "firmy-458502"
@@ -4684,7 +4707,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13016228-materske-centrum-praminek-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6490",
@@ -4700,24 +4723,12 @@
     "606 164 081"
    ],
    "email": "knihovna@pececko.cz",
-   "web": "http://www.pececko.cz",
-   "kontakt": "",
+   "web": "http://www.knihovnapecky.cz",
+   "kontakt": "Vladimíra Krulišová, ředitelka",
    "ico": "48932060",
-   "popis": "Knihovnické i další kulturní služby.",
+   "popis": "Půjčování knih, knihoboxy pro vracení mimo otevírací dobu, prodej vstupenek. Platby jen v hotovosti.",
    "otevreno": {
     "po": [
-     [
-      "12:00",
-      "16:00"
-     ]
-    ],
-    "st": [
-     [
-      "12:00",
-      "16:00"
-     ]
-    ],
-    "pá": [
      [
       "12:00",
       "16:00"
@@ -4733,6 +4744,12 @@
       "18:00"
      ]
     ],
+    "st": [
+     [
+      "12:00",
+      "16:00"
+     ]
+    ],
     "čt": [
      [
       "8:00",
@@ -4743,6 +4760,12 @@
       "18:00"
      ]
     ],
+    "pá": [
+     [
+      "12:00",
+      "16:00"
+     ]
+    ],
     "so": [],
     "ne": []
    },
@@ -4750,12 +4773,67 @@
     50.088176,
     15.029393
    ],
-   "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/400236-mestska-knihovna-svatopluka-cecha-v-peckach-pecky.html",
    "slouceno": [
     "firmy-400236"
    ]
+  },
+  {
+   "gps": null,
+   "id": "mesto-policie",
+   "nazev": "Městská policie Pečky",
+   "kategorie": "Město a instituce",
+   "podkategorie": [
+    "Úřady a služby města"
+   ],
+   "adresa": "J. A. Komenského 184, Pečky",
+   "psc": "289 11",
+   "telefony": [
+    "722 963 999"
+   ],
+   "email": "mp@pecky.cz",
+   "web": "https://pecky.cz/default/default/21997_mestska-policie",
+   "kontakt": "Oto Poidinger, velitel",
+   "ico": "",
+   "popis": "Služebna městské policie. Veřejný pořádek, parkování, ztracená a toulavá zvířata, kamerový systém. Mimo úřední hodiny volejte mobil.",
+   "otevreno": {
+    "po": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "út": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "st": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "čt": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "pá": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "so": [],
+    "ne": []
+   },
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-355732",
@@ -4764,18 +4842,67 @@
    "podkategorie": [
     "Úřady a služby města"
    ],
-   "adresa": "Masarykovo nám. 78, Pečky",
+   "adresa": "Masarykovo náměstí 78, Pečky",
    "psc": "289 11",
    "telefony": [
-    "321 785 051",
-    "321 785 054"
+    "321 785 051"
    ],
    "email": "mupecky@pecky.cz",
    "web": "https://pecky.cz",
    "kontakt": "",
    "ico": "",
-   "popis": "Radnice na Masarykově náměstí: podatelna, matrika, stavební úřad, odbor správy majetku, ekonomický odbor.",
-   "otevreno": null,
+   "popis": "Radnice na Masarykově náměstí: podatelna, matrika, stavební úřad, odbor správy majetku, ekonomický odbor. Datová schránka 8zwbr8t.",
+   "otevreno": {
+    "po": [
+     [
+      "6:30",
+      "11:00"
+     ],
+     [
+      "11:30",
+      "17:00"
+     ]
+    ],
+    "út": [
+     [
+      "6:30",
+      "11:00"
+     ],
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "st": [
+     [
+      "6:30",
+      "11:00"
+     ],
+     [
+      "11:30",
+      "17:00"
+     ]
+    ],
+    "čt": [
+     [
+      "6:30",
+      "11:00"
+     ],
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "pá": [
+     [
+      "7:00",
+      "11:00"
+     ]
+    ],
+    "so": [],
+    "ne": [],
+    "pozn": "Úřední dny pondělí a středa, ostatní dny po dohodě."
+   },
    "gps": [
     50.090487,
     15.032145
@@ -4784,8 +4911,8 @@
     "Městské úřady"
    ],
    "firmyUrl": "https://www.firmy.cz/detail/355732-pecky-mestsky-urad-pecky.html",
-   "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2537115",
@@ -4805,7 +4932,57 @@
    "kontakt": "",
    "ico": "",
    "popis": "Odbor správy majetku města a bytového hospodářství, odbor výstavby, zemědělství, vodního hospodářství, dopravy a životního prostředí, odbor ekonomicko-správní.",
-   "otevreno": null,
+   "otevreno": {
+    "po": [
+     [
+      "6:30",
+      "11:00"
+     ],
+     [
+      "11:30",
+      "17:00"
+     ]
+    ],
+    "út": [
+     [
+      "6:30",
+      "11:00"
+     ],
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "st": [
+     [
+      "6:30",
+      "11:00"
+     ],
+     [
+      "11:30",
+      "17:00"
+     ]
+    ],
+    "čt": [
+     [
+      "6:30",
+      "11:00"
+     ],
+     [
+      "11:30",
+      "15:00"
+     ]
+    ],
+    "pá": [
+     [
+      "7:00",
+      "11:00"
+     ]
+    ],
+    "so": [],
+    "ne": [],
+    "pozn": "Úřední dny pondělí a středa, ostatní dny po dohodě."
+   },
    "gps": [
     50.090487,
     15.032145
@@ -4814,8 +4991,8 @@
     "Odbory správy majetku a investic"
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2537112-mu-pecky-odbor-ekonomicko-spravni-pecky.html",
-   "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-2537117",
     "firmy-2537112"
@@ -4848,7 +5025,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12827167-mgr-dana-kynclova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2352622",
@@ -4877,7 +5054,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2352622-mgr-jiri-svejnoha-advokat-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-9303",
@@ -4902,7 +5079,7 @@
     15.029332
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13096081-mgr-tereza-hruskova-advokatka-pecky.html",
    "slouceno": [
     "firmy-13096081"
@@ -4935,7 +5112,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13420442-miku-car-s-r-o-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12933593",
@@ -5002,7 +5179,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2694567-mvdr-milan-holy-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-2694567"
    ]
@@ -5034,7 +5211,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2109773-milan-moravec-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6523",
@@ -5059,7 +5236,7 @@
     15.038924
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/2657752-milan-pavlasek-plyn-voda-topeni-pecky.html",
    "slouceno": [
     "firmy-2657752"
@@ -5092,7 +5269,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/281590-milan-soukup-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6498",
@@ -5117,7 +5294,7 @@
     15.033511
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/12701168-mz-milos-zajic-pecky.html",
    "slouceno": [
     "firmy-621149",
@@ -5131,7 +5308,7 @@
    "podkategorie": [
     "Sportoviště"
    ],
-   "adresa": "Jeronýmova ulice, Pečky",
+   "adresa": "U Benešáku, Pečky",
    "psc": "289 11",
    "telefony": [
     "605 164 883"
@@ -5143,8 +5320,8 @@
    "popis": "Minigolfové hřiště za Kulturním střediskem Pečky. Vchod z Jeronýmovy ulice. Hřiště je přístupno veřejnosti - zvonek je na pana Klokočníka. Informace na tel: 605 164 883 - Věra Šuková.",
    "otevreno": null,
    "gps": null,
-   "zdroj": "katalog firem pecky.cz",
-   "zkontrolovano": null
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2454648",
@@ -5173,7 +5350,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2454648-minigolfove-hriste-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13727016",
@@ -5199,7 +5376,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13967331-mobilni-pedikura-katy-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13967331"
    ]
@@ -5254,7 +5431,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/386955-mudr-drahomira-seifertova-prakticky-lekar-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6479",
@@ -5438,7 +5615,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13878328-mudr-stepan-pokorny-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-379988",
@@ -5467,7 +5644,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/379988-mudr-vladimir-zahour-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-14021138",
@@ -5534,7 +5711,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/14021138-nejen-kavarna-u-radu-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6535",
@@ -5587,7 +5764,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2669246-o-p-truhlarstvi-chrastil-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-2669246"
    ]
@@ -5619,7 +5796,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13473482-obchod-investice-a-sluzby-v-oblasti-nemovitosti-filip-korec-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12779819",
@@ -5643,7 +5820,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12779819-obchodni-zastupce-csob-hana-berankova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2651301",
@@ -5672,7 +5849,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2651301-oddil-vodni-turistiky-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13967328",
@@ -5701,7 +5878,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13967328-oetech-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6509",
@@ -5775,7 +5952,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12886532-ostrovherahlavolamu-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-12886532"
    ]
@@ -5807,7 +5984,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2114079-oto-holy-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13293729",
@@ -5836,7 +6013,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13293729-paeddr-nadezda-pacalova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-9830",
@@ -5894,7 +6071,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/484478-papicar-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6518",
@@ -5920,40 +6097,11 @@
     15.027861
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/578452-paringstav-s-r-o-pecky.html",
    "slouceno": [
     "firmy-578452"
    ]
-  },
-  {
-   "id": "firmy-12904492",
-   "nazev": "PARKHALA",
-   "kategorie": "Sport a volný čas",
-   "podkategorie": [
-    "Sportoviště a kluby"
-   ],
-   "adresa": "Pečky",
-   "psc": "289 11",
-   "telefony": [
-    "724 026 399"
-   ],
-   "email": "parkhala@pecky.cz",
-   "web": "https://pecky.cz",
-   "kontakt": "",
-   "ico": "",
-   "popis": "Provozujeme tenisovou halu.",
-   "otevreno": null,
-   "gps": [
-    50.089421,
-    15.033749
-   ],
-   "firmyTagy": [
-    "Tenisové kurty a haly"
-   ],
-   "firmyUrl": "https://www.firmy.cz/detail/12904492-parkhala-pecky.html",
-   "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
   },
   {
    "id": "pecky-6494",
@@ -6022,7 +6170,7 @@
     15.033118
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/586323-pececke-sluzby-pecky.html",
    "slouceno": [
     "firmy-586323"
@@ -6038,21 +6186,21 @@
    "adresa": "Chvalovická 1042, Pečky",
    "psc": "289 11",
    "telefony": [
-    "321 785 106",
-    "797 977 088"
+    "797 977 088",
+    "321 785 468"
    ],
-   "email": "pec.sluzba.pecky@centrum.cz",
-   "web": "http://www.pspecky.cz/",
-   "kontakt": "Mgr. Petra Čermáková",
+   "email": "info@pspecky.cz",
+   "web": "https://www.pspecky.cz/",
+   "kontakt": "Mgr. Petra Čermáková, ředitelka, 606 383 866",
    "ico": "61883531",
-   "popis": "Jsme příspěvkovou organizací města Pečky, jejímž účelem je poskytování sociálních služeb v souladu se zákonem č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů.",
+   "popis": "Pečovatelská služba, denní stacionář, senior klub a senior doprava. Příspěvková organizace města.",
    "otevreno": null,
    "gps": [
     50.091917,
     15.029388
    ],
-   "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/2113706-pecovatelska-sluzba-mesta-pecky-pecky.html",
    "slouceno": [
     "firmy-2113706"
@@ -6085,7 +6233,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2676958-pedikura-manikura-jaroslava-kyselova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-290639",
@@ -6109,7 +6257,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/290639-pema-cyklo-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13203224",
@@ -6138,7 +6286,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13203224-penny-market-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "gps": [
@@ -6204,7 +6352,7 @@
     ]
    },
    "zdroj": "ocpecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13752571-pepco-pecky.html",
    "slouceno": [
     "firmy-13752571"
@@ -6237,7 +6385,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/293295-pesteni-lesu-ing-zdenek-vechet-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2482440",
@@ -6266,7 +6414,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2482440-petiss-josef-tichy-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13466813",
@@ -6295,7 +6443,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13466813-petr-drazan-realitni-makler-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2114366",
@@ -6324,7 +6472,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2114366-petr-klokocnik-vodoinstalaterstvi-a-topenarstvi-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13225700",
@@ -6351,7 +6499,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13225700-petra-chudobova-dis-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12846094",
@@ -6380,7 +6528,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12846094-phdr-miloslav-vlk-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13785671",
@@ -6447,7 +6595,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13785671-pizza-maximo-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2002996",
@@ -6476,7 +6624,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2002996-placek-krojidlo-strechy-na-klic-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13860683",
@@ -6503,7 +6651,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13860683-podlipanska-liga-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2503346",
@@ -6532,7 +6680,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2503346-polabske-uzeniny-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-397773",
@@ -6561,7 +6709,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/397773-policie-cr-obvodni-oddeleni-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-216358",
@@ -6643,7 +6791,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/216358-posta-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13058433",
@@ -6670,7 +6818,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13058433-potraviny-j-a-komenskeho-256-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2332118",
@@ -6730,7 +6878,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2332118-potraviny-jitro-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13693793",
@@ -6800,7 +6948,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13693793-potraviny-petra-bezruce-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2123237",
@@ -6887,7 +7035,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2123237-potreby-pro-domacnost-emil-trcka-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2613617",
@@ -6916,7 +7064,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2613617-pozarnitechnika-eu-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-205952",
@@ -6940,7 +7088,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/205952-pozarni-technika-komet-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13507179",
@@ -6967,7 +7115,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13959603-ppl-parcelbox-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13364970",
     "firmy-13796570",
@@ -7001,7 +7149,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12902094-pradelna-minarikova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2323140",
@@ -7030,7 +7178,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2654064-malirske-prace-josef-nacovsky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-2654064"
    ]
@@ -7062,7 +7210,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13016169-prospection-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12923021",
@@ -7154,7 +7302,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12923021-pujcovna-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13059226",
@@ -7184,7 +7332,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13436622-puntura-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13436622"
    ]
@@ -7211,7 +7359,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13942998-rd-cerhenice-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-14015300",
@@ -7240,7 +7388,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/14015300-reality-marcela-vagnerova-qara-s-r-o-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13366981",
@@ -7269,7 +7417,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13366981-reality-strakova-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-459516",
@@ -7298,7 +7446,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/459516-regional-michaela-mikovcova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13107284",
@@ -7365,7 +7513,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13107284-relay-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-485563",
@@ -7394,7 +7542,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/485563-rely-sh-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13699436",
@@ -7423,7 +7571,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13699436-resort-za-hristem-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6528",
@@ -7492,7 +7640,7 @@
     15.034535
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13951302-hospoda-na-hristi-pecky-pecky.html",
    "slouceno": [
     "firmy-13951302"
@@ -7521,7 +7669,7 @@
     15.030366
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/2250571-restaurace-u-marka-pecky.html",
    "slouceno": [
     "firmy-2250571"
@@ -7550,7 +7698,7 @@
     15.033307
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13561215-hostinec-u-strikacky-pecky.html",
    "slouceno": [
     "firmy-13561215"
@@ -7581,7 +7729,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13290376-riocath-medicare-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-1978734",
@@ -7610,7 +7758,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1978734-roman-pavlicek-instalaterske-prace-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2114701",
@@ -7639,7 +7787,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2114701-romana-ruzickova-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "gps": [
@@ -7708,7 +7856,7 @@
     ]
    },
    "zdroj": "ocpecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13740714-rossmann-pecky.html",
    "slouceno": [
     "firmy-13740714"
@@ -7784,7 +7932,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/434970-reznictvi-rabbit-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-1786423",
@@ -7814,7 +7962,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1786423-rimskokatolicka-farnost-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12902924",
@@ -7843,7 +7991,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12902924-saker-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-12097",
@@ -7911,7 +8059,7 @@
     15.029083
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13806447-samer-kebab-pecky.html",
    "slouceno": [
     "firmy-13806447"
@@ -7962,7 +8110,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1908650-sberny-dvur-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12789818",
@@ -7991,7 +8139,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12789818-sdruzeni-mladeze-pro-stolni-hokej-a-stolni-kopanou-oblast-stredni-cechy-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-1994155",
@@ -8020,7 +8168,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1994155-sdruzeni-podnikatelu-jandak-a-spol-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6491",
@@ -8045,7 +8193,7 @@
     15.029275
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/12803582-spolek-zeleznicnich-modelaru-pecky-pecky.html",
    "slouceno": [
     "firmy-2331827",
@@ -8137,7 +8285,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2570136-sekacek-u-amalky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12886536",
@@ -8164,7 +8312,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12886536-send-czech-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13190518",
@@ -8193,7 +8341,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13190518-senior-resort-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2268987",
@@ -8223,7 +8371,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2268987-sh-cms-sbor-dobrovolnych-hasicu-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13329820",
@@ -8295,11 +8443,11 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13329820-smisene-zbozi-kabelky-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6492",
-   "nazev": "Sportovní hala",
+   "nazev": "Sportovní hala Parkhala",
    "kategorie": "Sport a volný čas",
    "podkategorie": [
     "Sportoviště"
@@ -8307,18 +8455,19 @@
    "adresa": "Barákova, Pečky",
    "psc": "289 11",
    "telefony": [
-    "724 026 399",
-    "720 043 604"
+    "606 794 582",
+    "602 416 447",
+    "724 026 399"
    ],
    "email": "parkhala@pecky.cz",
    "web": "",
-   "kontakt": "M.Šafařík a J.Najbrt",
+   "kontakt": "J. Najbrt a V. Košnar",
    "ico": "",
-   "popis": "byla postavena v roce 2000 a její poloha je situována do městského parku, v těsném sousedství fotbalového stadionu.",
+   "popis": "Městská sportovní hala z roku 2000 v parku u fotbalového stadionu: basketbal, volejbal, tenis, florbal, malá kopaná, turnaje a soustředění. Šatny, sprchy, občerstvení.",
    "otevreno": null,
    "gps": null,
-   "zdroj": "katalog firem pecky.cz",
-   "zkontrolovano": null
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6501",
@@ -8386,7 +8535,7 @@
     15.014936
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13004840-stehovani-hrabak-s-r-o-pecky-velke-chvalovice.html",
    "slouceno": [
     "firmy-13004840"
@@ -8457,7 +8606,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13892513-stehovani-vais-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-461842",
@@ -8486,7 +8635,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/461842-stretch-s-r-o-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2454883",
@@ -8515,7 +8664,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2454883-strechy-frantisek-novak-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13460093",
@@ -8544,7 +8693,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13460093-super-dovoz-pecky-velke-chvalovice.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12707469",
@@ -8573,7 +8722,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12707469-svaz-telesne-postizenych-v-ceske-republice-z-s-mistni-organizace-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13650026",
@@ -8602,7 +8751,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13650026-tawesco-automotive-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-11407",
@@ -8618,18 +8767,18 @@
     "722 585 927",
     "774 051 349"
    ],
-   "email": "jichovaeva@seznam.cz",
+   "email": "SkalickaKveta@seznam.cz",
    "web": "http://www.sokolpecky.cz",
-   "kontakt": "starostka jednoty Eva Jíchová",
+   "kontakt": "Květa Skalická, starostka jednoty",
    "ico": "00664171",
-   "popis": "nezisková organizace - Spolek",
+   "popis": "Sport pro každého bez rozdílu věku v nově zrekonstruované sokolovně. Nabídku oddílů najdete na webu Sokola.",
    "otevreno": null,
    "gps": [
     50.089303,
     15.027191
    ],
-   "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/12790061-telocvicna-jednota-sokol-pecky-pecky.html",
    "slouceno": [
     "firmy-2129971",
@@ -8663,7 +8812,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12874169-tereza-zatrepalkova-edice-x-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-2601937",
@@ -8693,7 +8842,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2601937-tesco-supermarket-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13077506",
@@ -8720,7 +8869,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13077506-tj-spartak-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13096637",
@@ -8749,7 +8898,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13096637-tomas-bortlik-autodoprava-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13331275",
@@ -8778,7 +8927,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13331275-tomas-kubicek-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13471139",
@@ -8807,7 +8956,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13471139-tomas-pavlasek-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13070085",
@@ -8836,7 +8985,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13070085-toy-machine-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6522",
@@ -8926,7 +9075,7 @@
     ]
    },
    "zdroj": "ocpecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13742794-traficon-pecky.html",
    "slouceno": [
     "firmy-13742794"
@@ -8997,7 +9146,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13349418-trinity-pecky-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12956794",
@@ -9026,7 +9175,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12956794-u-regule-barevne-zakazkove-siti-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12922177",
@@ -9055,7 +9204,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12922177-ubytovani-chvalovicka-471-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-1097746",
@@ -9137,7 +9286,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1097746-ucetnictvi-kopejtkova-jana-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-1355630",
@@ -9166,7 +9315,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/1355630-ucetnictvi-miroslava-brincilova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12843453",
@@ -9195,7 +9344,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12843453-ucetnictvi-piknerova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13249553",
@@ -9224,7 +9373,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13249553-vasi-zamecnici-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13876840",
@@ -9251,7 +9400,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13876840-vecerka-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13039131",
@@ -9280,7 +9429,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13039131-vendula-mackova-kosmetika-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-252869",
@@ -9309,7 +9458,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/252869-vera-bedrnova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-448224",
@@ -9338,7 +9487,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/448224-vera-krizova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12971342",
@@ -9395,7 +9544,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12971342-veronika-machova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12976987",
@@ -9469,7 +9618,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12976987-veterinarni-ordinace-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13332473",
@@ -9498,7 +9647,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13332473-vinoteka-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-12903218",
@@ -9565,7 +9714,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12903218-vinoteka-roko-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13166187",
@@ -9595,7 +9744,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13215249-vipovr-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13215249"
    ]
@@ -9627,7 +9776,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/12936016-vse-pro-skoly-a-kancelare-cz-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13731003",
@@ -9694,7 +9843,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13731003-vyplatise-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6779",
@@ -9706,21 +9855,20 @@
    "adresa": "Tř. Jana Švermy 141, Pečky",
    "psc": "289 11",
    "telefony": [
-    "313 105 533",
     "724 811 636"
    ],
    "email": "info@vzcentrum.cz",
-   "web": "http://www.vzcentrum.cz",
-   "kontakt": "",
+   "web": "https://www.vzcentrum.cz/",
+   "kontakt": "Mgr. Jana Kusá, koordinátorka",
    "ico": "70927022",
-   "popis": "Provoz vzdělávacího centra. Nabízíme volnočasové aktivity pro dospělé a děti: jazykové, vzdělávací, kreativní a výtvarné kurzy pro obyvatele Peček a širokého okolí. Disponujme zázemím moderních vnitřních učeben a zahrady.",
+   "popis": "Kroužky, kurzy angličtiny, babysport, příměstské tábory, tvořivé dílny pro děti i dospělé.",
    "otevreno": null,
    "gps": [
     50.093261,
     15.035018
    ],
-   "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/655593-vzdelavaci-centrum-pececka-pecky.html",
    "slouceno": [
     "firmy-655593"
@@ -9772,7 +9920,7 @@
     15.030778
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/13135393-western-saloon-pecky-pecky.html",
    "slouceno": [
     "firmy-13135393"
@@ -9806,7 +9954,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13824803-dpd-box-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-13330538",
     "firmy-13429301",
@@ -9885,7 +10033,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/263922-zahradnictvi-dana-skolilova-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6476",
@@ -9902,13 +10050,13 @@
    ],
    "email": "admin@zspecky.cz",
    "web": "http://www.zspecky.cz/",
-   "kontakt": "Mgr. Ing. Luboš Zajíc",
+   "kontakt": "Mgr. Tibor Flašík, ředitel",
    "ico": "49862456",
-   "popis": "První, Obecná škola, vznikla v Pečkách v roce 1805.",
+   "popis": "Základní škola s 24 třídami a přibližně 720 žáky, školní jídelna a školní klub.",
    "otevreno": null,
    "gps": null,
-   "zdroj": "katalog firem pecky.cz",
-   "zkontrolovano": null
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6478",
@@ -9925,13 +10073,13 @@
    ],
    "email": "reditelna@zuspecky.cz",
    "web": "https://zuspecky.cz",
-   "kontakt": "",
+   "kontakt": "Petra Vorlíčková, DiS., ředitelka",
    "ico": "17181186",
-   "popis": "",
+   "popis": "Základní umělecká škola zřízená městem v roce 2022.",
    "otevreno": null,
    "gps": null,
-   "zdroj": "katalog firem pecky.cz",
-   "zkontrolovano": null
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13353015",
@@ -9960,7 +10108,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13353015-zamecnictvi-chabera-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13001351",
@@ -10027,7 +10175,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13001351-zamecnictvi-jan-horna-kovove-konstrukce-a-opravy-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "firmy-13743775",
@@ -10053,7 +10201,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13743775-zverokruh-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "id": "pecky-6497",
@@ -10078,7 +10226,7 @@
     15.024604
    ],
    "zdroj": "katalog firem pecky.cz; Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "firmyUrl": "https://www.firmy.cz/detail/2460063-zpa-pecky.html",
    "slouceno": [
     "firmy-182015",
@@ -10118,7 +10266,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/2071627-zs-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13",
+   "zkontrolovano": "2026-09-14",
    "slouceno": [
     "firmy-2071627"
    ]
@@ -10151,7 +10299,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13825445-zus-pecky-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   },
   {
    "gps": null,
@@ -10243,7 +10391,7 @@
    ],
    "firmyUrl": "https://www.firmy.cz/detail/13093583-zzn-polabi-pecky.html",
    "zdroj": "Firmy.cz",
-   "zkontrolovano": "2026-09-13"
+   "zkontrolovano": "2026-09-14"
   }
  ]
 }

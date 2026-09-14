@@ -101,6 +101,8 @@ select{padding:9px 32px 9px 10px;border:1px solid var(--line-strong);border-radi
 .trip .desc{grid-column:2;max-width:65ch}
 .trip .links{grid-column:2;display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
 .trip .links .approx{color:var(--muted)}
+.trip .links .linkbtn{border:0;background:none;padding:0;color:var(--muted);cursor:pointer;font:inherit;font-size:14px}
+.trip .links .linkbtn:hover{color:var(--accent);text-decoration:underline}
 @media (max-width:640px){.trip{grid-template-columns:1fr}.trip .desc,.trip .links{grid-column:1}}
 
 /* mapa */
@@ -117,6 +119,27 @@ select{padding:9px 32px 9px 10px;border:1px solid var(--line-strong);border-radi
 .pin.home{background:var(--ink);box-shadow:0 0 0 1px var(--ink)}
 .leaflet-control-attribution{background:var(--surface);color:var(--muted);font-size:10px}
 .leaflet-control-attribution a{color:var(--muted)}
+
+/* zvýraznění karty z odkazu */
+.card.hl,.trip.hl,.ev.hl{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.foot .acts{display:flex;gap:12px;flex-wrap:wrap}
+.foot button{border:0;background:none;padding:0;color:var(--muted);cursor:pointer;font:inherit;font-size:12.5px}
+.foot button:hover{color:var(--accent);text-decoration:underline}
+
+/* formulář hlášení */
+dialog.report{border:1px solid var(--line-strong);border-radius:10px;background:var(--surface);color:var(--ink);padding:0;max-width:min(92vw,520px);width:100%}
+dialog.report::backdrop{background:rgba(0,0,0,.45)}
+dialog.report form{display:flex;flex-direction:column;gap:12px;padding:20px 22px 18px}
+dialog.report h2{margin:0;font:600 24px/1.1 var(--display);text-transform:uppercase;letter-spacing:.03em}
+dialog.report .about{color:var(--muted);font-size:14px;margin:-6px 0 0}
+dialog.report label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+dialog.report input,dialog.report textarea,dialog.report select{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line-strong);border-radius:6px;padding:9px 10px;text-transform:none;letter-spacing:0}
+dialog.report textarea{min-height:110px;resize:vertical}
+dialog.report .btns{display:flex;gap:10px;justify-content:flex-end;align-items:center;margin-top:4px}
+dialog.report .btns .status{margin-right:auto;font-size:14px;color:var(--muted)}
+dialog.report .btn{border:1px solid var(--line-strong);background:var(--surface);border-radius:6px;padding:9px 16px;cursor:pointer;font:600 15px/1 var(--display);text-transform:uppercase;letter-spacing:.05em}
+dialog.report .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+dialog.report .btn:disabled{opacity:.5;cursor:wait}
 
 /* list */
 main .wrap{padding:18px 20px 40px}
@@ -190,6 +213,30 @@ footer p{margin:0;max-width:70ch}
   <p><a href="#" id="addLink">Přidat podnik nebo službu</a></p>
 </div></footer>
 
+<dialog class="report" id="reportDlg">
+  <form method="dialog" id="reportForm">
+    <h2 id="reportTitle">Nahlásit změnu</h2>
+    <p class="about" id="reportAbout"></p>
+    <label>Co je jinak
+      <select name="typ" id="reportTyp">
+        <option value="otevírací doba">Otevírací doba</option>
+        <option value="telefon nebo e-mail">Telefon nebo e-mail</option>
+        <option value="adresa">Adresa</option>
+        <option value="už neexistuje">Podnik už neexistuje</option>
+        <option value="chybí tu">Chybí tu podnik nebo služba</option>
+        <option value="jiné">Jiné</option>
+      </select>
+    </label>
+    <label>Správně to má být
+      <textarea name="zprava" id="reportText" required placeholder="Napište, co jste zjistili. Třeba: v sobotu mají zavřeno, nové číslo je 777 123 456."></textarea>
+    </label>
+    <label>Váš kontakt, nepovinné
+      <input name="kontakt" id="reportKontakt" type="text" autocomplete="email" placeholder="e-mail nebo telefon, kdybychom se chtěli zeptat">
+    </label>
+    <div class="btns"><span class="status" id="reportStatus"></span><button type="button" class="btn" id="reportCancel">Zavřít</button><button type="submit" class="btn primary" id="reportSend">Odeslat</button></div>
+  </form>
+</dialog>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="data.js"></script>
 <script src="akce.js"></script>
@@ -258,7 +305,7 @@ footer p{margin:0;max-width:70ch}
       p.kontakt && `<dt>Kontakt</dt><dd>${esc(p.kontakt)}</dd>`,
       p.ico && `<dt>IČ</dt><dd>${esc(p.ico)}</dd>`
     ].filter(Boolean).join("");
-    const report = D.kontaktEmail ? `<a href="mailto:${esc(D.kontaktEmail)}?subject=${encodeURIComponent("Kam v Pečkách – změna: "+p.nazev)}">Nahlásit změnu</a>` : "";
+    const report = `<span class="acts"><button type="button" data-link="p${esc(p.id)}" title="Zkopírovat odkaz na tuto kartu">Odkaz</button>${(D.kontaktEmail||D.formEndpoint) ? `<button type="button" data-report="${esc(p.id)}">Nahlásit změnu</button>` : ""}</span>`;
     return `<article class="card" id="p${p.id}">
       <h3>${p.web?`<a href="${esc(p.web)}" target="_blank" rel="noopener">${esc(p.nazev)}</a>`:esc(p.nazev)}</h3>
       ${chips?`<div class="chips">${chips}</div>`:""}
@@ -301,7 +348,57 @@ footer p{margin:0;max-width:70ch}
   $("#sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
   $("#openNow").addEventListener("click", e => { state.open = !state.open; e.currentTarget.setAttribute("aria-pressed", state.open); render(); });
   $("#meta").textContent = D.aktualizovano ? `data k ${D.aktualizovano}` : "";
-  const add = $("#addLink"); if(D.kontaktEmail){ add.href = `mailto:${D.kontaktEmail}?subject=${encodeURIComponent("Kam v Pečkách – nový záznam")}`; } else add.parentElement.remove();
+  const add = $("#addLink"); if(D.kontaktEmail || D.formEndpoint){ add.addEventListener("click", e => { e.preventDefault(); openReport(null); }); } else add.parentElement.remove();
+
+  // ---- odkazy na karty a zvýraznění ----
+  function highlightHash(){
+    const id = location.hash.slice(1); if(!id) return;
+    const el = document.getElementById(id); if(!el) return;
+    el.classList.add("hl"); el.scrollIntoView({block:"center"}); setTimeout(()=>el.classList.remove("hl"), 4000);
+  }
+  document.addEventListener("click", async e => {
+    const b = e.target.closest("[data-link]"); if(!b) return;
+    const url = new URL(location); url.hash = b.dataset.link;
+    const txt = b.textContent;
+    try { await navigator.clipboard.writeText(url.toString()); b.textContent = "Zkopírováno"; }
+    catch(err){ history.replaceState(null, "", url); b.textContent = "Odkaz je v adresním řádku"; }
+    setTimeout(()=>{ b.textContent = txt; }, 2000);
+  });
+
+  // ---- hlášení změn ----
+  const dlg = $("#reportDlg"); let reportOf = null;
+  function openReport(p){
+    reportOf = p;
+    $("#reportTitle").textContent = p ? "Nahlásit změnu" : "Přidat podnik nebo službu";
+    $("#reportAbout").textContent = p ? `${p.nazev}${p.adresa ? ", " + p.adresa : ""}` : "Napište název, adresu, kontakt a otevírací dobu. Zařadíme to během několika dnů.";
+    $("#reportTyp").value = p ? "otevírací doba" : "chybí tu"; $("#reportTyp").parentElement.hidden = !p;
+    $("#reportText").value = ""; $("#reportStatus").textContent = ""; $("#reportSend").disabled = false;
+    dlg.showModal(); $("#reportText").focus();
+  }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-report]"); if(!b) return; openReport(P.find(x => String(x.id) === b.dataset.report)); });
+  $("#reportCancel").addEventListener("click", () => dlg.close());
+  $("#reportForm").addEventListener("submit", async e => {
+    e.preventDefault();
+    const payload = {
+      zaznam: reportOf ? `${reportOf.nazev} (${reportOf.id})` : "nový záznam",
+      typ: $("#reportTyp").value, zprava: $("#reportText").value.trim(), kontakt: $("#reportKontakt").value.trim(),
+      odkaz: reportOf ? new URL("#p" + reportOf.id, location).toString() : location.toString(),
+      _subject: `Kam v Pečkách – ${reportOf ? "změna: " + reportOf.nazev : "nový záznam"}`
+    };
+    if(!payload.zprava) return;
+    const st = $("#reportStatus"), btn = $("#reportSend");
+    if(D.formEndpoint){
+      btn.disabled = true; st.textContent = "Odesílám…";
+      try {
+        const r = await fetch(D.formEndpoint, {method:"POST", headers:{"Content-Type":"application/json", "Accept":"application/json"}, body: JSON.stringify(payload)});
+        if(!r.ok) throw new Error(r.status);
+        st.textContent = "Díky, hlášení dorazilo."; setTimeout(()=>dlg.close(), 1400); return;
+      } catch(err){ st.textContent = "Odeslání selhalo, otevírám e-mail."; btn.disabled = false; }
+    }
+    const body = `Záznam: ${payload.zaznam}\nCo je jinak: ${payload.typ}\n\n${payload.zprava}\n\nKontakt: ${payload.kontakt || "neuveden"}\nOdkaz: ${payload.odkaz}`;
+    location.href = `mailto:${D.kontaktEmail}?subject=${encodeURIComponent(payload._subject)}&body=${encodeURIComponent(body)}`;
+    setTimeout(()=>dlg.close(), 600);
+  });
 
   // ================= AKCE =================
   const ak = {mode:"podniky", kde:"okoli", kat:"", kdy:"vse"};
@@ -336,12 +433,12 @@ footer p{margin:0;max-width:70ch}
     const end = a.konec ? (a.konec.slice(0,10)!==a.zacatek.slice(0,10) ? `do ${+a.konec.slice(8,10)}. ${+a.konec.slice(5,7)}.` : (a.konec.length>10 ? `do ${a.konec.slice(11)}` : "")) : "";
     const kde = [a.misto && a.misto!==a.obec && `<span>${esc(a.misto)}</span>`, a.obec && `<span class="obec">${esc(a.obec)}</span>`].filter(Boolean).join(" · ");
     const chips = (a.kategorie||[]).map(k=>`<span class="chip">${esc(k)}</span>`).join("");
-    return `<article class="ev">
+    return `<article class="ev" id="a${esc(a.id)}">
       <div class="time">${hasTime ? esc(a.zacatek.slice(11)) : "celý den"}${end?`<small>${esc(end)}</small>`:""}</div>
       <div><h3>${a.url?`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.nazev)}</a>`:esc(a.nazev)}</h3>${kde?`<div class="where">${kde}</div>`:""}</div>
       ${a.popis?`<p class="desc">${esc(a.popis)}</p>`:""}
       ${chips?`<div class="chips">${chips}</div>`:""}
-      <div class="foot"><span>zdroj: ${esc(a.zdroj||"")}</span><a href="${gcal(a)}" target="_blank" rel="noopener">Přidat do kalendáře</a></div>
+      <div class="foot"><span>zdroj: ${esc(a.zdroj||"")}</span><span class="acts"><button type="button" data-link="a${esc(a.id)}" title="Zkopírovat odkaz">Odkaz</button><a href="${gcal(a)}" target="_blank" rel="noopener">Přidat do kalendáře</a></span></div>
     </article>`;
   }
   function renderAkce(){
@@ -391,7 +488,7 @@ footer p{margin:0;max-width:70ch}
       <div class="km">${fmtKm(m.km)}<small>od nádraží</small></div>
       <div><h3>${esc(m.nazev)}</h3><div class="obec">${esc(m.obec)} · ${esc(m.kategorie)}</div></div>
       <p class="desc">${esc(m.popis)}</p>
-      <div class="links">${links}</div>
+      <div class="links">${links}<button type="button" class="linkbtn" data-link="v${esc(m.id)}" title="Zkopírovat odkaz">Odkaz</button></div>
     </article>`;
   }
   function renderVylety(){
@@ -467,7 +564,12 @@ footer p{margin:0;max-width:70ch}
   const u = new URLSearchParams(location.search);
   if(u.get("kat") && cats.includes(u.get("kat"))) state.kat = u.get("kat");
   if(u.get("q")){ state.q = u.get("q"); $("#q").value = state.q; }
-  if(u.has("akce")) setMode("akce"); else if(u.has("vylety")) setMode("vylety"); else { renderTabs(); renderSubs(); render(); }
+  const h = location.hash.slice(1);
+  if(u.has("akce") || h.startsWith("a")) setMode("akce"); else if(u.has("vylety") || h.startsWith("v")) setMode("vylety"); else { renderTabs(); renderSubs(); render(); }
+  highlightHash();
+  // po načtení fontů se karty posunou, tak ještě jednou
+  if(location.hash){ window.addEventListener("load", highlightHash); if(document.fonts && document.fonts.ready) document.fonts.ready.then(highlightHash); }
+  window.addEventListener("hashchange", highlightHash);
 })();
 </script>
 </body>

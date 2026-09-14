@@ -5,16 +5,52 @@
    "id": "pecky-web-sulkova",
    "nazev": "MUDr. Zdeňka Šulková – praktický lékař pro dospělé",
    "kategorie": "Zdravotnictví",
-   "podkategorie": ["Praktický lékař pro dospělé"],
+   "podkategorie": [
+    "Praktický lékař pro dospělé"
+   ],
    "adresa": "V. B. Třebízského 292, Pečky",
    "psc": "289 11",
-   "telefony": ["321 785 016"],
+   "telefony": [
+    "321 785 016"
+   ],
    "email": "praktik1-Pecky@ordinace.mediclinic.cz",
    "web": "https://www.mediclinic.cz",
    "kontakt": "sestra Šárka Horynová",
    "ico": "",
    "popis": "Odběry 6:30–7:30, nemocní 7:30–10:00, poté objednaní. V úterý je v ordinaci přítomna pouze sestra.",
-   "otevreno": { "po": [["6:30","13:30"]], "út": [["6:30","7:30"]], "st": [["6:30","14:30"]], "čt": [["12:00","18:00"]], "pá": [["6:30","12:30"]], "pozn": "Ordinace Mediclinic." },
+   "otevreno": {
+    "po": [
+     [
+      "6:30",
+      "13:30"
+     ]
+    ],
+    "út": [
+     [
+      "6:30",
+      "7:30"
+     ]
+    ],
+    "st": [
+     [
+      "6:30",
+      "14:30"
+     ]
+    ],
+    "čt": [
+     [
+      "12:00",
+      "18:00"
+     ]
+    ],
+    "pá": [
+     [
+      "6:30",
+      "12:30"
+     ]
+    ],
+    "pozn": "Ordinace Mediclinic."
+   },
    "zdroj": "pecky.cz, sekce Zdravotnictví (PDF s ordinačními hodinami)",
    "zkontrolovano": "2026-09-13"
   },
@@ -22,16 +58,60 @@
    "id": "pecky-web-basovska",
    "nazev": "MUDr. Martina Bašovská – praktický lékař pro dospělé",
    "kategorie": "Zdravotnictví",
-   "podkategorie": ["Praktický lékař pro dospělé"],
+   "podkategorie": [
+    "Praktický lékař pro dospělé"
+   ],
    "adresa": "V. B. Třebízského 292, Pečky",
    "psc": "289 11",
-   "telefony": ["321 789 062"],
+   "telefony": [
+    "321 789 062"
+   ],
    "email": "praktik1-Pecky@ordinace.mediclinic.cz",
    "web": "https://www.mediclinic.cz",
    "kontakt": "sestra Ludmila Svobodová",
    "ico": "",
    "popis": "Odběry 6:30–7:30, nemocní 8:00–10:00, poté objednaní. Během nepřítomnosti MUDr. Bašovské ordinuje MUDr. Masáková.",
-   "otevreno": { "po": [["6:30","12:30"],["13:00","14:00"]], "út": [["6:30","13:30"]], "st": [["6:30","13:00"]], "čt": [["6:30","12:00"],["14:00","18:00"]], "pá": [["6:30","12:00"]], "pozn": "Ordinace Mediclinic." },
+   "otevreno": {
+    "po": [
+     [
+      "6:30",
+      "12:30"
+     ],
+     [
+      "13:00",
+      "14:00"
+     ]
+    ],
+    "út": [
+     [
+      "6:30",
+      "13:30"
+     ]
+    ],
+    "st": [
+     [
+      "6:30",
+      "13:00"
+     ]
+    ],
+    "čt": [
+     [
+      "6:30",
+      "12:00"
+     ],
+     [
+      "14:00",
+      "18:00"
+     ]
+    ],
+    "pá": [
+     [
+      "6:30",
+      "12:00"
+     ]
+    ],
+    "pozn": "Ordinace Mediclinic."
+   },
    "zdroj": "pecky.cz, sekce Zdravotnictví (PDF s ordinačními hodinami)",
    "zkontrolovano": "2026-09-13"
   },
@@ -39,10 +119,14 @@
    "id": "pecky-web-mala",
    "nazev": "MUDr. Věra Malá – praktický lékař pro děti a dorost",
    "kategorie": "Zdravotnictví",
-   "podkategorie": ["Dětský lékař"],
+   "podkategorie": [
+    "Dětský lékař"
+   ],
    "adresa": "V. B. Třebízského 292, Pečky",
    "psc": "289 11",
-   "telefony": ["321 785 061"],
+   "telefony": [
+    "321 785 061"
+   ],
    "email": "vera.mala@ordinace.mediclinic.cz",
    "web": "http://www.mediclinic.cz",
    "kontakt": "MUDr. Věra Malá",
@@ -56,16 +140,63 @@
    "id": "pecky-web-benu",
    "nazev": "Lékárna BENU – OC Pečky",
    "kategorie": "Zdravotnictví",
-   "podkategorie": ["Lékárna"],
+   "podkategorie": [
+    "Lékárna"
+   ],
    "adresa": "Tř. Jana Švermy 1258, Pečky",
    "psc": "289 11",
-   "telefony": ["724 332 984"],
+   "telefony": [
+    "724 332 984"
+   ],
    "email": "pecky.trjanasvermy@benu.cz",
    "web": "https://www.benu.cz",
    "kontakt": "",
    "ico": "",
    "popis": "Lékárna v obchodním centru u Billy.",
-   "otevreno": { "po": [["8:00","20:00"]], "út": [["8:00","20:00"]], "st": [["8:00","20:00"]], "čt": [["8:00","20:00"]], "pá": [["8:00","20:00"]], "so": [["8:00","20:00"]], "ne": [["8:00","20:00"]] },
+   "otevreno": {
+    "po": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "út": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "st": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "čt": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "pá": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "so": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "ne": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ]
+   },
    "zdroj": "pecky.cz, sekce Zdravotnictví; otevírací doba ocpecky.cz",
    "zkontrolovano": "2026-09-13"
   },
@@ -73,7 +204,9 @@
    "id": "oc-billa",
    "nazev": "Billa",
    "kategorie": "Obchody",
-   "podkategorie": ["Potraviny a supermarkety"],
+   "podkategorie": [
+    "Potraviny a supermarkety"
+   ],
    "adresa": "Tř. Jana Švermy 1258, Pečky",
    "psc": "289 11",
    "telefony": [],
@@ -82,7 +215,50 @@
    "kontakt": "",
    "ico": "",
    "popis": "Supermarket v OC Pečky: lahůdky, pečivo, ovoce a zelenina, mléčné výrobky, maso, nápoje.",
-   "otevreno": { "po": [["7:00","21:00"]], "út": [["7:00","21:00"]], "st": [["7:00","21:00"]], "čt": [["7:00","21:00"]], "pá": [["7:00","21:00"]], "so": [["7:00","21:00"]], "ne": [["8:00","21:00"]] },
+   "otevreno": {
+    "po": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "út": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "st": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "čt": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "pá": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "so": [
+     [
+      "7:00",
+      "21:00"
+     ]
+    ],
+    "ne": [
+     [
+      "8:00",
+      "21:00"
+     ]
+    ]
+   },
    "zdroj": "ocpecky.cz",
    "zkontrolovano": "2026-09-13"
   },
@@ -90,7 +266,9 @@
    "id": "oc-traficon",
    "nazev": "Traficon – trafika",
    "kategorie": "Obchody",
-   "podkategorie": ["Trafika a tisk"],
+   "podkategorie": [
+    "Trafika a tisk"
+   ],
    "adresa": "Tř. Jana Švermy 1258, Pečky",
    "psc": "289 11",
    "telefony": [],
@@ -99,7 +277,50 @@
    "kontakt": "",
    "ico": "",
    "popis": "Tabák, noviny a časopisy v OC Pečky.",
-   "otevreno": { "po": [["7:00","20:00"]], "út": [["7:00","20:00"]], "st": [["7:00","20:00"]], "čt": [["7:00","20:00"]], "pá": [["7:00","20:00"]], "so": [["7:00","20:00"]], "ne": [["8:00","20:00"]] },
+   "otevreno": {
+    "po": [
+     [
+      "7:00",
+      "20:00"
+     ]
+    ],
+    "út": [
+     [
+      "7:00",
+      "20:00"
+     ]
+    ],
+    "st": [
+     [
+      "7:00",
+      "20:00"
+     ]
+    ],
+    "čt": [
+     [
+      "7:00",
+      "20:00"
+     ]
+    ],
+    "pá": [
+     [
+      "7:00",
+      "20:00"
+     ]
+    ],
+    "so": [
+     [
+      "7:00",
+      "20:00"
+     ]
+    ],
+    "ne": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ]
+   },
    "zdroj": "ocpecky.cz",
    "zkontrolovano": "2026-09-13"
   },
@@ -107,7 +328,9 @@
    "id": "oc-jadore",
    "nazev": "J'adore Nails & Beauty Salon",
    "kategorie": "Služby",
-   "podkategorie": ["Kadeřnictví, kosmetika a nehty"],
+   "podkategorie": [
+    "Kadeřnictví, kosmetika a nehty"
+   ],
    "adresa": "Tř. Jana Švermy 1258, Pečky",
    "psc": "289 11",
    "telefony": [],
@@ -116,7 +339,50 @@
    "kontakt": "",
    "ico": "",
    "popis": "Nehtové studio, manikúra a pedikúra v OC Pečky.",
-   "otevreno": { "po": [["9:00","19:00"]], "út": [["9:00","19:00"]], "st": [["9:00","19:00"]], "čt": [["9:00","19:00"]], "pá": [["9:00","19:00"]], "so": [["9:00","19:00"]], "ne": [["9:00","19:00"]] },
+   "otevreno": {
+    "po": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "út": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "st": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "čt": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "pá": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "so": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ],
+    "ne": [
+     [
+      "9:00",
+      "19:00"
+     ]
+    ]
+   },
    "zdroj": "ocpecky.cz",
    "zkontrolovano": "2026-09-13"
   },
@@ -124,7 +390,9 @@
    "id": "oc-rossmann",
    "nazev": "Rossmann",
    "kategorie": "Obchody",
-   "podkategorie": ["Drogerie"],
+   "podkategorie": [
+    "Drogerie"
+   ],
    "adresa": "Tř. Jana Švermy 1258, Pečky",
    "psc": "289 11",
    "telefony": [],
@@ -133,7 +401,50 @@
    "kontakt": "",
    "ico": "",
    "popis": "Drogerie a kosmetika v OC Pečky.",
-   "otevreno": { "po": [["8:00","20:00"]], "út": [["8:00","20:00"]], "st": [["8:00","20:00"]], "čt": [["8:00","20:00"]], "pá": [["8:00","20:00"]], "so": [["8:00","20:00"]], "ne": [["8:00","20:00"]] },
+   "otevreno": {
+    "po": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "út": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "st": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "čt": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "pá": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "so": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ],
+    "ne": [
+     [
+      "8:00",
+      "20:00"
+     ]
+    ]
+   },
    "zdroj": "ocpecky.cz",
    "zkontrolovano": "2026-09-13"
   },
@@ -141,7 +452,9 @@
    "id": "oc-pepco",
    "nazev": "Pepco",
    "kategorie": "Obchody",
-   "podkategorie": ["Oděvy a domácnost"],
+   "podkategorie": [
+    "Oděvy a domácnost"
+   ],
    "adresa": "Tř. Jana Švermy 1258, Pečky",
    "psc": "289 11",
    "telefony": [],
@@ -150,7 +463,50 @@
    "kontakt": "",
    "ico": "",
    "popis": "Oblečení, hračky, domácí potřeby a bytové doplňky v OC Pečky.",
-   "otevreno": { "po": [["9:00","20:00"]], "út": [["9:00","20:00"]], "st": [["9:00","20:00"]], "čt": [["9:00","20:00"]], "pá": [["9:00","20:00"]], "so": [["9:00","20:00"]], "ne": [["9:00","20:00"]] },
+   "otevreno": {
+    "po": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "út": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "st": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "čt": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "pá": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "so": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "ne": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ]
+   },
    "zdroj": "ocpecky.cz",
    "zkontrolovano": "2026-09-13"
   },
@@ -158,7 +514,9 @@
    "id": "oc-zverokruh",
    "nazev": "Zvěrokruh",
    "kategorie": "Obchody",
-   "podkategorie": ["Zemědělství a chovatelské potřeby"],
+   "podkategorie": [
+    "Zemědělství a chovatelské potřeby"
+   ],
    "adresa": "Tř. Jana Švermy 1258, Pečky",
    "psc": "289 11",
    "telefony": [],
@@ -167,7 +525,50 @@
    "kontakt": "",
    "ico": "",
    "popis": "Chovatelské potřeby a krmiva pro psy, kočky, hlodavce, ptáky a akvaristiku v OC Pečky.",
-   "otevreno": { "po": [["9:00","20:00"]], "út": [["9:00","20:00"]], "st": [["9:00","20:00"]], "čt": [["9:00","20:00"]], "pá": [["9:00","20:00"]], "so": [["9:00","20:00"]], "ne": [["9:00","20:00"]] },
+   "otevreno": {
+    "po": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "út": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "st": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "čt": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "pá": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "so": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ],
+    "ne": [
+     [
+      "9:00",
+      "20:00"
+     ]
+    ]
+   },
    "zdroj": "ocpecky.cz",
    "zkontrolovano": "2026-09-13"
   },
@@ -175,7 +576,9 @@
    "id": "oc-asian-wok",
    "nazev": "Asian WOK",
    "kategorie": "Restaurace a občerstvení",
-   "podkategorie": ["Bistro a rozvoz"],
+   "podkategorie": [
+    "Bistro a rozvoz"
+   ],
    "adresa": "Tř. Jana Švermy 1258, Pečky",
    "psc": "289 11",
    "telefony": [],
@@ -184,9 +587,127 @@
    "kontakt": "",
    "ico": "",
    "popis": "Asijské bistro s vietnamskými a čínskými jídly v OC Pečky, místa k sezení.",
-   "otevreno": { "po": [["9:00","20:30"]], "út": [["9:00","20:30"]], "st": [["9:00","20:30"]], "čt": [["9:00","20:30"]], "pá": [["9:00","20:30"]], "so": [["9:00","20:30"]], "ne": [["9:00","20:30"]] },
+   "otevreno": {
+    "po": [
+     [
+      "9:00",
+      "20:30"
+     ]
+    ],
+    "út": [
+     [
+      "9:00",
+      "20:30"
+     ]
+    ],
+    "st": [
+     [
+      "9:00",
+      "20:30"
+     ]
+    ],
+    "čt": [
+     [
+      "9:00",
+      "20:30"
+     ]
+    ],
+    "pá": [
+     [
+      "9:00",
+      "20:30"
+     ]
+    ],
+    "so": [
+     [
+      "9:00",
+      "20:30"
+     ]
+    ],
+    "ne": [
+     [
+      "9:00",
+      "20:30"
+     ]
+    ]
+   },
    "zdroj": "ocpecky.cz",
    "zkontrolovano": "2026-09-13"
+  },
+  {
+   "id": "mesto-policie",
+   "nazev": "Městská policie Pečky",
+   "kategorie": "Město a instituce",
+   "podkategorie": [
+    "Úřady a služby města"
+   ],
+   "adresa": "J. A. Komenského 184, Pečky",
+   "psc": "289 11",
+   "telefony": [
+    "722 963 999"
+   ],
+   "email": "mp@pecky.cz",
+   "web": "https://pecky.cz/default/default/21997_mestska-policie",
+   "kontakt": "Oto Poidinger, velitel",
+   "ico": "",
+   "popis": "Služebna městské policie. Veřejný pořádek, parkování, ztracená a toulavá zvířata, kamerový systém. Mimo úřední hodiny volejte mobil.",
+   "otevreno": {
+    "po": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "út": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "st": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "čt": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "pá": [
+     [
+      "7:15",
+      "15:45"
+     ]
+    ],
+    "so": [],
+    "ne": []
+   },
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
+  },
+  {
+   "id": "mesto-apartman",
+   "nazev": "Apartmán města Pečky",
+   "kategorie": "Restaurace a občerstvení",
+   "podkategorie": [
+    "Ubytování"
+   ],
+   "adresa": "Tř. 5. května 218, Pečky",
+   "psc": "289 11",
+   "telefony": [
+    "722 984 166"
+   ],
+   "email": "martina.hrazska@pecky.cz",
+   "web": "https://pecky.cz/default/default/22001_apartman",
+   "kontakt": "Martina Hrázská, odbor správy majetku města",
+   "ico": "",
+   "popis": "Ubytování až pro 3 osoby v apartmánu města: manželská postel, rozkládací pohovka, kuchyňský kout. Ceník na webu města.",
+   "otevreno": null,
+   "zdroj": "pecky.cz",
+   "zkontrolovano": "2026-09-14"
   }
  ]
 }
