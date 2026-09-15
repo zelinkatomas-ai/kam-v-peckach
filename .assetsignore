@@ -1,0 +1,13 @@
+# Co se NEMÁ nahrávat na Cloudflare jako veřejný soubor. Na web patří jen index.html, data.js, akce.js,
+# vylety.js, leaflet.css a _headers. Zbytek je zdroj a nástroje.
+.git
+.github
+.wrangler
+.claude
+scripts
+data
+node_modules
+wrangler.jsonc
+README.md
+.gitignore
+.assetsignore
