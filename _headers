@@ -1,0 +1,14 @@
+# Hlavičky pro Cloudflare Pages (GitHub Pages soubor ignoruje, neškodí).
+# Data se mění denně, stránka jen při nasazení – proto krátká cache u dat a žádná u HTML.
+/index.html
+  Cache-Control: no-cache
+/data.js
+  Cache-Control: public, max-age=3600
+/akce.js
+  Cache-Control: public, max-age=3600
+/vylety.js
+  Cache-Control: public, max-age=3600
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(self)
