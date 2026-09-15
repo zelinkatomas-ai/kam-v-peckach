@@ -1,16 +1,17 @@
 # Kam v Pečkách
 
 Jedna stránka se všemi obchody, službami, řemeslníky, restauracemi, lékaři a akcemi v Pečkách.
-Statický web bez serveru: `index.html` + `data.js` + `akce.js`. Funguje otevřený přímo z disku i na GitHub Pages.
+Statický web bez serveru. Celý veřejný web je složka `docs/` (`index.html`, `data.js`, `akce.js`, `vylety.js`, `leaflet.css`, `_headers`), zbytek repozitáře jsou zdrojová data a skripty. Funguje otevřený přímo z disku, na GitHub Pages i na Cloudflare.
 
-**Živá stránka:** https://zelinkatomas-ai.github.io/kam-v-peckach/ (nasazuje se automaticky z větve `main`)
+**Živá stránka:** https://kam-v-peckach.zelinka-tomas.workers.dev (Cloudflare) a https://zelinkatomas-ai.github.io/kam-v-peckach/ (GitHub Pages). Obě se nasazují automaticky z větve `main`, Cloudflare přes `wrangler.jsonc`, GitHub Pages ze složky `docs/`.
 
 ## Struktura
 
 | Soubor | K čemu je |
 |---|---|
-| `index.html` | stránka s filtrováním, vyhledáváním a kartami podniků |
-| `data.js` | data pro stránku, **generuje se** ze `data/podniky.json` |
+| `docs/index.html` | stránka s filtrováním, vyhledáváním a kartami podniků |
+| `docs/data.js`, `docs/akce.js`, `docs/vylety.js` | data pro stránku, **generují se** z JSON ve složce `data/` |
+| `wrangler.jsonc` | konfigurace nasazení na Cloudflare (statické soubory z `docs/`) |
 | `data/podniky.json` | **hlavní zdroj pravdy**, tady se data ručně upravují |
 | `data/zdroj-pecky-cz.json` | surový výstup crawleru z katalogu firem města (pro dohledání původu) |
 | `data/zdroj-firmy-cz.json` | surový výstup crawleru z Firmy.cz (výpis pro Pečky) |
@@ -21,14 +22,14 @@ Statický web bez serveru: `index.html` + `data.js` + `akce.js`. Funguje otevře
 | `scripts/crawl-firmy.js` | stáhne výpis a detaily z Firmy.cz |
 | `scripts/crawl-ares.js` | stáhne registr ARES pro Pečky |
 | `scripts/import.js` | spojí všechny zdroje do `podniky.json`, sloučí duplicity, aplikuje ruční úpravy |
-| `scripts/build.js` | vygeneruje `data.js` |
+| `scripts/build.js` | vygeneruje `docs/data.js`, `docs/akce.js`, `docs/vylety.js` |
 | `scripts/serve.js` | lokální náhled na http://localhost:5173 |
 
 ## Běžná údržba
 
 1. Upravte záznam v `data/podniky.json` (telefon, otevírací doba, poznámka).
 2. Spusťte `node scripts/build.js`.
-3. Nahrajte `index.html` a `data.js` na web.
+3. Commit a push, oba hostingy se nasadí samy.
 
 ## Formát záznamu
 
