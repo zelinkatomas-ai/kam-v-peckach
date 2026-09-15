@@ -1,0 +1,11 @@
+// Konfigurace pro Cloudflare Workers se statickými soubory (nový průvodce „Create an app“).
+// Web nemá žádný serverový kód, servírují se jen soubory z kořene repozitáře.
+{
+  "name": "kam-v-peckach",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
