@@ -3,7 +3,7 @@
 Jedna stránka se všemi obchody, službami, řemeslníky, restauracemi, lékaři a akcemi v Pečkách.
 Statický web bez serveru. Celý veřejný web je složka `docs/` (`index.html`, `data.js`, `akce.js`, `vylety.js`, `leaflet.css`, `_headers`), zbytek repozitáře jsou zdrojová data a skripty. Funguje otevřený přímo z disku, na GitHub Pages i na Cloudflare.
 
-**Živá stránka:** https://kam-v-peckach.zelinka-tomas.workers.dev (Cloudflare) a https://zelinkatomas-ai.github.io/kam-v-peckach/ (GitHub Pages). Obě se nasazují automaticky z větve `main`, Cloudflare přes `wrangler.jsonc`, GitHub Pages ze složky `docs/`.
+**Živá stránka:** https://kamvpeckach.cz (Cloudflare, doména u WEDOSu, DNS na Cloudflare). Záložní adresy https://kam-v-peckach.zelinka-tomas.workers.dev a https://zelinkatomas-ai.github.io/kam-v-peckach/ přesměrovávají na hlavní doménu. Vše se nasazuje automaticky z větve `main`: Cloudflare přes `wrangler.jsonc`, GitHub Pages ze složky `docs/`.
 
 ## Struktura
 

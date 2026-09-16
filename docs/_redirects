@@ -1,0 +1,3 @@
+# Cloudflare: jedna hlavní adresa. www a stará adresa workers.dev přesměrují na kamvpeckach.cz.
+https://www.kamvpeckach.cz/* https://kamvpeckach.cz/:splat 301
+https://kam-v-peckach.zelinka-tomas.workers.dev/* https://kamvpeckach.cz/:splat 301
