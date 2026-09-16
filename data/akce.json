@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-15 09:28",
+ "aktualizovano": "2026-09-16 09:19",
  "akce": [
   {
    "id": "mesto-459344",
@@ -14,52 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/459344/Petra-Jonasova-Pecky.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-24T19:54",
-   "videno": "2026-09-15"
-  },
-  {
-   "id": "mesto-482185",
-   "url": "https://pecky.cz/default/report/482185_posviceni-v-nove-vsi-i-u-kolina-dne-11-13-9-2026",
-   "nazev": "Posvícení v Nové Vsi I. u Kolína dne 11. - 13.9.2026",
-   "zacatek": "2026-09-11T12:00",
-   "konec": "2026-09-13T17:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Posvícení v Nové Vsi I.u Kolína dne 11. – 13.9.2026",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/482185/IMG-2578.jpeg",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-09-07T14:06",
-   "videno": "2026-09-13"
-  },
-  {
-   "id": "mesto-462064",
-   "url": "https://pecky.cz/default/report/462064_zahajdos",
-   "nazev": "Zahajdoš",
-   "zacatek": "2026-09-13T14:00",
-   "konec": "2026-09-13T17:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Slavnostní zahájení aktivit komunitního centra pro rok 2026/27. Otevřená komunitní kavárna, aktivity pro děti i dospělé, slosování prázdninové Poznávačky.",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/462064/Zahajdos-2026-1.png",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-09-01T07:24",
-   "videno": "2026-09-13"
-  },
-  {
-   "id": "mesto-462066",
-   "url": "https://pecky.cz/default/report/462066_rezbarska-dilna",
-   "nazev": "Řezbářská dílna",
-   "zacatek": "2026-09-13T14:00",
-   "konec": "2026-09-13T17:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Přijďte si udělat topůrko na svoji sekyru, kladivo nebo jiný nástroj. Nebo si za drobný příspěvek koupíte sekyru na místě. Vše ostatní je pro vás zdarma. Na akci je nutné přihlášení.",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/462066/rezbarska-dilna.png",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-09-01T07:22",
-   "videno": "2026-09-13"
+   "videno": "2026-09-16"
   },
   {
    "id": "mesto-461140",
@@ -74,24 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-09-15"
-  },
-  {
-   "id": "region-823",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_457cs2703.html",
-   "nazev": "Jóga pro seniory",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "zdravotní cvičení"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
-   "zacatek": "2026-09-15T10:30",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "Komunitní centrum Ratenice",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "mesto-461162",
@@ -106,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461162/plakat-noc-literatury.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:17",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-444",
@@ -124,7 +62,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-445",
@@ -143,7 +81,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-2354",
@@ -160,7 +98,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "mesto-462068",
@@ -175,7 +113,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/462068/Pivo-je-bozi-dar.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-01T07:19",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-2353",
@@ -192,7 +130,7 @@
    "popis": "Vstupné dobrovolné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-399",
@@ -209,7 +147,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
+  },
+  {
+   "id": "region-823",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_458cs2703.html",
+   "nazev": "Jóga pro seniory",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "zdravotní cvičení"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
+   "zacatek": "2026-09-22T10:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "Komunitní centrum Ratenice",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-16"
   },
   {
    "id": "region-1432",
@@ -229,7 +184,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-852",
@@ -246,7 +201,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-730",
@@ -256,14 +211,14 @@
    "kategorie": [
     "fotbal"
    ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=2877&width=500",
+   "obrazek": "",
    "zacatek": "2026-09-27T16:30",
    "konec": null,
    "obec": "Ratenice",
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-724",
@@ -281,7 +236,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-1454",
@@ -303,7 +258,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-501",
@@ -320,7 +275,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-2369",
@@ -337,7 +292,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-408",
@@ -354,7 +309,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-487",
@@ -371,7 +326,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-2181",
@@ -388,7 +343,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-2177",
@@ -405,7 +360,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   },
   {
    "id": "region-409",
@@ -422,7 +377,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-15"
+   "videno": "2026-09-16"
   }
  ]
 }
