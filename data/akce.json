@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-16 09:19",
+ "aktualizovano": "2026-09-17 09:28",
  "akce": [
   {
    "id": "mesto-459344",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/459344/Petra-Jonasova-Pecky.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-24T19:54",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "mesto-461140",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "mesto-461162",
@@ -62,7 +62,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-445",
@@ -81,7 +81,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-2354",
@@ -98,7 +98,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "mesto-462068",
@@ -113,7 +113,22 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/462068/Pivo-je-bozi-dar.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-01T07:19",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
+  },
+  {
+   "id": "mesto-484370",
+   "url": "https://pecky.cz/default/report/484370_food-festival-ve-velkych-chvalovicich",
+   "nazev": "Food festival ve Velkých Chvalovicích",
+   "zacatek": "2026-09-19T11:00",
+   "konec": "2026-09-19T14:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Pečecký okrašlovací spolek srdečně zve na 7. ročník Food festivalu (den plný chutí, vůní a sousedské pohody) ke hřišti ve Velkých Chvalovicích. Ochutnáte sladké a slané dobroty, teplé i studené nápoje, včetně piva a vína, domácí speciality i originální recepty. Přijďte na oběd, kávu a zákusek. Nejen pro děti bude doprovodný program – hry, soutěže, malování na obličej, skákací hrad. Pokud chcete přijít něco dobrého nabídnout ostatním i Vy, neváhejte a kontaktujte Lucii Houdkovou na tel. 605 120 918.",
+   "obrazek": "",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-09-15T07:45",
+   "videno": "2026-09-17"
   },
   {
    "id": "region-2353",
@@ -130,7 +145,7 @@
    "popis": "Vstupné dobrovolné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-399",
@@ -147,7 +162,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-823",
@@ -164,7 +179,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-1432",
@@ -184,7 +199,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-852",
@@ -201,7 +216,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-730",
@@ -218,7 +233,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-724",
@@ -236,7 +251,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-1454",
@@ -258,7 +273,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-501",
@@ -275,7 +290,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-2369",
@@ -292,7 +307,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-408",
@@ -309,7 +324,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-487",
@@ -326,7 +341,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-2181",
@@ -343,7 +358,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-2177",
@@ -360,7 +375,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   },
   {
    "id": "region-409",
@@ -377,7 +392,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-16"
+   "videno": "2026-09-17"
   }
  ]
 }
