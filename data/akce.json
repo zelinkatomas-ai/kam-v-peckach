@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-17 09:28",
+ "aktualizovano": "2026-09-18 09:02",
  "akce": [
   {
    "id": "mesto-459344",
@@ -47,43 +47,6 @@
    "videno": "2026-09-16"
   },
   {
-   "id": "region-444",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knihovna-444_73cs2703.html",
-   "nazev": "Knihovna",
-   "misto": "Knihovna",
-   "kategorie": [
-    "veletrh knih",
-    "výstava knih"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-09-17T15:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
-  },
-  {
-   "id": "region-445",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/krouzek-minecraft-education-445_85cs2703.html",
-   "nazev": "Kroužek Minecraft Education",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "akce pro děti",
-    "kurz",
-    "školení"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-09-17T17:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "Komunitní centrum Ratenice",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
-  },
-  {
    "id": "region-2354",
    "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/recital-stanislava-kucirkova-2354_442cs194.html",
    "nazev": "RECITÁL - STANISLAVA KUČÍRKOVÁ",
@@ -98,7 +61,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "mesto-462068",
@@ -145,7 +108,7 @@
    "popis": "Vstupné dobrovolné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-399",
@@ -162,7 +125,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-823",
@@ -179,7 +142,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-1432",
@@ -199,7 +162,44 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
+  },
+  {
+   "id": "region-444",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knihovna-444_74cs2703.html",
+   "nazev": "Knihovna",
+   "misto": "Knihovna",
+   "kategorie": [
+    "veletrh knih",
+    "výstava knih"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-09-24T15:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-18"
+  },
+  {
+   "id": "region-445",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/krouzek-minecraft-education-445_86cs2703.html",
+   "nazev": "Kroužek Minecraft Education",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "akce pro děti",
+    "kurz",
+    "školení"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-09-24T17:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "Komunitní centrum Ratenice",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-18"
   },
   {
    "id": "region-852",
@@ -216,7 +216,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-730",
@@ -233,7 +233,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-724",
@@ -251,7 +251,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-1454",
@@ -273,7 +273,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
+  },
+  {
+   "id": "region-472",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/schuzka-kecki-472_133cs2703.html",
+   "nazev": "Schůzka Kecki",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "školení"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-09-30T19:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-18"
   },
   {
    "id": "region-501",
@@ -290,7 +307,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-2369",
@@ -307,7 +324,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-408",
@@ -324,7 +341,42 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
+  },
+  {
+   "id": "region-2383",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/strasidelne-odpoledne-a-pruvod-2383_450cs194.html",
+   "nazev": "Strašidelné odpoledne a průvod",
+   "misto": "",
+   "kategorie": [
+    "akce pro veřejnost"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-10-26T00:00",
+   "konec": null,
+   "obec": "Plaňany",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-18"
+  },
+  {
+   "id": "region-864",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/halloweenske-koledovani-864_477cs2703.html",
+   "nazev": "Halloweenské koledování",
+   "misto": "Ratenice",
+   "kategorie": [
+    "akce pro celou rodinu",
+    "akce pro děti"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3056&width=500",
+   "zacatek": "2026-11-02T17:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-18"
   },
   {
    "id": "region-487",
@@ -341,7 +393,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-2181",
@@ -358,7 +410,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-2177",
@@ -375,7 +427,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   },
   {
    "id": "region-409",
@@ -392,7 +444,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-17"
+   "videno": "2026-09-18"
   }
  ]
 }
