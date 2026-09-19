@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-18 09:02",
+ "aktualizovano": "2026-09-19 08:49",
  "akce": [
   {
    "id": "mesto-459344",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/459344/Petra-Jonasova-Pecky.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-24T19:54",
-   "videno": "2026-09-17"
+   "videno": "2026-09-19"
   },
   {
    "id": "mesto-461140",
@@ -29,22 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-09-17"
-  },
-  {
-   "id": "mesto-461162",
-   "url": "https://pecky.cz/default/report/461162_noc-literatury-2026",
-   "nazev": "Noc Literatury 2026",
-   "zacatek": "2026-09-16T18:00",
-   "konec": "2026-09-16T21:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Noc literatury 2026 v Pečkách. Zveme vás na tradiční literární festival Noc literatury, který představuje současnou evropskou tvorbu v podání zajímavých hlasů a na netradičních místech. Během jednoho večera navštívíme šest různých stanovišť po Pečkách, kde si na neobvyklých místech vyslechnete ukázky z vybraných knižních novinek. Termín: Středa 16. září 2026 Začátek: 18:00 hodin. Místo: Různá stanoviště v Pečkách. Program a harmonogram čtení: 18:00 Vzdělávací centrum Pečecka, 18:30 Prostory Domu s pečovatelskou službou, 19:00 Pergola Senior resortu, 19:30 ZUŠ, 20:00 Evangelický kostel Mistra J",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/461162/plakat-noc-literatury.jpeg",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-08-31T07:17",
-   "videno": "2026-09-16"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-2354",
@@ -91,7 +76,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-15T07:45",
-   "videno": "2026-09-17"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-2353",
@@ -108,7 +93,7 @@
    "popis": "Vstupné dobrovolné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-399",
@@ -125,7 +110,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-823",
@@ -142,7 +127,22 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
+  },
+  {
+   "id": "mesto-461148",
+   "url": "https://pecky.cz/default/report/461148_setkani-bookstart-s-knizkou-do-zivota-klubik-sovicky",
+   "nazev": "Setkání Bookstart - S knížkou do života - klubík Sovičky",
+   "zacatek": "2026-09-22T16:30",
+   "konec": "2026-09-22T18:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Zveme všechny rodiče a jejich děti ve věku od 3 do 6 let na další přátelské setkání v rámci projektu Bookstart – S knížkou do života. Tentokrát se společně vydáme za příběhem „Flandil ve školce“. Čeká nás čtení, povídání, hry a tvoření inspirované životem ve školce, novými kamarády a každodenními malými dobrodružstvími.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/461148/plakat-mi-3-6-let-klubik-Sovicky-1.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-08-31T07:20",
+   "videno": "2026-09-19"
   },
   {
    "id": "region-1432",
@@ -162,7 +162,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-444",
@@ -180,7 +180,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-445",
@@ -199,7 +199,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-852",
@@ -216,7 +216,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-730",
@@ -233,7 +233,25 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
+  },
+  {
+   "id": "region-703",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/expozice-milcic-703_197cs3394.html",
+   "nazev": "Expozice Milčic",
+   "misto": "OÚ Milčice",
+   "kategorie": [
+    "akce pro celou rodinu",
+    "akce pro veřejnost"
+   ],
+   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5355&width=500",
+   "zacatek": "2026-09-28T13:00",
+   "konec": null,
+   "obec": "Milčice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-19"
   },
   {
    "id": "region-724",
@@ -251,7 +269,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-1454",
@@ -273,7 +291,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-472",
@@ -290,7 +308,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-501",
@@ -307,7 +325,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-2369",
@@ -324,7 +342,24 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
+  },
+  {
+   "id": "region-696",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/bazar-v-materske-skole-milcice-696_194cs3394.html",
+   "nazev": "Bazar v Mateřské škole Milčice",
+   "misto": "Kulturní sál OÚ Milčice č.p.32",
+   "kategorie": [
+    "akce pro veřejnost"
+   ],
+   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5322&width=500",
+   "zacatek": "2026-10-15T17:00",
+   "konec": null,
+   "obec": "Milčice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-19"
   },
   {
    "id": "region-408",
@@ -341,7 +376,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-2383",
@@ -358,7 +393,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-864",
@@ -376,7 +411,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-487",
@@ -393,7 +428,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-2181",
@@ -410,7 +445,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   },
   {
    "id": "region-2177",
@@ -427,7 +462,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
+  },
+  {
+   "id": "region-697",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/divadlo-divci-valka-697_195cs3394.html",
+   "nazev": "Divadlo DÍVČÍ VÁLKA",
+   "misto": "Kulturní sál OÚ Milčice č.p.32",
+   "kategorie": [
+    "ostatní"
+   ],
+   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5323&width=500",
+   "zacatek": "2026-12-19T18:00",
+   "konec": null,
+   "obec": "Milčice",
+   "popis": "budou upřesněny.",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-19"
   },
   {
    "id": "region-409",
@@ -444,7 +496,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-18"
+   "videno": "2026-09-19"
   }
  ]
 }
