@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-19 08:49",
+ "aktualizovano": "2026-09-20 09:18",
  "akce": [
   {
    "id": "mesto-459344",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/459344/Petra-Jonasova-Pecky.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-24T19:54",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "mesto-461140",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-2354",
@@ -93,7 +93,7 @@
    "popis": "Vstupné dobrovolné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-399",
@@ -110,7 +110,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-823",
@@ -127,7 +127,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "mesto-461148",
@@ -142,7 +142,22 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461148/plakat-mi-3-6-let-klubik-Sovicky-1.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:20",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
+  },
+  {
+   "id": "mesto-483961",
+   "url": "https://pecky.cz/default/report/483961_bramboriada",
+   "nazev": "Bramboriáda",
+   "zacatek": "2026-09-22T16:45",
+   "konec": "2026-09-22T18:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Zveme vás na podzimní setkání dětí, rodičů a zaměstnanců naší mateřské školy, které se koná 22. září 2026 na velké zahradě Mateřské školy MAŠINKA Pečky.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/483961/BRAMBORIADA.png",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-09-14T11:19",
+   "videno": "2026-09-20"
   },
   {
    "id": "region-1432",
@@ -162,7 +177,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-444",
@@ -180,7 +195,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-445",
@@ -199,7 +214,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-852",
@@ -216,7 +231,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-730",
@@ -233,7 +248,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-703",
@@ -251,7 +266,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-724",
@@ -269,7 +284,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-1454",
@@ -291,7 +306,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-472",
@@ -308,7 +323,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-501",
@@ -325,7 +340,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-2369",
@@ -342,7 +357,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-696",
@@ -359,7 +374,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-408",
@@ -376,7 +391,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-2383",
@@ -393,7 +408,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-864",
@@ -411,7 +426,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-487",
@@ -428,7 +443,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-2181",
@@ -445,7 +460,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-2177",
@@ -462,7 +477,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-697",
@@ -479,7 +494,7 @@
    "popis": "budou upřesněny.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   },
   {
    "id": "region-409",
@@ -496,7 +511,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-19"
+   "videno": "2026-09-20"
   }
  ]
 }
