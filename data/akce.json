@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-21 09:58",
+ "aktualizovano": "2026-09-22 09:20",
  "akce": [
   {
    "id": "mesto-459344",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/459344/Petra-Jonasova-Pecky.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-24T19:54",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "mesto-461140",
@@ -29,22 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-09-21"
-  },
-  {
-   "id": "mesto-484370",
-   "url": "https://pecky.cz/default/report/484370_food-festival-ve-velkych-chvalovicich",
-   "nazev": "Food festival ve Velkých Chvalovicích",
-   "zacatek": "2026-09-19T11:00",
-   "konec": "2026-09-19T14:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Pečecký okrašlovací spolek srdečně zve na 7. ročník Food festivalu (den plný chutí, vůní a sousedské pohody) ke hřišti ve Velkých Chvalovicích. Ochutnáte sladké a slané dobroty, teplé i studené nápoje, včetně piva a vína, domácí speciality i originální recepty. Přijďte na oběd, kávu a zákusek. Nejen pro děti bude doprovodný program – hry, soutěže, malování na obličej, skákací hrad. Pokud chcete přijít něco dobrého nabídnout ostatním i Vy, neváhejte a kontaktujte Lucii Houdkovou na tel. 605 120 918.",
-   "obrazek": "",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-09-15T07:45",
-   "videno": "2026-09-19"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-2353",
@@ -64,23 +49,6 @@
    "videno": "2026-09-20"
   },
   {
-   "id": "region-399",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/setkani-v-obecni-knihovne-399_90cs60.html",
-   "nazev": "Setkání v obecní knihovně",
-   "misto": "Obecní knihovna",
-   "kategorie": [
-    "akce pro veřejnost"
-   ],
-   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2307&width=500",
-   "zacatek": "2026-09-21T16:00",
-   "konec": null,
-   "obec": "Chotutice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
-  },
-  {
    "id": "region-823",
    "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_458cs2703.html",
    "nazev": "Jóga pro seniory",
@@ -95,7 +63,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "mesto-461148",
@@ -110,7 +78,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461148/plakat-mi-3-6-let-klubik-Sovicky-1.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:20",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "mesto-483961",
@@ -125,7 +93,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/483961/BRAMBORIADA.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-14T11:19",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-1432",
@@ -145,7 +113,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-444",
@@ -163,7 +131,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-445",
@@ -182,7 +150,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-852",
@@ -199,7 +167,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-730",
@@ -216,7 +184,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-703",
@@ -234,7 +202,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-724",
@@ -252,7 +220,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-1454",
@@ -274,7 +242,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-472",
@@ -291,7 +259,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-501",
@@ -308,7 +276,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-2369",
@@ -325,7 +293,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-542",
@@ -342,7 +310,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
+  },
+  {
+   "id": "region-399",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/setkani-v-obecni-knihovne-399_91cs60.html",
+   "nazev": "Setkání v obecní knihovně",
+   "misto": "Obecní knihovna",
+   "kategorie": [
+    "akce pro veřejnost"
+   ],
+   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2307&width=500",
+   "zacatek": "2026-10-05T16:00",
+   "konec": null,
+   "obec": "Chotutice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-22"
   },
   {
    "id": "region-696",
@@ -359,7 +344,25 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
+  },
+  {
+   "id": "region-866",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/energo-podlipansko-866_482cs2703.html",
+   "nazev": "Energo Podlipansko",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "přednáška",
+    "seminář"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-10-16T17:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-22"
   },
   {
    "id": "region-408",
@@ -376,7 +379,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-2383",
@@ -393,7 +396,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-864",
@@ -411,7 +414,25 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
+  },
+  {
+   "id": "region-708",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/zabijackove-hody-s-zivou-hudbou-708_198cs3394.html",
+   "nazev": "Zabijačkové hody s živou hudbou",
+   "misto": "Milčický Hostinec",
+   "kategorie": [
+    "hody",
+    "zabijačka"
+   ],
+   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5358&width=500",
+   "zacatek": "2026-11-07T15:00",
+   "konec": null,
+   "obec": "Milčice",
+   "popis": "Milčický Hostinec",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-22"
   },
   {
    "id": "region-487",
@@ -428,7 +449,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-2181",
@@ -445,7 +466,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-2177",
@@ -462,7 +483,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-697",
@@ -476,10 +497,10 @@
    "zacatek": "2026-12-19T18:00",
    "konec": null,
    "obec": "Milčice",
-   "popis": "budou upřesněny.",
+   "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   },
   {
    "id": "region-409",
@@ -496,7 +517,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-21"
+   "videno": "2026-09-22"
   }
  ]
 }
