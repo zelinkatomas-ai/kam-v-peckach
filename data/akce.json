@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-22 09:20",
+ "aktualizovano": "2026-09-23 09:20",
  "akce": [
   {
    "id": "mesto-459344",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/459344/Petra-Jonasova-Pecky.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-24T19:54",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "mesto-461140",
@@ -29,41 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-09-22"
-  },
-  {
-   "id": "region-2353",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/cyklus-historie-v-kostele-2dil-2353_441cs194.html",
-   "nazev": "Cyklus Historie v kostele – 2.díl",
-   "misto": "Husův sbor",
-   "kategorie": [
-    "ostatní"
-   ],
-   "obrazek": "https://www.planany.eu/evt_image.php?img=4364&width=500",
-   "zacatek": "2026-09-20T18:00",
-   "konec": null,
-   "obec": "Plaňany",
-   "popis": "Vstupné dobrovolné",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-20"
-  },
-  {
-   "id": "region-823",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_458cs2703.html",
-   "nazev": "Jóga pro seniory",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "zdravotní cvičení"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
-   "zacatek": "2026-09-22T10:30",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "Komunitní centrum Ratenice",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "mesto-461148",
@@ -113,7 +79,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-444",
@@ -131,7 +97,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-445",
@@ -150,7 +116,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-852",
@@ -167,7 +133,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
+  },
+  {
+   "id": "mesto-485812",
+   "url": "https://pecky.cz/default/report/485812_slavnosti-svateho-vaclav-v-peckach",
+   "nazev": "Slavnosti svatého Václav v Pečkách",
+   "zacatek": "2026-09-27T15:00",
+   "konec": "2026-09-27T20:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Slavnosti svatého Václava v Pečkách se konají dne 27.9.2026 od 15.00 hodin u rybníka Benešák, Pečky. Přijďte si užít příjemné odpoledne plné dobrého vína, jídla, hudby a zábavy u rybníka Benešák. Vstup zdarma. Těšit se můžete na česká, moravská i zahraniční vína, francouzské delikatesy, kapelu FOBOS, pohodovou atmosféru u Benešáku.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/485812/IMG-4169.png",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-09-21T07:57",
+   "videno": "2026-09-23"
   },
   {
    "id": "region-730",
@@ -184,7 +165,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-703",
@@ -202,7 +183,39 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
+  },
+  {
+   "id": "region-823",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_459cs2703.html",
+   "nazev": "Jóga pro seniory",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "zdravotní cvičení"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
+   "zacatek": "2026-09-29T10:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "Komunitní centrum Ratenice",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-23"
+  },
+  {
+   "id": "mesto-486754",
+   "url": "https://pecky.cz/default/report/486754_postav-si-draka",
+   "nazev": "Postav si draka",
+   "zacatek": "2026-09-29T17:00",
+   "konec": "2026-09-29T18:32",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "První část dílny pro děti i jejich rodiče. Naučte se opět postavit létacího draka. Materiál zajištěn. Nutné přihlášení.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/486754/Stavba-draku-2026-1.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-09-23T07:43",
+   "videno": "2026-09-23"
   },
   {
    "id": "region-724",
@@ -220,7 +233,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-1454",
@@ -242,7 +255,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-472",
@@ -259,7 +272,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-501",
@@ -276,7 +289,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-2369",
@@ -293,7 +306,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-542",
@@ -310,7 +323,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-399",
@@ -327,7 +340,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-696",
@@ -344,7 +357,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-866",
@@ -362,7 +375,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-408",
@@ -379,7 +392,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-2383",
@@ -396,7 +409,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-864",
@@ -414,7 +427,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
+  },
+  {
+   "id": "region-867",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/vanocni-tvoreni-867_483cs2703.html",
+   "nazev": "Vánoční tvoření",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "akce pro celou rodinu"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-11-07T09:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-23"
   },
   {
    "id": "region-708",
@@ -432,7 +462,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-487",
@@ -449,7 +479,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-2181",
@@ -466,7 +496,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-2177",
@@ -483,7 +513,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-697",
@@ -500,7 +530,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   },
   {
    "id": "region-409",
@@ -517,7 +547,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-22"
+   "videno": "2026-09-23"
   }
  ]
 }
