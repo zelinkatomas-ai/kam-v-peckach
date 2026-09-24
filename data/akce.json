@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-23 09:20",
+ "aktualizovano": "2026-09-24 09:23",
  "akce": [
   {
    "id": "mesto-459344",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/459344/Petra-Jonasova-Pecky.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-24T19:54",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "mesto-461140",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "mesto-461148",
@@ -97,7 +97,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-445",
@@ -116,7 +116,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-852",
@@ -133,7 +133,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "mesto-485812",
@@ -148,7 +148,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/485812/IMG-4169.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-21T07:57",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-730",
@@ -165,7 +165,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-703",
@@ -183,7 +183,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-823",
@@ -200,7 +200,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "mesto-486754",
@@ -215,7 +215,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/486754/Stavba-draku-2026-1.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-23T07:43",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-724",
@@ -233,7 +233,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-1454",
@@ -255,7 +255,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-472",
@@ -272,7 +272,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-501",
@@ -289,7 +289,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-2369",
@@ -306,7 +306,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-542",
@@ -323,7 +323,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-399",
@@ -340,7 +340,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
+  },
+  {
+   "id": "region-1458",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/podzimni-rockova-zabava-1458_227cs1036.html",
+   "nazev": "Podzimní rocková zábava",
+   "misto": "Sokolovna Velim",
+   "kategorie": [
+    "akce pro veřejnost"
+   ],
+   "obrazek": "http://www.velim.cz/evt_image.php?img=6219&width=500",
+   "zacatek": "2026-10-10T20:00",
+   "konec": null,
+   "obec": "Velim",
+   "popis": "Plné vstupné: 200 Kč",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-24"
   },
   {
    "id": "region-696",
@@ -357,7 +374,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
+  },
+  {
+   "id": "region-443",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/draci-v-akci-443_61cs2567.html",
+   "nazev": "Draci v akci",
+   "misto": "Mateřská škola",
+   "kategorie": [
+    "akce pro děti"
+   ],
+   "obrazek": "https://www.skolkasvojsice.cz/evt_image.php?img=8056&width=500",
+   "zacatek": "2026-10-16T09:00",
+   "konec": null,
+   "obec": "Svojšice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-09-24"
   },
   {
    "id": "region-866",
@@ -375,7 +409,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-408",
@@ -392,7 +426,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-2383",
@@ -409,7 +443,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-864",
@@ -427,7 +461,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-867",
@@ -444,7 +478,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-708",
@@ -462,7 +496,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-487",
@@ -479,7 +513,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-2181",
@@ -496,7 +530,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-2177",
@@ -513,7 +547,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-697",
@@ -530,7 +564,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   },
   {
    "id": "region-409",
@@ -547,7 +581,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-23"
+   "videno": "2026-09-24"
   }
  ]
 }
