@@ -125,6 +125,23 @@ a webů obcí. `gpsPribl: true` označuje přibližnou polohu. Nové místo = no
 Tlačítko Mapa zobrazí právě vyfiltrované podniky nebo výlety na mapě (Leaflet z cdnjs, dlaždice OpenStreetMap,
 styl `leaflet.css` v repozitáři). Akce souřadnice nemají, tam je mapa vypnutá.
 
+## Podstránky pro vyhledávače
+
+Hlavní aplikace je jedna stránka, kterou vyhledávače neumí rozložit na dotazy typu „zubař Pečky“. Proto
+`scripts/build-pages.js` (volaný z `build.js`) generuje z dat obyčejné HTML stránky:
+
+- `/obchody/`, `/sluzby/`, … pro každou kategorii, `/sluzby/kadernictvi-kosmetika-a-nehty/` pro každou podkategorii,
+- `/podnik/<slug>/` pro každý podnik se strukturovanými daty LocalBusiness (adresa, telefon, otevírací doba, GPS),
+- `/akce/` (nadcházející akce, přegenerováno denně workflow) a `/vylety/`,
+- `sitemap.xml` a `robots.txt`.
+
+Slug podniku vzniká z názvu a ukládá se i do `data.js`, karta v aplikaci na něj odkazuje tlačítkem „Stránka“.
+Titulky kategorií pro vyhledávače jsou v tabulce `SEO_NAMES`. Po změně dat stačí `node scripts/build.js`,
+staré podstránky se smažou a vygenerují znovu.
+
+Registrace ve vyhledávačích (jednorázově, ručně): Google Search Console a Seznam Webmaster, ověření domény
+přes DNS TXT záznam v Cloudflare, poté odeslat `https://kamvpeckach.cz/sitemap.xml`.
+
 ## Odkazy do stránky
 
 `index.html?vylety` otevře záložku Výlety.

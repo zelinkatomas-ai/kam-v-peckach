@@ -181,6 +181,7 @@ main .wrap{padding:18px 20px 40px}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 footer .wrap{padding:18px 20px 30px;display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between}
 footer p{margin:0;max-width:70ch}
+footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{color:var(--muted);margin-right:4px}footer nav.seo a{color:var(--muted)}footer nav.seo a:hover{color:var(--accent)}
 @media (max-width:640px){.brand h1{font-size:28px}.grid{grid-template-columns:1fr}.count{margin-left:0;width:100%}}
 @media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--line-strong)}}
 </style>
@@ -221,7 +222,11 @@ footer p{margin:0;max-width:70ch}
 <footer><div class="wrap">
   <p id="srcnote">Data pocházejí z katalogu firem na webu města Pečky, z Firmy.cz a z webu OC Pečky. Údaje průběžně ověřujeme, ale mohou být zastaralé. Když najdete chybu nebo tu něco chybí, použijte odkaz „Nahlásit změnu“ u záznamu.</p>
   <p><a href="#" id="addLink">Přidat podnik nebo službu</a></p>
+  <nav class="seo" aria-label="Rozcestník"><span>Přehledy:</span>
+    <a href="/obchody/">Obchody v Pečkách</a> · <a href="/sluzby/">Služby a řemeslníci</a> · <a href="/restaurace-a-obcerstveni/">Restaurace a hospody</a> · <a href="/auto-moto/">Auto-moto</a> · <a href="/zdravotnictvi/">Lékaři a lékárny</a> · <a href="/sport-a-volny-cas/">Sport a spolky</a> · <a href="/mesto-a-instituce/">Úřad a instituce</a> · <a href="/firmy-a-vyroba/">Firmy a výroba</a> · <a href="/akce/">Akce</a> · <a href="/vylety/">Výlety</a>
+  </nav>
 </div></footer>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Kam v Pečkách","url":"https://kamvpeckach.cz/","description":"Obchody, služby, lékaři, akce a výlety v Pečkách a okolí na jedné stránce.","inLanguage":"cs","potentialAction":{"@type":"SearchAction","target":"https://kamvpeckach.cz/?q={q}","query-input":"required name=q"}}</script>
 
 <dialog class="report" id="reportDlg">
   <form method="dialog" id="reportForm">
@@ -315,7 +320,7 @@ footer p{margin:0;max-width:70ch}
       p.kontakt && `<dt>Kontakt</dt><dd>${esc(p.kontakt)}</dd>`,
       p.ico && `<dt>IČ</dt><dd>${esc(p.ico)}</dd>`
     ].filter(Boolean).join("");
-    const report = `<span class="acts"><button type="button" data-link="p${esc(p.id)}" title="Zkopírovat odkaz na tuto kartu">Odkaz</button>${(D.kontaktEmail||D.formEndpoint) ? `<button type="button" data-report="${esc(p.id)}">Nahlásit změnu</button>` : ""}</span>`;
+    const report = `<span class="acts">${p.slug?`<a href="/podnik/${esc(p.slug)}/">Stránka</a>`:""}<button type="button" data-link="p${esc(p.id)}" title="Zkopírovat odkaz na tuto kartu">Odkaz</button>${(D.kontaktEmail||D.formEndpoint) ? `<button type="button" data-report="${esc(p.id)}">Nahlásit změnu</button>` : ""}</span>`;
     return `<article class="card" id="p${p.id}">
       <h3>${p.web?`<a href="${esc(p.web)}" target="_blank" rel="noopener">${esc(p.nazev)}</a>`:esc(p.nazev)}</h3>
       ${chips?`<div class="chips">${chips}</div>`:""}
