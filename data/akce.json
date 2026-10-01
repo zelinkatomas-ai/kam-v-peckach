@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-09-30 10:31",
+ "aktualizovano": "2026-10-01 10:59",
  "akce": [
   {
    "id": "mesto-459344",
@@ -29,25 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-09-30"
-  },
-  {
-   "id": "region-703",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/expozice-milcic-703_197cs3394.html",
-   "nazev": "Expozice Milčic",
-   "misto": "OÚ Milčice",
-   "kategorie": [
-    "akce pro celou rodinu",
-    "akce pro veřejnost"
-   ],
-   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5355&width=500",
-   "zacatek": "2026-09-28T13:00",
-   "konec": null,
-   "obec": "Milčice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-28"
+   "videno": "2026-10-01"
   },
   {
    "id": "mesto-488002",
@@ -62,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488002/Tyden-knihoven-plakat-A4.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T09:00",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "mesto-486754",
@@ -78,24 +60,6 @@
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-23T07:43",
    "videno": "2026-09-29"
-  },
-  {
-   "id": "region-724",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knizni-klubicko-724_373cs2703.html",
-   "nazev": "Knižní klubíčko",
-   "misto": "Knihovna",
-   "kategorie": [
-    "akce pro děti",
-    "akce pro rodiče"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3042&width=500",
-   "zacatek": "2026-09-30T10:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
   },
   {
    "id": "mesto-486842",
@@ -164,7 +128,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-444",
@@ -182,7 +146,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-445",
@@ -201,7 +165,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-448",
@@ -218,7 +182,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-501",
@@ -235,7 +199,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
+  },
+  {
+   "id": "mesto-486752",
+   "url": "https://pecky.cz/default/report/486752_kastanova-mast",
+   "nazev": "Kaštanová mast",
+   "zacatek": "2026-10-02T17:30",
+   "konec": "2026-10-02T19:30",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Teoretické povídání o významu kaštanu v tradiční čínské medicíně i evropském léčitelství a příprava kaštanů na výrobu masti a tinktury.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/486752/Kastanova-mast.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-09-23T07:47",
+   "videno": "2026-10-01"
   },
   {
    "id": "region-2369",
@@ -252,7 +231,7 @@
    "popis": "Dobrovolné vstupné",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-542",
@@ -269,7 +248,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-399",
@@ -286,7 +265,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-823",
@@ -303,7 +282,22 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
+  },
+  {
+   "id": "mesto-488338",
+   "url": "https://pecky.cz/default/report/488338_pruvod-sokolskych-svetel",
+   "nazev": "Průvod sokolských světel",
+   "zacatek": "2026-10-08T18:00",
+   "konec": "2026-10-08T19:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Přijďte si s námi připomenout události, které vedly k vyhlášení 8.10. Památným dnem sokolstva. Přidejte se do lampionového průvodu, který projde od sokolovny na místní hřbitov. Zde bude mít každý možnost donést svíčku k pomníku bratra Františka Voláka.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/488338/Pamatny-den-sokolstva-2026-Pecky-1.png",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-09-29T15:10",
+   "videno": "2026-10-01"
   },
   {
    "id": "region-1458",
@@ -320,7 +314,7 @@
    "popis": "Plné vstupné: 200 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-730",
@@ -337,7 +331,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-696",
@@ -354,7 +348,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-443",
@@ -371,7 +365,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-866",
@@ -389,7 +383,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-408",
@@ -406,7 +400,25 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
+  },
+  {
+   "id": "region-724",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knizni-klubicko-724_374cs2703.html",
+   "nazev": "Knižní klubíčko",
+   "misto": "Knihovna",
+   "kategorie": [
+    "akce pro děti",
+    "akce pro rodiče"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3042&width=500",
+   "zacatek": "2026-10-21T10:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-01"
   },
   {
    "id": "region-852",
@@ -423,7 +435,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-2383",
@@ -440,7 +452,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-864",
@@ -458,7 +470,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-867",
@@ -475,7 +487,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-708",
@@ -493,7 +505,24 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
+  },
+  {
+   "id": "region-868",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/zasedani-dso-868_484cs2703.html",
+   "nazev": "Zasedání DSO",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "zasedání zastupitelstva"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-11-10T08:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-01"
   },
   {
    "id": "region-487",
@@ -510,7 +539,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-2181",
@@ -561,7 +590,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   },
   {
    "id": "region-409",
@@ -578,7 +607,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-09-30"
+   "videno": "2026-10-01"
   }
  ]
 }
