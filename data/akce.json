@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-06 11:18",
+ "aktualizovano": "2026-10-07 11:06",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,22 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-06"
-  },
-  {
-   "id": "mesto-488002",
-   "url": "https://pecky.cz/default/report/488002_tyden-knihoven-2026",
-   "nazev": "Týden knihoven 2026",
-   "zacatek": "2026-09-29T00:00",
-   "konec": "2026-10-04T23:57",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Od 29. 9. do 4. 10. 2026 vás v pečecké knihovně čeká pestrý program pro malé i velké – kurzy, výstava, knižní bazar, tvoření, vzdělávání i další aktivity. Těšíme se na vás v městské knihovně.",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/488002/Tyden-knihoven-plakat-A4.jpeg",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-09-29T09:00",
-   "videno": "2026-10-04"
+   "videno": "2026-10-07"
   },
   {
    "id": "mesto-461147",
@@ -44,39 +29,22 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
-   "id": "mesto-486753",
-   "url": "https://pecky.cz/default/report/486753_kozedelna-dilna",
-   "nazev": "Kožedělná dílna",
-   "zacatek": "2026-10-04T13:00",
-   "konec": "2026-10-04T17:00",
+   "id": "mesto-490451",
+   "url": "https://pecky.cz/default/report/490451_vystava-obrazu-a-praci-anety-spicakove",
+   "nazev": "Výstava obrazů a prací Anety Špičákové",
+   "zacatek": "2026-10-01T14:57",
+   "konec": "2026-10-30T18:00",
    "misto": "Pečky",
    "obec": "Pečky",
    "kategorie": [],
-   "popis": "Přijďte si vyzkoušet práci s kůží a ušít si pouzdro na sekyru nebo malou kapsičku na drobnosti.",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/486753/Dilna-Kuze.jpeg",
+   "popis": "Městská knihovna S. Čecha v Pečkách zve na výstavu obrazů a prací Anety Špičákové, která bude v prostorách knihovny k vidění od 1. do 30. října 2026. Přijďte si prohlédnout vystavená díla a zpříjemnit si návštěvu knihovny trochou umění.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
-   "zverejneno": "2026-09-23T07:45",
-   "videno": "2026-10-04"
-  },
-  {
-   "id": "region-823",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_460cs2703.html",
-   "nazev": "Jóga pro seniory",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "zdravotní cvičení"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
-   "zacatek": "2026-10-06T10:30",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "Komunitní centrum Ratenice",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "zverejneno": "2026-10-07T06:56",
+   "videno": "2026-10-07"
   },
   {
    "id": "mesto-488003",
@@ -91,7 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "mesto-488338",
@@ -123,7 +91,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-1458",
@@ -140,7 +108,24 @@
    "popis": "Plné vstupné: 200 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
+  },
+  {
+   "id": "region-870",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/detsky-bazarek-870_485cs2703.html",
+   "nazev": "Dětský bazárek",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "akce pro veřejnost"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3059&width=500",
+   "zacatek": "2026-10-11T09:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-07"
   },
   {
    "id": "region-730",
@@ -157,7 +142,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
+  },
+  {
+   "id": "region-823",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_461cs2703.html",
+   "nazev": "Jóga pro seniory",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "zdravotní cvičení"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
+   "zacatek": "2026-10-13T10:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "Komunitní centrum Ratenice",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-07"
   },
   {
    "id": "region-2388",
@@ -174,7 +176,7 @@
    "popis": "Plné vstupné: 250 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-444",
@@ -192,7 +194,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-445",
@@ -211,7 +213,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-696",
@@ -228,7 +230,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-448",
@@ -245,7 +247,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-443",
@@ -262,7 +264,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-866",
@@ -280,7 +282,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-408",
@@ -297,7 +299,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-774",
@@ -314,7 +316,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-542",
@@ -331,7 +333,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-399",
@@ -348,7 +350,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-446",
@@ -366,7 +368,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "mesto-489735",
@@ -381,7 +383,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/489735/vitaci-koncert-20.10.2026.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-05T08:18",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-724",
@@ -399,7 +401,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
+  },
+  {
+   "id": "mesto-490264",
+   "url": "https://pecky.cz/default/report/490264_dynobrani-v-ms-masinka-pecky",
+   "nazev": "Dýňobraní v MŠ Mašinka Pečky",
+   "zacatek": "2026-10-22T16:00",
+   "konec": "2026-10-22T18:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Zveme vás na Dýňobraní, které se koná ve čtvrtek 22. října od 16:00. Sejdeme se na velké zahradě naší mateřské školy. Každé školkové dítě obdrží jednu dýni, kterou si bude moci vyzdobit. Prosíme, přineste si náčiní na dlabání a zdobení dýní. Na místě bude také možné zakoupit drobné občerstvení a pití pro všechny návštěvníky (prodává SRPMŠ).Těšíme se na setkání s Vámi.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/490264/DYNOBRANI.png",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-10-06T14:38",
+   "videno": "2026-10-07"
   },
   {
    "id": "region-852",
@@ -416,7 +433,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-2383",
@@ -433,7 +450,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-864",
@@ -451,7 +468,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
+  },
+  {
+   "id": "mesto-490457",
+   "url": "https://pecky.cz/default/report/490457_kybersikana-prednaska-v-mestske-knihovne",
+   "nazev": "Kyberšikana - přednáška v městské knihovně",
+   "zacatek": "2026-11-02T17:00",
+   "konec": "2026-11-02T20:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Kyberšikana se může týkat každého z nás. Jaké podoby může mít, jak ji rozpoznat a jak se jí bránit? Přijďte na přednášku Martina Kožíška, která nabídne praktický pohled na nejčastější formy kyberšikany, manipulaci v online prostředí i možnosti, jak na podobné situace správně reagovat. Přednáška je určena rodičům, dospělým, seniorům i odborné veřejnosti.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/490457/plakat-Kybersikana.png",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-10-07T06:54",
+   "videno": "2026-10-07"
   },
   {
    "id": "region-867",
@@ -468,7 +500,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-708",
@@ -486,7 +518,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-868",
@@ -503,7 +535,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-487",
@@ -520,7 +552,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-2181",
@@ -571,7 +603,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   },
   {
    "id": "region-409",
@@ -588,7 +620,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-06"
+   "videno": "2026-10-07"
   }
  ]
 }
