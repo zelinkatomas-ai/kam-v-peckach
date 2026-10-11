@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-10 10:38",
+ "aktualizovano": "2026-10-11 10:51",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-09"
+   "videno": "2026-10-11"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-09"
+   "videno": "2026-10-11"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-09"
+   "videno": "2026-10-11"
   },
   {
    "id": "mesto-488003",
@@ -59,22 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-09"
-  },
-  {
-   "id": "mesto-488338",
-   "url": "https://pecky.cz/default/report/488338_pruvod-sokolskych-svetel",
-   "nazev": "Průvod sokolských světel",
-   "zacatek": "2026-10-08T18:00",
-   "konec": "2026-10-08T19:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Přijďte si s námi připomenout události, které vedly k vyhlášení 8.10. Památným dnem sokolstva. Přidejte se do lampionového průvodu, který projde od sokolovny na místní hřbitov. Zde bude mít každý možnost donést svíčku k pomníku bratra Františka Voláka.",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/488338/Pamatny-den-sokolstva-2026-Pecky-1.png",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-09-29T15:10",
-   "videno": "2026-10-06"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-1463",
@@ -125,7 +110,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-730",
@@ -142,7 +127,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-823",
@@ -159,7 +144,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-2388",
@@ -176,7 +161,7 @@
    "popis": "Plné vstupné: 250 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-444",
@@ -194,7 +179,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-445",
@@ -213,7 +198,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-696",
@@ -230,7 +215,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-448",
@@ -247,7 +232,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-443",
@@ -264,7 +249,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-866",
@@ -282,7 +267,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-408",
@@ -299,7 +284,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-774",
@@ -316,7 +301,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-542",
@@ -333,7 +318,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-399",
@@ -350,7 +335,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-446",
@@ -368,7 +353,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "mesto-489735",
@@ -401,7 +386,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "mesto-490264",
@@ -433,7 +418,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-2383",
@@ -450,7 +435,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
+  },
+  {
+   "id": "mesto-491650",
+   "url": "https://pecky.cz/default/report/491650_podzimni-beh-v-parku",
+   "nazev": "Podzimní běh v parku",
+   "zacatek": "2026-10-28T09:00",
+   "konec": "2026-10-28T11:32",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "32. ročník podzimního běhu na 10 km v pečeckém parku, přihlášky v den závodu od 8.30 ve sportovní hale, v 9.30 položení kytice u pomníku T.G. Masaryka, start závodu v 10.00 u spor­tovní haly",
+   "obrazek": "",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-10-10T22:46",
+   "videno": "2026-10-11"
   },
   {
    "id": "region-864",
@@ -468,7 +468,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "mesto-490457",
@@ -483,7 +483,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490457/plakat-Kybersikana.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:54",
-   "videno": "2026-10-09"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-867",
@@ -500,7 +500,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-708",
@@ -518,7 +518,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-868",
@@ -535,7 +535,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-487",
@@ -552,7 +552,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-2181",
@@ -603,7 +603,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   },
   {
    "id": "region-409",
@@ -620,7 +620,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-11"
   }
  ]
 }
