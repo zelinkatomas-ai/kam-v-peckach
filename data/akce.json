@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-12 12:02",
+ "aktualizovano": "2026-10-13 11:50",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "mesto-488003",
@@ -59,24 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-12"
-  },
-  {
-   "id": "region-1458",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/podzimni-rockova-zabava-1458_227cs1036.html",
-   "nazev": "Podzimní rocková zábava",
-   "misto": "Sokolovna Velim",
-   "kategorie": [
-    "akce pro veřejnost"
-   ],
-   "obrazek": "http://www.velim.cz/evt_image.php?img=6219&width=500",
-   "zacatek": "2026-10-10T20:00",
-   "konec": null,
-   "obec": "Velim",
-   "popis": "Plné vstupné: 200 Kč",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-10"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-870",
@@ -96,6 +79,21 @@
    "videno": "2026-10-11"
   },
   {
+   "id": "mesto-492283",
+   "url": "https://pecky.cz/default/report/492283_divadlo-pro-dospele-homolkovi",
+   "nazev": "Divadlo pro dospělé - Homolkovi",
+   "zacatek": "2026-10-12T19:30",
+   "konec": "2026-10-16T21:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Homolkovi míří do Peček. Divadelní soubor Hálek Nymburk uvádí divadelní zpracování známé filmové trilogie HOMOLKOVI – příběh plný humoru, rodinných hádek, situací ze života a nezapomenutelných postav dne 16.10. 2026 od 19:30 v KD Pečky. Vstupné: 100 Kč. Čeká vás pořádná dávka českého humoru v podání skvělého divadelního souboru.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/492283/homolkovi.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-10-13T11:32",
+   "videno": "2026-10-13"
+  },
+  {
    "id": "region-823",
    "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_461cs2703.html",
    "nazev": "Jóga pro seniory",
@@ -110,7 +108,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-2388",
@@ -127,7 +125,7 @@
    "popis": "Plné vstupné: 250 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-444",
@@ -145,7 +143,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-445",
@@ -164,7 +162,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-696",
@@ -181,7 +179,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-448",
@@ -198,7 +196,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-443",
@@ -215,7 +213,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-866",
@@ -233,7 +231,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
+  },
+  {
+   "id": "mesto-492288",
+   "url": "https://pecky.cz/default/report/492288_street-food-festival-dne-17-10-2026-na-prostranstvi-pred-kulturnim-domem",
+   "nazev": "Street food festival dne 17.10.2026 na prostranství před kulturním domem",
+   "zacatek": "2026-10-17T10:00",
+   "konec": "2026-10-17T18:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Zažij pravý autentický street food v Pečkách. Hlavní prim hraje to nejlepší pouliční jídlo v ČR. Kuchařský um ve stáncích a foodtruckách. Dne 17.10.2026 od 10:00 – 18:00 v parku před KD Pečky. Vstup zdarma",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/492288/STREET-FOOD.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-10-13T11:10",
+   "videno": "2026-10-13"
   },
   {
    "id": "region-408",
@@ -250,7 +263,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-774",
@@ -267,7 +280,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
+  },
+  {
+   "id": "mesto-492285",
+   "url": "https://pecky.cz/default/report/492285_detske-divadlo-v-kulturnim-dome-dne-18-10-2026",
+   "nazev": "Dětské divadlo v kulturním domě dne 18.10.2026",
+   "zacatek": "2026-10-18T14:30",
+   "konec": "2026-10-18T15:30",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Dětské divadlo v KD Pečky. Máte doma malé diváky? Tak si nenechte ujít pohádkové divadelní představení „KDYŽ ŠLA VRÁNA DO SVĚTA“, které k nám přiváží Petrpaslíkovo divadlo dne 18. října 2026 od 14:30 v Kulturním domě Pečky. Vstupné 100 Kč. Čeká vás veselé divadelní odpoledne plné pohádkové atmosféry, které potěší malé i velké diváky. Přijďte si užít společný čas s dětmi.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/492285/KD-PECKY.png",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-10-13T11:27",
+   "videno": "2026-10-13"
   },
   {
    "id": "region-542",
@@ -284,7 +312,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-399",
@@ -301,7 +329,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-446",
@@ -319,7 +347,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "mesto-489735",
@@ -352,7 +380,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "mesto-490264",
@@ -384,7 +412,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-2383",
@@ -401,7 +429,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "mesto-491650",
@@ -416,7 +444,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-730",
@@ -433,7 +461,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-864",
@@ -451,7 +479,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "mesto-490457",
@@ -483,7 +511,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-708",
@@ -501,7 +529,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-868",
@@ -518,7 +546,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-487",
@@ -535,7 +563,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-2181",
@@ -586,7 +614,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   },
   {
    "id": "region-409",
@@ -603,7 +631,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-12"
+   "videno": "2026-10-13"
   }
  ]
 }
