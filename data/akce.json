@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-13 11:50",
+ "aktualizovano": "2026-10-14 09:33",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-488003",
@@ -59,24 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-13"
-  },
-  {
-   "id": "region-870",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/detsky-bazarek-870_485cs2703.html",
-   "nazev": "Dětský bazárek",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "akce pro veřejnost"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3059&width=500",
-   "zacatek": "2026-10-11T09:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-11"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-492283",
@@ -91,24 +74,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/492283/homolkovi.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-13T11:32",
-   "videno": "2026-10-13"
-  },
-  {
-   "id": "region-823",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_461cs2703.html",
-   "nazev": "Jóga pro seniory",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "zdravotní cvičení"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
-   "zacatek": "2026-10-13T10:30",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "Komunitní centrum Ratenice",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-2388",
@@ -125,7 +91,7 @@
    "popis": "Plné vstupné: 250 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-444",
@@ -143,7 +109,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-445",
@@ -162,7 +128,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-696",
@@ -179,7 +145,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-448",
@@ -196,7 +162,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-443",
@@ -213,7 +179,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-866",
@@ -231,7 +197,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-492288",
@@ -246,7 +212,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/492288/STREET-FOOD.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-13T11:10",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-408",
@@ -263,7 +229,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-774",
@@ -280,7 +246,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-492285",
@@ -295,7 +261,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/492285/KD-PECKY.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-13T11:27",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-542",
@@ -312,7 +278,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-399",
@@ -329,7 +295,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
+  },
+  {
+   "id": "region-823",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_462cs2703.html",
+   "nazev": "Jóga pro seniory",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "zdravotní cvičení"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
+   "zacatek": "2026-10-20T10:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "Komunitní centrum Ratenice",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-14"
   },
   {
    "id": "region-446",
@@ -347,7 +330,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-489735",
@@ -380,7 +363,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-490264",
@@ -412,7 +395,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-2383",
@@ -429,7 +412,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-491650",
@@ -444,7 +427,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-730",
@@ -461,7 +444,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-864",
@@ -479,7 +462,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "mesto-490457",
@@ -511,7 +494,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-708",
@@ -529,7 +512,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-868",
@@ -546,7 +529,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-487",
@@ -563,7 +546,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-2181",
@@ -614,7 +597,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   },
   {
    "id": "region-409",
@@ -631,7 +614,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-13"
+   "videno": "2026-10-14"
   }
  ]
 }
