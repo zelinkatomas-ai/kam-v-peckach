@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-16 09:03",
+ "aktualizovano": "2026-10-17 08:35",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-488003",
@@ -59,7 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-492283",
@@ -75,23 +75,6 @@
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-13T11:32",
    "videno": "2026-10-16"
-  },
-  {
-   "id": "region-2388",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/zajezd-za-nakupy-do-polska-2388_451cs194.html",
-   "nazev": "Zájezd za nákupy do Polska",
-   "misto": "",
-   "kategorie": [
-    "nespecifikováno/ostatní"
-   ],
-   "obrazek": "https://www.planany.eu/evt_image.php?img=4386&width=500",
-   "zacatek": "2026-10-14T07:00",
-   "konec": null,
-   "obec": "Plaňany",
-   "popis": "Plné vstupné: 250 Kč",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-14"
   },
   {
    "id": "region-696",
@@ -158,7 +141,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/492288/STREET-FOOD.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-13T11:10",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-408",
@@ -175,7 +158,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-299",
@@ -192,7 +175,7 @@
    "popis": "Plné vstupné: 50 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-774",
@@ -209,7 +192,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-492285",
@@ -224,7 +207,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/492285/KD-PECKY.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-13T11:27",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-542",
@@ -241,7 +224,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-399",
@@ -258,7 +241,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-823",
@@ -275,7 +258,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-446",
@@ -293,7 +276,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-489735",
@@ -326,7 +309,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-444",
@@ -344,7 +327,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-490264",
@@ -378,7 +361,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-448",
@@ -395,7 +378,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-852",
@@ -412,7 +395,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-2383",
@@ -429,7 +412,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-491650",
@@ -444,7 +427,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-730",
@@ -461,7 +444,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-864",
@@ -479,7 +462,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "mesto-490457",
@@ -511,7 +494,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-708",
@@ -529,7 +512,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-868",
@@ -546,7 +529,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-487",
@@ -563,7 +546,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-2181",
@@ -614,7 +597,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   },
   {
    "id": "region-409",
@@ -631,7 +614,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-17"
   }
  ]
 }
