@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-18 08:52",
+ "aktualizovano": "2026-10-19 09:56",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "mesto-488003",
@@ -59,57 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-18"
-  },
-  {
-   "id": "mesto-492283",
-   "url": "https://pecky.cz/default/report/492283_divadlo-pro-dospele-homolkovi",
-   "nazev": "Divadlo pro dospělé - Homolkovi",
-   "zacatek": "2026-10-12T19:30",
-   "konec": "2026-10-16T21:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Homolkovi míří do Peček. Divadelní soubor Hálek Nymburk uvádí divadelní zpracování známé filmové trilogie HOMOLKOVI – příběh plný humoru, rodinných hádek, situací ze života a nezapomenutelných postav dne 16.10. 2026 od 19:30 v KD Pečky. Vstupné: 100 Kč. Čeká vás pořádná dávka českého humoru v podání skvělého divadelního souboru.",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/492283/homolkovi.jpeg",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-10-13T11:32",
-   "videno": "2026-10-16"
-  },
-  {
-   "id": "region-443",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/draci-v-akci-443_61cs2567.html",
-   "nazev": "Draci v akci",
-   "misto": "Mateřská škola",
-   "kategorie": [
-    "akce pro děti"
-   ],
-   "obrazek": "https://www.skolkasvojsice.cz/evt_image.php?img=8056&width=500",
-   "zacatek": "2026-10-16T09:00",
-   "konec": null,
-   "obec": "Svojšice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
-  },
-  {
-   "id": "region-866",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/energo-podlipansko-866_482cs2703.html",
-   "nazev": "Energo Podlipansko",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "přednáška",
-    "seminář"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-10-16T17:30",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-16"
+   "videno": "2026-10-19"
   },
   {
    "id": "mesto-492288",
@@ -193,23 +143,6 @@
    "videno": "2026-10-18"
   },
   {
-   "id": "region-542",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/zkouska-es-kids-542_229cs2703.html",
-   "nazev": "Zkouška Es-kids",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "ostatní"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-10-18T15:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
-  },
-  {
    "id": "region-399",
    "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/setkani-v-obecni-knihovne-399_92cs60.html",
    "nazev": "Setkání v obecní knihovně",
@@ -224,7 +157,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-823",
@@ -241,7 +174,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-446",
@@ -259,7 +192,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "mesto-489735",
@@ -292,7 +225,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-444",
@@ -310,7 +243,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "mesto-490264",
@@ -344,7 +277,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-448",
@@ -361,7 +294,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-852",
@@ -378,7 +311,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
+  },
+  {
+   "id": "region-542",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/zkouska-es-kids-542_237cs2703.html",
+   "nazev": "Zkouška Es-kids",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "ostatní"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-10-25T15:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-19"
   },
   {
    "id": "region-2383",
@@ -395,7 +345,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "mesto-491650",
@@ -410,7 +360,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-730",
@@ -427,7 +377,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-864",
@@ -445,7 +395,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "mesto-490457",
@@ -460,7 +410,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490457/plakat-Kybersikana.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:54",
-   "videno": "2026-10-12"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-867",
@@ -477,7 +427,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-708",
@@ -495,7 +445,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-868",
@@ -512,7 +462,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-487",
@@ -529,7 +479,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-2181",
@@ -580,7 +530,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   },
   {
    "id": "region-409",
@@ -597,7 +547,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
+   "videno": "2026-10-19"
   }
  ]
 }
