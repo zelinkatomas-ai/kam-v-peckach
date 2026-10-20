@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-19 09:56",
+ "aktualizovano": "2026-10-20 09:27",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "mesto-488003",
@@ -59,56 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-19"
-  },
-  {
-   "id": "mesto-492288",
-   "url": "https://pecky.cz/default/report/492288_street-food-festival-dne-17-10-2026-na-prostranstvi-pred-kulturnim-domem",
-   "nazev": "Street food festival dne 17.10.2026 na prostranství před kulturním domem",
-   "zacatek": "2026-10-17T10:00",
-   "konec": "2026-10-17T18:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Zažij pravý autentický street food v Pečkách. Hlavní prim hraje to nejlepší pouliční jídlo v ČR. Kuchařský um ve stáncích a foodtruckách. Dne 17.10.2026 od 10:00 – 18:00 v parku před KD Pečky. Vstup zdarma",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/492288/STREET-FOOD.jpeg",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-10-13T11:10",
-   "videno": "2026-10-17"
-  },
-  {
-   "id": "region-408",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/stezka-odvahy-408_104cs60.html",
-   "nazev": "Stezka odvahy",
-   "misto": "Obec Chotutice",
-   "kategorie": [
-    "akce pro veřejnost"
-   ],
-   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2316&width=500",
-   "zacatek": "2026-10-17T17:00",
-   "konec": null,
-   "obec": "Chotutice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-17"
-  },
-  {
-   "id": "region-299",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/diskoteka-horatev-299_81cs4492.html",
-   "nazev": "Diskotéka Hořátev",
-   "misto": "Hořátev",
-   "kategorie": [
-    "diskotéka"
-   ],
-   "obrazek": "https://www.piskova-lhota.cz/evt_image.php?img=1083&width=500",
-   "zacatek": "2026-10-17T20:00",
-   "konec": null,
-   "obec": "Písková Lhota",
-   "popis": "Plné vstupné: 50 Kč",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-17"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-774",
@@ -143,23 +94,6 @@
    "videno": "2026-10-18"
   },
   {
-   "id": "region-399",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/setkani-v-obecni-knihovne-399_92cs60.html",
-   "nazev": "Setkání v obecní knihovně",
-   "misto": "Obecní knihovna",
-   "kategorie": [
-    "akce pro veřejnost"
-   ],
-   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2307&width=500",
-   "zacatek": "2026-10-19T16:00",
-   "konec": null,
-   "obec": "Chotutice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
-  },
-  {
    "id": "region-823",
    "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_462cs2703.html",
    "nazev": "Jóga pro seniory",
@@ -174,7 +108,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-446",
@@ -192,7 +126,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "mesto-489735",
@@ -225,7 +159,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-444",
@@ -243,7 +177,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "mesto-490264",
@@ -277,7 +211,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-448",
@@ -294,7 +228,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-852",
@@ -311,7 +245,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-542",
@@ -328,7 +262,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-2383",
@@ -345,7 +279,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "mesto-491650",
@@ -360,7 +294,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-730",
@@ -377,7 +311,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
+  },
+  {
+   "id": "region-399",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/setkani-v-obecni-knihovne-399_93cs60.html",
+   "nazev": "Setkání v obecní knihovně",
+   "misto": "Obecní knihovna",
+   "kategorie": [
+    "akce pro veřejnost"
+   ],
+   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2307&width=500",
+   "zacatek": "2026-11-02T16:00",
+   "konec": null,
+   "obec": "Chotutice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-20"
   },
   {
    "id": "region-864",
@@ -395,7 +346,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "mesto-490457",
@@ -410,7 +361,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490457/plakat-Kybersikana.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:54",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-867",
@@ -427,7 +378,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-708",
@@ -445,7 +396,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-868",
@@ -462,7 +413,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-487",
@@ -479,7 +430,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-2181",
@@ -530,7 +481,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   },
   {
    "id": "region-409",
@@ -547,7 +498,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-19"
+   "videno": "2026-10-20"
   }
  ]
 }
