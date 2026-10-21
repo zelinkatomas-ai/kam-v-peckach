@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-20 09:27",
+ "aktualizovano": "2026-10-21 09:23",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "mesto-488003",
@@ -59,74 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-20"
-  },
-  {
-   "id": "region-774",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/soukroma-akce-774_422cs2703.html",
-   "nazev": "Soukromá akce",
-   "misto": "Knihovna Ratenice",
-   "kategorie": [
-    "ostatní"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-10-18T08:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-18"
-  },
-  {
-   "id": "mesto-492285",
-   "url": "https://pecky.cz/default/report/492285_detske-divadlo-v-kulturnim-dome-dne-18-10-2026",
-   "nazev": "Dětské divadlo v kulturním domě dne 18.10.2026",
-   "zacatek": "2026-10-18T14:30",
-   "konec": "2026-10-18T15:30",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Dětské divadlo v KD Pečky. Máte doma malé diváky? Tak si nenechte ujít pohádkové divadelní představení „KDYŽ ŠLA VRÁNA DO SVĚTA“, které k nám přiváží Petrpaslíkovo divadlo dne 18. října 2026 od 14:30 v Kulturním domě Pečky. Vstupné 100 Kč. Čeká vás veselé divadelní odpoledne plné pohádkové atmosféry, které potěší malé i velké diváky. Přijďte si užít společný čas s dětmi.",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/492285/KD-PECKY.png",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-10-13T11:27",
-   "videno": "2026-10-18"
-  },
-  {
-   "id": "region-823",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_462cs2703.html",
-   "nazev": "Jóga pro seniory",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "zdravotní cvičení"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
-   "zacatek": "2026-10-20T10:30",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "Komunitní centrum Ratenice",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
-  },
-  {
-   "id": "region-446",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/anglictina-446_95cs2703.html",
-   "nazev": "Angličtina",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "kurz",
-    "školení"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-10-20T14:30",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "mesto-489735",
@@ -159,7 +92,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-444",
@@ -177,7 +110,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "mesto-490264",
@@ -211,7 +144,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-448",
@@ -228,7 +161,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-852",
@@ -245,7 +178,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-542",
@@ -262,7 +195,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-2383",
@@ -279,7 +212,42 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
+  },
+  {
+   "id": "region-823",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_463cs2703.html",
+   "nazev": "Jóga pro seniory",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "zdravotní cvičení"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
+   "zacatek": "2026-10-27T10:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "Komunitní centrum Ratenice",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-21"
+  },
+  {
+   "id": "region-446",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/anglictina-446_96cs2703.html",
+   "nazev": "Angličtina",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "kurz",
+    "školení"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-10-27T14:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-21"
   },
   {
    "id": "mesto-491650",
@@ -294,7 +262,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-730",
@@ -311,7 +279,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-399",
@@ -328,7 +296,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-864",
@@ -346,7 +314,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "mesto-490457",
@@ -361,7 +329,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490457/plakat-Kybersikana.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:54",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-867",
@@ -378,7 +346,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-708",
@@ -396,7 +364,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-868",
@@ -413,7 +381,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-487",
@@ -430,7 +398,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-2181",
@@ -481,7 +449,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   },
   {
    "id": "region-409",
@@ -498,7 +466,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-20"
+   "videno": "2026-10-21"
   }
  ]
 }
