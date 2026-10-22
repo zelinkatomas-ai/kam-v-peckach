@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-21 09:23",
+ "aktualizovano": "2026-10-22 09:26",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "mesto-488003",
@@ -59,7 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "mesto-489735",
@@ -77,24 +77,6 @@
    "videno": "2026-10-08"
   },
   {
-   "id": "region-724",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knizni-klubicko-724_374cs2703.html",
-   "nazev": "Knižní klubíčko",
-   "misto": "Knihovna",
-   "kategorie": [
-    "akce pro děti",
-    "akce pro rodiče"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3042&width=500",
-   "zacatek": "2026-10-21T10:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
-  },
-  {
    "id": "region-444",
    "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knihovna-444_78cs2703.html",
    "nazev": "Knihovna",
@@ -110,7 +92,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "mesto-490264",
@@ -144,7 +126,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-448",
@@ -161,7 +143,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-852",
@@ -178,7 +160,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-542",
@@ -195,7 +177,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-2383",
@@ -212,7 +194,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
+  },
+  {
+   "id": "mesto-494918",
+   "url": "https://pecky.cz/default/report/494918_tvoreni-technika-rong-string",
+   "nazev": "Tvoření - technika Rong string",
+   "zacatek": "2026-10-26T18:00",
+   "konec": "2026-10-26T20:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "18. 10. 2026 12:00 Přijďte si zarelaxovat a odpočinout k nám do komunitního centra a naučte se novou zajímavou výtvarnou techniku.",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/494918/Tvoreni-26.10.2026.png",
+   "zdroj": "Město Pečky",
+   "zverejneno": null,
+   "videno": "2026-10-22"
   },
   {
    "id": "region-823",
@@ -229,7 +226,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-446",
@@ -247,7 +244,22 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
+  },
+  {
+   "id": "mesto-495017",
+   "url": "https://pecky.cz/default/report/495017_besip-znovu-v-peckach",
+   "nazev": "BESIP znovu v Pečkách!",
+   "zacatek": "2026-10-27T16:00",
+   "konec": "2026-10-27T17:30",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "22. 10. 2026 8:50 Víte, jak se bezpečně pohybovat na silnicích? Město Pečky vás srdečně zve na besedu BESIP, která se zaměří na bezpečnost v silničním provozu a pravidla, která se týkají každého z nás – ať už jsme řidiči, chodci, cyklisté nebo uživatelé elektrokolobě­žek. ‍️ Společně se podíváme na nový bodový systém, pravidla pro řidiče i chodce, význam reflexních prvků a představíme si také preventivní kampaň „Hele, motorka!“ ️ Beseda je určena široké veřejnosti, zejména dospělým, ale vítáni jsou i mladí lidé, kteří se pohybují na elektrokolech či elektrokoloběžkách, nebo se právě připravují",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/495017/BESEDA-BESIP-PLAKAT.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": null,
+   "videno": "2026-10-22"
   },
   {
    "id": "mesto-491650",
@@ -262,7 +274,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-730",
@@ -279,7 +291,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-399",
@@ -296,7 +308,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-864",
@@ -314,7 +326,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "mesto-490457",
@@ -346,7 +358,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-708",
@@ -364,7 +376,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-868",
@@ -381,7 +393,25 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
+  },
+  {
+   "id": "region-724",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knizni-klubicko-724_375cs2703.html",
+   "nazev": "Knižní klubíčko",
+   "misto": "Knihovna",
+   "kategorie": [
+    "akce pro děti",
+    "akce pro rodiče"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3042&width=500",
+   "zacatek": "2026-11-11T10:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-22"
   },
   {
    "id": "region-487",
@@ -398,7 +428,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-2181",
@@ -449,7 +479,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   },
   {
    "id": "region-409",
@@ -466,7 +496,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-21"
+   "videno": "2026-10-22"
   }
  ]
 }
