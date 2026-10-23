@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-22 09:26",
+ "aktualizovano": "2026-10-23 09:22",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "mesto-488003",
@@ -59,40 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-22"
-  },
-  {
-   "id": "mesto-489735",
-   "url": "https://pecky.cz/default/report/489735_vitaci-koncert-v-zus-pecky",
-   "nazev": "Vítací koncert v ZUŠ Pečky",
-   "zacatek": "2026-10-20T17:30",
-   "konec": "2026-10-20T20:00",
-   "misto": "Pečky",
-   "obec": "Pečky",
-   "kategorie": [],
-   "popis": "Vítací koncert v ZUŠ Pečky dne 20.10.2026 od 17.30 hodin v sále ZUŠ.",
-   "obrazek": "https://pecky.cz/files/pecky/attachments/489735/vitaci-koncert-20.10.2026.jpeg",
-   "zdroj": "Město Pečky",
-   "zverejneno": "2026-10-05T08:18",
-   "videno": "2026-10-08"
-  },
-  {
-   "id": "region-444",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knihovna-444_78cs2703.html",
-   "nazev": "Knihovna",
-   "misto": "Knihovna",
-   "kategorie": [
-    "veletrh knih",
-    "výstava knih"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-10-22T15:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "mesto-490264",
@@ -111,39 +78,20 @@
   },
   {
    "id": "region-445",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/krouzek-minecraft-education-445_90cs2703.html",
-   "nazev": "Kroužek Minecraft Education",
-   "misto": "Komunitní centrum",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/haloween-disco-445_63cs2567.html",
+   "nazev": "Haloween - disco",
+   "misto": "Mateřská škola",
    "kategorie": [
-    "akce pro děti",
-    "kurz",
-    "školení"
+    "akce pro děti"
    ],
-   "obrazek": "",
-   "zacatek": "2026-10-22T17:00",
+   "obrazek": "https://www.skolkasvojsice.cz/evt_image.php?img=8058&width=500&v=1790166426",
+   "zacatek": "2026-10-23T09:30",
    "konec": null,
-   "obec": "Ratenice",
-   "popis": "Komunitní centrum Ratenice",
+   "obec": "Svojšice",
+   "popis": "Diskotéka ve školce.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
-  },
-  {
-   "id": "region-448",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-448_113cs2703.html",
-   "nazev": "Jóga",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "ostatní"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-10-22T18:45",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-852",
@@ -153,14 +101,14 @@
    "kategorie": [
     "akce pro děti"
    ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3041&width=500",
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3041&width=500&v=1788423116",
    "zacatek": "2026-10-25T10:00",
    "konec": null,
    "obec": "Ratenice",
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-542",
@@ -177,7 +125,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-2383",
@@ -187,14 +135,14 @@
    "kategorie": [
     "akce pro veřejnost"
    ],
-   "obrazek": "https://www.planany.eu/evt_image.php?img=4388&width=500",
+   "obrazek": "https://www.planany.eu/evt_image.php?img=4388&width=500&v=1792042022",
    "zacatek": "2026-10-26T15:30",
    "konec": null,
    "obec": "Plaňany",
-   "popis": "",
+   "popis": "Zveme všechny na Strašidelné odpoledne a lampionový průvod, které se uskuteční 26. října 2026. Spolek rodičů při Základní škole Plaňany srdečně zve všechny na Halloweenské odpoledne, které se uskuteční 26. října 2026. Akce začne v altánu v parku vedle školy a průvod lampionů vyrazí po setmění, přibližně v 18:00. Pro všechny návštěvníky je připraven zajímavý program, který navodí pravou halloweenskou atmosféru, a výborné občerstvení. 15:30 Start soutěží pro děti 3-11 let - Soutěžící v kostýmech vítáni",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "mesto-494918",
@@ -209,7 +157,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/494918/Tvoreni-26.10.2026.png",
    "zdroj": "Město Pečky",
    "zverejneno": null,
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-823",
@@ -219,14 +167,14 @@
    "kategorie": [
     "zdravotní cvičení"
    ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500",
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500&v=1777895298",
    "zacatek": "2026-10-27T10:30",
    "konec": null,
    "obec": "Ratenice",
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-446",
@@ -244,7 +192,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "mesto-495017",
@@ -259,7 +207,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/495017/BESEDA-BESIP-PLAKAT.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": null,
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "mesto-491650",
@@ -274,7 +222,42 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
+  },
+  {
+   "id": "region-444",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knihovna-444_79cs2703.html",
+   "nazev": "Knihovna",
+   "misto": "Knihovna",
+   "kategorie": [
+    "veletrh knih",
+    "výstava knih"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-10-29T15:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-23"
+  },
+  {
+   "id": "region-448",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-448_114cs2703.html",
+   "nazev": "Jóga",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "ostatní"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-10-29T18:45",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-23"
   },
   {
    "id": "region-730",
@@ -291,7 +274,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-399",
@@ -301,14 +284,31 @@
    "kategorie": [
     "akce pro veřejnost"
    ],
-   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2307&width=500",
+   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2307&width=500&v=1768555852",
    "zacatek": "2026-11-02T16:00",
    "konec": null,
    "obec": "Chotutice",
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
+  },
+  {
+   "id": "region-1474",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/velimween-2026-1474_229cs1036.html",
+   "nazev": "VELIMWEEN 2026",
+   "misto": "Základní škola T.G.Masaryka",
+   "kategorie": [
+    "akce pro celou rodinu"
+   ],
+   "obrazek": "http://www.velim.cz/evt_image.php?img=6229&width=500&v=1792667843",
+   "zacatek": "2026-11-02T16:30",
+   "konec": null,
+   "obec": "Velim",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-23"
   },
   {
    "id": "region-864",
@@ -319,14 +319,14 @@
     "akce pro celou rodinu",
     "akce pro děti"
    ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3056&width=500",
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3056&width=500&v=1789654668",
    "zacatek": "2026-11-02T17:00",
    "konec": null,
    "obec": "Ratenice",
-   "popis": "",
+   "popis": "2.11.2026 od 17:00 - 19:00",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "mesto-490457",
@@ -358,7 +358,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-708",
@@ -369,14 +369,14 @@
     "hody",
     "zabijačka"
    ],
-   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5358&width=500",
+   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5358&width=500&v=1789983155",
    "zacatek": "2026-11-07T15:00",
    "konec": null,
    "obec": "Milčice",
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-868",
@@ -393,7 +393,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-724",
@@ -404,14 +404,14 @@
     "akce pro děti",
     "akce pro rodiče"
    ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3042&width=500",
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3042&width=500&v=1788440571",
    "zacatek": "2026-11-11T10:00",
    "konec": null,
    "obec": "Ratenice",
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-487",
@@ -421,14 +421,14 @@
    "kategorie": [
     "muzikál"
    ],
-   "obrazek": "https://www.krechor.cz/evt_image.php?img=1825&width=500",
+   "obrazek": "https://www.krechor.cz/evt_image.php?img=1825&width=500&v=1775652915",
    "zacatek": "2026-11-14T14:00",
    "konec": null,
    "obec": "Křečhoř",
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-2181",
@@ -472,14 +472,14 @@
    "kategorie": [
     "ostatní"
    ],
-   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5323&width=500",
+   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5323&width=500&v=1789747025",
    "zacatek": "2026-12-19T18:00",
    "konec": null,
    "obec": "Milčice",
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   },
   {
    "id": "region-409",
@@ -489,14 +489,14 @@
    "kategorie": [
     "akce pro veřejnost"
    ],
-   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2318&width=500",
+   "obrazek": "https://www.chotutice.cz/evt_image.php?img=2318&width=500&v=1768560352",
    "zacatek": "2026-12-30T17:00",
    "konec": null,
    "obec": "Chotutice",
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-22"
+   "videno": "2026-10-23"
   }
  ]
 }
