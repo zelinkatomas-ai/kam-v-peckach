@@ -79,17 +79,28 @@ async function region() {
 }
 
 // ---------- aktuality města ----------
+// Vrací akce (aktuality s blokem „Událost“) a zároveň plní `oznameni` (uzavírky, odstávky, poruchy podle klíčových slov).
+const OZNAMENI_OUT = path.join(__dirname, "..", "data", "oznameni.json");
+const KLICOVA = (() => { try { return require("../data/prakticke.json").oznameniKlicovaSlova || []; } catch (e) { return ["uzavírka", "odstávka", "porucha", "výpadek"]; } })();
+const oznameni = [];
 async function mesto() {
   const home = await get(MESTO + "/");
   const links = [...new Set([...home.matchAll(/href="(\/default\/report\/(\d+)_[^"]*)"/g)].map(m => m[1]))];
   const out = [];
   for (const href of links) {
     const html = await get(MESTO + href);
-    if (!/Začátek události/.test(html)) continue;
     const id = href.match(/report\/(\d+)_/)[1];
     const g = re => dec((html.match(re) || [])[1]);
     const detail = ((html.match(/<section class="report-detail">([\s\S]*?)<\/section>/) || [])[1] || "").split(/>\s*Přílohy\s*</)[0].replace(/<[^>]*$/, "");
     const text = paras(detail).filter(p => !/^(Zveřejněno|Platí pro|Událost$|Začátek události|Konec události|Přílohy|Zobrazit|Stáhnout|\/)/.test(p) && !/\.(png|jpg|jpeg|pdf)$/i.test(p));
+    const nazev = g(/<h1 class="title-subpages">([^<]*)<\/h1>/);
+    const cistyText = text.join(" ").replace(/^(Zpravodaj|Úřední deska|Aktuality|Kontakty)\s+/, "").replace(/Platí pro:\s*(Celé město|Pečky|Velké Chvalovice)\s*/g, "").trim();
+    const hay = (nazev + " " + cistyText).toLowerCase();
+    if (KLICOVA.some(k => hay.includes(k.toLowerCase()))) {
+      oznameni.push({ id: "mesto-" + id, nazev, url: MESTO + href, zverejneno: czDate(g(/Zveřejněno:\s*([^<]*)</)), platiPro: g(/Platí pro:\s*([^<]*)</), text: cistyText.slice(0, 700),
+        od: czDate(g(/Začátek události:\s*([^<]*)</)), do: czDate(g(/Konec události:\s*([^<]*)</)), zdroj: "Město Pečky" });
+    }
+    if (!/Začátek události/.test(html)) continue;
     const img = (detail.match(/href="([^"]*\.(?:png|jpe?g))"/i) || [])[1] || "";
     out.push({
       id: "mesto-" + id, url: MESTO + href,
@@ -115,4 +126,13 @@ async function mesto() {
   const akce = [...byId.values()].filter(e => (e.konec || e.zacatek).slice(0, 10) >= limit).sort((a, b) => a.zacatek.localeCompare(b.zacatek));
   fs.writeFileSync(OUT, JSON.stringify({ aktualizovano: new Date().toISOString().slice(0, 16).replace("T", " "), akce }, null, 1), "utf8");
   console.log(`hotovo: ${akce.length} akcí (${fresh.length} nově staženo, ${n} požadavků) -> ${OUT}`);
+
+  // oznámení (uzavírky, odstávky, poruchy): dříve stažená držíme 45 dní od zveřejnění, nebo dokud trvají
+  const prevOz = fs.existsSync(OZNAMENI_OUT) ? JSON.parse(fs.readFileSync(OZNAMENI_OUT, "utf8")).polozky : [];
+  const ozById = new Map(prevOz.map(o => [o.id, o]));
+  for (const o of oznameni) ozById.set(o.id, { ...(ozById.get(o.id) || {}), ...o, videno: new Date().toISOString().slice(0, 10) });
+  const hranice = new Date(Date.now() - 45 * 86400000).toISOString().slice(0, 10);
+  const polozky = [...ozById.values()].filter(o => ((o.do || o.zverejneno || "").slice(0, 10) >= hranice)).sort((a, b) => (b.zverejneno || "").localeCompare(a.zverejneno || ""));
+  fs.writeFileSync(OZNAMENI_OUT, JSON.stringify({ aktualizovano: new Date().toISOString().slice(0, 16).replace("T", " "), polozky }, null, 1), "utf8");
+  console.log(`oznámení: ${polozky.length} (${oznameni.length} nově nalezeno) -> ${OZNAMENI_OUT}`);
 })().catch(e => { console.error(e); process.exit(1); });

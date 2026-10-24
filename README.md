@@ -125,6 +125,21 @@ a webů obcí. `gpsPribl: true` označuje přibližnou polohu. Nové místo = no
 Tlačítko Mapa zobrazí právě vyfiltrované podniky nebo výlety na mapě (Leaflet z cdnjs, dlaždice OpenStreetMap,
 styl `leaflet.css` v repozitáři). Akce souřadnice nemají, tam je mapa vypnutá.
 
+## Praktické Pečky
+
+Čtvrtá záložka: svoz odpadu, sběrný dvůr, zdraví dnes, telefony na poruchy a aktuální uzavírky a odstávky.
+
+- `data/prakticke.json`: svoz jako **pravidla** (den v týdnu, interval `tydne` / `sude-tydny` / `liche-tydny` /
+  `prvni-v-mesici`, období `od`–`do`, výjimky `navic` a `vynechat`), sběrný dvůr, telefony na poruchy, klíčová slova
+  pro oznámení. Každý blok má `zdroj` a `overeno`, které se zobrazují.
+- `scripts/build-prakticke.js` (volá `build.js`) z pravidel spočítá konkrétní dny roku, zapíše `docs/prakticke.js`
+  a pro každou zónu kalendář `docs/svoz-<zona>.ics` s připomínkou večer před svozem. Kalendář lze stáhnout
+  nebo odebírat (`webcal://kamvpeckach.cz/svoz-sever.ics`), při změně harmonogramu se odběratelům sám aktualizuje.
+- Nový rok: přepsat `rok`, zkontrolovat pravidla proti novému PDF města (zvlášť bioodpad), aktualizovat `overeno`.
+- `data/oznameni.json` plní `scripts/crawl-akce.js`: aktuality města obsahující klíčová slova (uzavírka, odstávka,
+  porucha, …) se drží 45 dní. Denní workflow je commituje spolu s akcemi.
+- Statická stránka `/prakticke/` s nejbližšími termíny všech zón vzniká v `build-pages.js`.
+
 ## Podstránky pro vyhledávače
 
 Hlavní aplikace je jedna stránka, kterou vyhledávače neumí rozložit na dotazy typu „zubař Pečky“. Proto

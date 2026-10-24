@@ -1,0 +1,68 @@
+{
+ "_popis": "Ručně udržovaná praktická data. Svoz odpadu je zapsaný jako pravidla + výjimky podle harmonogramu města; scripts/build-prakticke.js z nich spočítá konkrétní dny a vyrobí kalendáře .ics. Každý blok má zdroj a datum ověření, které se zobrazuje na stránce.",
+
+ "svoz": {
+  "rok": 2026,
+  "zdroj": "Harmonogram svozu odpadů z domácností 2026, město Pečky (PDF)",
+  "zdrojUrl": "https://pecky.cz/files/pecky/gallery/18641/6999802843bb9_Harmonogram-svozu-odpadu-z-domacnosti-2026-final.pdf",
+  "overeno": "2026-10-24",
+  "poznamka": "O státních svátcích se svoz může posunout, město změnu oznamuje na svém webu a v aplikaci Mobilní rozhlas.",
+  "zony": [
+   { "id": "sever", "nazev": "Pečky sever", "popis": "severní část města (od trati směrem k Poděbradům)" },
+   { "id": "jih", "nazev": "Pečky jih", "popis": "jižní část města (od trati směrem k Dobřichovu)" },
+   { "id": "sidliste", "nazev": "Pečky sídliště", "popis": "sídliště, společné kontejnery" },
+   { "id": "chvalovice", "nazev": "Velké Chvalovice", "popis": "místní část Velké Chvalovice" }
+  ],
+  "druhy": [
+   {
+    "id": "komunal", "nazev": "Komunální odpad", "barva": "#6B7280",
+    "pravidla": [
+     { "zony": ["sever", "chvalovice"], "den": "po", "interval": "sude-tydny", "popis": "pondělí jednou za 14 dní" },
+     { "zony": ["sever", "chvalovice"], "den": "po", "interval": "tydne", "od": "06-01", "do": "08-31", "popis": "červen až srpen každé pondělí" },
+     { "zony": ["jih"], "den": "út", "interval": "sude-tydny", "popis": "úterý jednou za 14 dní" },
+     { "zony": ["jih"], "den": "út", "interval": "tydne", "od": "06-01", "do": "08-31", "popis": "červen až srpen každé úterý" },
+     { "zony": ["sidliste"], "den": "po", "interval": "tydne", "popis": "každé pondělí" }
+    ]
+   },
+   {
+    "id": "bio", "nazev": "Bioodpad", "barva": "#2E8B57",
+    "pravidla": [
+     { "zony": ["sever", "jih", "sidliste", "chvalovice"], "den": "út", "interval": "sude-tydny", "od": "01-01", "do": "02-28", "popis": "leden a únor jednou za 14 dní" },
+     { "zony": ["sever", "jih", "sidliste", "chvalovice"], "den": "út", "interval": "tydne", "od": "03-01", "do": "11-30", "popis": "březen až listopad každé úterý" }
+    ],
+    "navic": ["2026-12-01"],
+    "popis": "úterý podle rozpisu města"
+   },
+   {
+    "id": "plast", "nazev": "Plast (pytle od domu)", "barva": "#E3B505",
+    "pravidla": [ { "zony": ["sever", "jih", "sidliste", "chvalovice"], "den": "pá", "interval": "prvni-v-mesici", "popis": "první pátek v měsíci" } ]
+   },
+   {
+    "id": "papir", "nazev": "Papír (pytle od domu)", "barva": "#2F80ED",
+    "pravidla": [ { "zony": ["sever", "jih", "sidliste", "chvalovice"], "den": "pá", "interval": "prvni-v-mesici", "popis": "první pátek v měsíci" } ]
+   }
+  ]
+ },
+
+ "sbernyDvur": {
+  "nazev": "Sběrný dvůr Pečky",
+  "provozovatel": "Pečecké služby, s.r.o.",
+  "adresa": "Tř. Jana Švermy 49, Pečky",
+  "otevreno": { "st": [["13:00", "16:00"]], "so": [["8:00", "14:00"]], "po": [], "út": [], "čt": [], "pá": [], "ne": [] },
+  "kontakt": "Karel Černý, 731 462 770, cerny@pececkesluzby.cz",
+  "zdarma": "Pro obyvatele Peček a Velkých Chvalovic zdarma: elektrospotřebiče, lednice, pračky, bojlery, sporáky, baterie, plast, papír, tetrapaky, sklo, železo, oleje, pneumatiky.",
+  "placene": "Nebezpečný odpad nad 2 kg, stavební suť a zemina podle ceníku. Obyvatelé jiných obcí a firmy platí předem v sídle Pečeckých služeb.",
+  "web": "https://pececkesluzby.cz/default/default/20745_sberny-dvur",
+  "zdroj": "pececkesluzby.cz",
+  "overeno": "2026-10-24"
+ },
+
+ "poruchy": [
+  { "co": "Voda a kanalizace", "kdo": "Pečecké služby, s.r.o.", "telefon": "321 785 055", "pozn": "úřední dny pondělí a středa 6:00–11:00 a 12:00–16:00, jinak telefonicky", "web": "https://pececkesluzby.cz/", "zdroj": "pececkesluzby.cz", "overeno": "2026-10-24" },
+  { "co": "Elektřina", "kdo": "ČEZ Distribuce, poruchová linka", "telefon": "800 850 860", "pozn": "nonstop, zdarma; plánované odstávky pro Pečky najdete ve vyhledávání ČEZ Distribuce", "web": "https://www.cezdistribuce.cz/cs/pro-zakazniky/potrebuji-vyresit/stavajici-pripojeni/overeni-planovane-odstavky", "zdroj": "cezdistribuce.cz", "overeno": "2026-10-24" },
+  { "co": "Plyn", "kdo": "Pohotovostní linka plyn", "telefon": "1239", "pozn": "nonstop, při úniku plynu volejte okamžitě", "web": "", "zdroj": "GasNet", "overeno": "2026-10-24" },
+  { "co": "Veřejné osvětlení, komunikace, zeleň", "kdo": "Pečecké služby, s.r.o.", "telefon": "321 785 055", "pozn": "hlášení závad e-mailem info@pececkesluzby.cz", "web": "https://pececkesluzby.cz/", "zdroj": "pececkesluzby.cz", "overeno": "2026-10-24" }
+ ],
+
+ "oznameniKlicovaSlova": ["uzavírka", "uzavírky", "odstávka", "odstávky", "porucha", "výpadek", "omezení", "objížďka", "přerušení dodávky", "havarijní", "oprava komunikace", "dopravní značení"]
+}

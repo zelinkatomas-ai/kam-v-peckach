@@ -26,7 +26,13 @@ const vyl = fs.existsSync(vylSrc) ? JSON.parse(fs.readFileSync(vylSrc, "utf8")) 
 fs.writeFileSync(vylOut, "// Generováno skriptem scripts/build.js z data/vylety.json – neupravovat ručně.\nwindow.PECKY_VYLETY = " + JSON.stringify(vyl) + ";\n", "utf8");
 console.log(`vylety.js: ${vyl.mista.length} míst`);
 
+// praktické informace: svoz odpadu (spočítané dny + .ics kalendáře), sběrný dvůr, poruchy, oznámení města
+const buildPrakticke = require("./build-prakticke.js");
+const prSrc = path.join(__dirname, "..", "data", "prakticke.json");
+const ozSrc = path.join(__dirname, "..", "data", "oznameni.json");
+const prakticke = fs.existsSync(prSrc) ? buildPrakticke(JSON.parse(fs.readFileSync(prSrc, "utf8")), fs.existsSync(ozSrc) ? JSON.parse(fs.readFileSync(ozSrc, "utf8")) : null) : null;
+
 // statické podstránky pro vyhledávače + sitemap; doplní podnikům slug, proto se data.js přepíše znovu
-const pages = buildPages(data, akce, vyl);
+const pages = buildPages(data, akce, vyl, prakticke);
 fs.writeFileSync(out, "// Generováno skriptem scripts/build.js z data/podniky.json – neupravovat ručně.\nwindow.PECKY_DATA = " + JSON.stringify(data) + ";\n", "utf8");
 console.log(`podstránky: ${pages.pages} adres v sitemap.xml`);

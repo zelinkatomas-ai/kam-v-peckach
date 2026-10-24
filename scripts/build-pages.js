@@ -75,7 +75,7 @@ function page({ title, description, canonical, body, jsonld, crumbs }) {
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ""}
 </head>
 <body>
-<header><div class="wrap"><a class="brand" href="/">Kam v <span>Pečkách</span></a><nav class="links"><a href="/">Podniky</a><a href="/?akce">Akce</a><a href="/?vylety">Výlety</a></nav></div></header>
+<header><div class="wrap"><a class="brand" href="/">Kam v <span>Pečkách</span></a><nav class="links"><a href="/">Podniky</a><a href="/?akce">Akce</a><a href="/?vylety">Výlety</a><a href="/?prakticke">Praktické</a></nav></div></header>
 <main class="wrap">${crumbHtml}${body}</main>
 <footer><div class="wrap"><p>Kam v Pečkách je nezávislý katalog podniků, služeb, akcí a výletů pro město Pečky a okolí. Údaje pocházejí z webu města, Firmy.cz a od samotných podniků. Chybu nebo chybějící podnik nahlaste přímo <a href="/">v katalogu</a>.</p>%%CATS%%</div></footer>
 </body>
@@ -133,12 +133,12 @@ function listPage({ heading, lead, canonical, items, crumbs, extra }) {
   return page({ title, description, canonical, body, jsonld, crumbs });
 }
 
-module.exports = function buildPages(data, akce, vylety) {
+module.exports = function buildPages(data, akce, vylety, prakticke) {
   const podniky = data.podniky.filter(p => p.nazev);
   const used = new Set();
   for (const p of podniky) { let s = slug(p.nazev) || slug(p.id); while (used.has(s)) s += "-" + slug(p.id); used.add(s); p.slug = s; }
   const cats = data.kategorie.filter(k => podniky.some(p => p.kategorie === k));
-  const catsFooter = `<ul class="cats">${cats.map(k => `<li><a href="/${slug(k)}/">${esc(SEO_NAMES[k] || k)}</a></li>`).join("")}<li><a href="/vylety/">Výlety</a></li><li><a href="/akce/">Akce</a></li></ul>`;
+  const catsFooter = `<ul class="cats">${cats.map(k => `<li><a href="/${slug(k)}/">${esc(SEO_NAMES[k] || k)}</a></li>`).join("")}<li><a href="/vylety/">Výlety</a></li><li><a href="/akce/">Akce</a></li><li><a href="/prakticke/">Praktické</a></li></ul>`;
   const emit = (rel, html) => write(rel, html.replace("%%CATS%%", catsFooter));
   const urls = [{ loc: `${BASE}/`, priority: "1.0", changefreq: "daily" }];
 
@@ -180,6 +180,28 @@ module.exports = function buildPages(data, akce, vylety) {
 <p><a class="btn primary" href="/?akce">Otevřít kalendář s filtry</a></p>`;
   emit("akce/index.html", page({ title: "Akce v Pečkách a okolí | Kam v Pečkách", description: `Co se děje v Pečkách: ${ak.slice(0, 4).map(a => a.nazev).join(", ")}${ak.length > 4 ? " a další" : ""}. Kalendář akcí z Peček a okolních obcí, denně aktualizovaný.`, canonical: `${BASE}/akce/`, body: aBody, crumbs: [{ text: "Kam v Pečkách", href: "/" }, { text: "Akce" }], jsonld: { "@context": "https://schema.org", "@graph": ak.slice(0, 50).map(a => ({ "@type": "Event", name: a.nazev, startDate: a.zacatek, endDate: a.konec || undefined, url: a.url || undefined, description: a.popis || undefined, eventStatus: "https://schema.org/EventScheduled", location: { "@type": "Place", name: a.misto || a.obec, address: { "@type": "PostalAddress", addressLocality: a.obec || "Pečky", addressCountry: "CZ" } } })) } }));
   urls.push({ loc: `${BASE}/akce/`, priority: "0.9", changefreq: "daily" });
+
+  // praktické informace
+  if (prakticke) {
+    clean("prakticke");
+    const sv = prakticke.svoz, sd = prakticke.sbernyDvur;
+    const today = new Date().toISOString().slice(0, 10);
+    const nextOf = (z, dr) => (sv.dny[z][dr] || []).find(d => d >= today);
+    const fmtD = d => d ? `${+d.slice(8, 10)}. ${+d.slice(5, 7)}.` : "–";
+    const zoneRows = sv.zony.map(z => `<tr><th>${esc(z.nazev)}</th>${sv.druhy.map(dr => `<td>${fmtD(nextOf(z.id, dr.id))}</td>`).join("")}<td><a href="/svoz-${z.id}.ics">kalendář</a></td></tr>`).join("");
+    const pravidla = sv.druhy.map(dr => `<li><strong>${esc(dr.nazev)}:</strong> ${esc([...new Set(dr.pravidla.map(r => r.popis))].join("; "))}${dr.popis ? ` (${esc(dr.popis)})` : ""}</li>`).join("");
+    const oz = (prakticke.oznameni.polozky || []).slice(0, 10).map(o => `<li class="card"><h3><a href="${esc(o.url)}" rel="noopener" target="_blank">${esc(o.nazev)}</a></h3><div class="muted">${o.od ? `od ${fmtD(o.od)}${o.do ? ` do ${fmtD(o.do)}` : ""} · ` : ""}zveřejněno ${fmtD(o.zverejneno)}</div><p class="muted">${esc(o.text.slice(0, 240))}</p></li>`).join("");
+    const body = `<h1>Praktické Pečky</h1><p class="lead">Svoz odpadu, sběrný dvůr, poruchy a aktuální omezení ve městě. Údaje mají vždy uvedený zdroj a datum ověření.</p>
+<h2>Svoz odpadu ${sv.rok}: nejbližší termíny</h2>
+<div style="overflow-x:auto"><table class="hours"><thead><tr><th>Zóna</th>${sv.druhy.map(dr => `<th>${esc(dr.nazev.split(" (")[0])}</th>`).join("")}<th></th></tr></thead><tbody>${zoneRows}</tbody></table></div>
+<ul>${pravidla}</ul><p class="muted">${esc(sv.poznamka)} Zdroj: <a href="${esc(sv.zdrojUrl)}" rel="noopener" target="_blank">${esc(sv.zdroj)}</a>, ověřeno ${esc(sv.overeno)}.</p>
+<p><a class="btn primary" href="/?prakticke">Otevřít s výběrem zóny a připomínkami</a></p>
+<h2>Sběrný dvůr</h2><p>${esc(sd.adresa)} · ${esc(sd.kontakt)}</p>${hoursRows(sd.otevreno)}<p>${esc(sd.zdarma)}</p><p class="muted">${esc(sd.placene)} Zdroj: <a href="${esc(sd.web)}" rel="noopener" target="_blank">${esc(sd.zdroj)}</a>, ověřeno ${esc(sd.overeno)}.</p>
+<h2>Poruchy a odstávky: kam volat</h2><ul class="list">${prakticke.poruchy.map(p => `<li class="card"><h3>${esc(p.co)}</h3><div>${esc(p.kdo)}</div><div><a href="tel:${p.telefon.replace(/\s+/g, "")}">${esc(p.telefon)}</a></div><p class="muted">${esc(p.pozn)}</p>${p.web ? `<a href="${esc(p.web)}" rel="noopener" target="_blank">web</a>` : ""}</li>`).join("")}</ul>
+<h2>Aktuální uzavírky a odstávky</h2>${oz ? `<ul class="list">${oz}</ul>` : `<p class="muted">Město teď žádné omezení nehlásí.</p>`}<p class="muted">Z aktualit města Pečky, kontrolováno denně${prakticke.oznameni.aktualizovano ? `, naposledy ${esc(prakticke.oznameni.aktualizovano)}` : ""}.</p>`;
+    emit("prakticke/index.html", page({ title: "Svoz odpadu, sběrný dvůr a poruchy v Pečkách | Kam v Pečkách", description: `Harmonogram svozu odpadu ${sv.rok} pro Pečky a Velké Chvalovice po zónách, kalendář ke stažení, otevírací doba sběrného dvora, telefony na poruchy vody, elektřiny a plynu, aktuální uzavírky.`, canonical: `${BASE}/prakticke/`, body, crumbs: [{ text: "Kam v Pečkách", href: "/" }, { text: "Praktické" }] }));
+    urls.push({ loc: `${BASE}/prakticke/`, priority: "0.9", changefreq: "daily" });
+  }
 
   // sitemap + robots
   write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${u.loc}</loc><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join("\n")}\n</urlset>\n`);
