@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-10-23 09:22",
+ "aktualizovano": "2026-10-24 08:54",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "mesto-490451",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/490451/spicakova.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-07T06:56",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "mesto-488003",
@@ -59,7 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "mesto-490264",
@@ -77,23 +77,6 @@
    "videno": "2026-10-09"
   },
   {
-   "id": "region-445",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/haloween-disco-445_63cs2567.html",
-   "nazev": "Haloween - disco",
-   "misto": "Mateřská škola",
-   "kategorie": [
-    "akce pro děti"
-   ],
-   "obrazek": "https://www.skolkasvojsice.cz/evt_image.php?img=8058&width=500&v=1790166426",
-   "zacatek": "2026-10-23T09:30",
-   "konec": null,
-   "obec": "Svojšice",
-   "popis": "Diskotéka ve školce.",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
-  },
-  {
    "id": "region-852",
    "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knizni-klubicko-deti-3-6-let-852_472cs2703.html",
    "nazev": "Knižní klubíčko děti 3-6 let.",
@@ -108,7 +91,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-542",
@@ -125,7 +108,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-2383",
@@ -142,7 +125,7 @@
    "popis": "Zveme všechny na Strašidelné odpoledne a lampionový průvod, které se uskuteční 26. října 2026. Spolek rodičů při Základní škole Plaňany srdečně zve všechny na Halloweenské odpoledne, které se uskuteční 26. října 2026. Akce začne v altánu v parku vedle školy a průvod lampionů vyrazí po setmění, přibližně v 18:00. Pro všechny návštěvníky je připraven zajímavý program, který navodí pravou halloweenskou atmosféru, a výborné občerstvení. 15:30 Start soutěží pro děti 3-11 let - Soutěžící v kostýmech vítáni",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "mesto-494918",
@@ -157,7 +140,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/494918/Tvoreni-26.10.2026.png",
    "zdroj": "Město Pečky",
    "zverejneno": null,
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-823",
@@ -174,7 +157,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-446",
@@ -192,7 +175,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "mesto-495017",
@@ -207,7 +190,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/495017/BESEDA-BESIP-PLAKAT.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": null,
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "mesto-491650",
@@ -222,7 +205,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-10-10T22:46",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-444",
@@ -240,7 +223,26 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
+  },
+  {
+   "id": "region-445",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/krouzek-minecraft-education-445_91cs2703.html",
+   "nazev": "Kroužek Minecraft Education",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "akce pro děti",
+    "kurz",
+    "školení"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-10-29T17:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "Komunitní centrum Ratenice",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-24"
   },
   {
    "id": "region-448",
@@ -257,7 +259,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-730",
@@ -274,7 +276,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-399",
@@ -291,7 +293,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-1474",
@@ -308,7 +310,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-864",
@@ -326,7 +328,7 @@
    "popis": "2.11.2026 od 17:00 - 19:00",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "mesto-490457",
@@ -358,7 +360,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-708",
@@ -376,7 +378,7 @@
    "popis": "Milčický Hostinec",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-868",
@@ -393,7 +395,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-724",
@@ -411,7 +413,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
+  },
+  {
+   "id": "region-922",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/divadelni-predstaveni-a-do-pyzam-13112026-922_233cs346.html",
+   "nazev": "Divadelní představení - A DO PYŽAM - 13.11.2026",
+   "misto": "Kulturní dům",
+   "kategorie": [
+    "ochotnické divadlo"
+   ],
+   "obrazek": "http://www.tatce.cz/evt_image.php?img=5974&width=500&v=1792753074",
+   "zacatek": "2026-11-13T19:06",
+   "konec": null,
+   "obec": "Tatce",
+   "popis": "divadelní představení Divadelní představení Typ: PDF dokument, Velikost: 154.46 kB Xerox Scan_23102026125429.PDF",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-24"
   },
   {
    "id": "region-487",
@@ -428,7 +447,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-2181",
@@ -446,6 +465,23 @@
    "vhodne": [],
    "zdroj": "Pečecký region",
    "videno": "2026-09-29"
+  },
+  {
+   "id": "region-2403",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/adventni-jarmark-zaku-zs-planany-2403_452cs194.html",
+   "nazev": "Adventní jarmark žáků ZŠ Plaňany",
+   "misto": "Základní škola Plaňany",
+   "kategorie": [
+    "jarmark"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-11-26T15:15",
+   "konec": null,
+   "obec": "Plaňany",
+   "popis": "Zveme vás na Adventní jarmark žáků ZŠ Plaňany, který se koná 26. listopadu 2026. Adventní jarmark žáků Základní školy Plaňany se uskuteční 26. listopadu 2026 od 15:15 do 16:30. Navštivte je a vyberte si z pestré nabídky dekorací nebo dárečků pod stromeček. Na jarmarku nebudou chybět ani oblíbené perníčky. K dispozici bude také občerstvení v podobě čaje, svařeného vína a různých pochutin. Přijďte si užít předvánoční atmosféru a podpořit naše žáky.",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-24"
   },
   {
    "id": "region-2177",
@@ -479,7 +515,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
   },
   {
    "id": "region-409",
@@ -496,7 +532,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-10-23"
+   "videno": "2026-10-24"
+  },
+  {
+   "id": "region-2405",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/hasicsky-ples-2405_454cs194.html",
+   "nazev": "Hasičský ples",
+   "misto": "Kulturní dům Radim",
+   "kategorie": [
+    "ples"
+   ],
+   "obrazek": "",
+   "zacatek": "2027-02-20T20:00",
+   "konec": null,
+   "obec": "Radim",
+   "popis": "Dne 20. února 2027 se koná hasičský ples. Hasičský ples se uskuteční 20. února 2026 v kulturním domě v Radimi. Jako každý rok na vás čeká příjemná atmosféra, tanec a zábava pro všechny. Připravena bude i bohatá tombola. Podrobnosti a program akce budou zveřejněny později, proto si nezapomeňte zapsat datum do kalendáře.",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-10-24"
   }
  ]
 }
