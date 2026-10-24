@@ -653,5 +653,40 @@
  "firmy-12904492": {
   "skryt": true,
   "_duvod": "Duplicita Sportovní haly (pecky-6492), telefon přenesen tam."
+ },
+ "firmy-1908650": {
+  "nazev": "Sběrný dvůr Pečky",
+  "podkategorie": [
+   "Úřady a služby města",
+   "Technické služby, voda a odpady"
+  ],
+  "otevreno": {
+   "st": [
+    [
+     "13:00",
+     "16:00"
+    ]
+   ],
+   "so": [
+    [
+     "8:00",
+     "14:00"
+    ]
+   ],
+   "po": [],
+   "út": [],
+   "čt": [],
+   "pá": [],
+   "ne": []
+  },
+  "kontakt": "Karel Černý, správce sběrného dvora",
+  "telefony": [
+   "731 462 770"
+  ],
+  "email": "cerny@pececkesluzby.cz",
+  "web": "https://pececkesluzby.cz/default/default/20745_sberny-dvur",
+  "popis": "Pro obyvatele Peček a Velkých Chvalovic zdarma: elektrospotřebiče, lednice, pračky, bojlery, sporáky, baterie, plast, papír, tetrapaky, sklo, železo, oleje, pneumatiky. Nebezpečný odpad nad 2 kg, stavební suť a zemina podle ceníku; obyvatelé jiných obcí a firmy platí předem v sídle Pečeckých služeb.",
+  "zdroj": "pececkesluzby.cz",
+  "zkontrolovano": "2026-10-24"
  }
 }

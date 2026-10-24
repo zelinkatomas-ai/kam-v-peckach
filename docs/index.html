@@ -216,7 +216,7 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
 <header class="top"><div class="wrap">
   <div class="brand"><h1><a href="/" title="Zpět na úvod">Kam v <span>Pečkách</span></a></h1><div class="sub" id="sub-title">obchody, služby, řemeslníci, restaurace a lékaři v Pečkách a nejbližším okolí</div></div>
   <div class="row" style="gap:16px">
-    <div class="mode" role="tablist" aria-label="Sekce"><button type="button" id="modePodniky" role="tab" aria-pressed="true">Podniky</button><button type="button" id="modeAkce" role="tab" aria-pressed="false">Akce</button><button type="button" id="modeVylety" role="tab" aria-pressed="false">Výlety</button><button type="button" id="modePrakticke" role="tab" aria-pressed="false">Praktické</button></div>
+    <div class="mode" role="tablist" aria-label="Sekce"><button type="button" id="modePrakticke" role="tab" aria-pressed="true">Praktické</button><button type="button" id="modePodniky" role="tab" aria-pressed="false">Podniky</button><button type="button" id="modeAkce" role="tab" aria-pressed="false">Akce</button><button type="button" id="modeVylety" role="tab" aria-pressed="false">Výlety</button></div>
     <div class="meta" id="meta"></div>
   </div>
 </div></header>
@@ -475,16 +475,16 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
       return true;
     }).sort((a,b)=>a.zacatek.localeCompare(b.zacatek));
   }
-  function akceCard(a){
+  function akceCard(a, compact){
     const hasTime = a.zacatek.length > 10 && !(a.zacatek.endsWith("T00:00") && a.konec && a.konec.slice(0,10)!==a.zacatek.slice(0,10));
     const end = a.konec ? (a.konec.slice(0,10)!==a.zacatek.slice(0,10) ? `do ${+a.konec.slice(8,10)}. ${+a.konec.slice(5,7)}.` : (a.konec.length>10 ? `do ${a.konec.slice(11)}` : "")) : "";
     const kde = [a.misto && a.misto!==a.obec && `<span>${esc(a.misto)}</span>`, a.obec && `<span class="obec">${esc(a.obec)}</span>`].filter(Boolean).join(" · ");
     const chips = (a.kategorie||[]).map(k=>`<span class="chip">${esc(k)}</span>`).join("");
     return `<article class="ev" id="a${esc(a.id)}">
       <div class="time">${hasTime ? esc(a.zacatek.slice(11)) : "celý den"}${end?`<small>${esc(end)}</small>`:""}</div>
-      <div><h3>${a.url?`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.nazev)}</a>`:esc(a.nazev)}</h3>${kde?`<div class="where">${kde}</div>`:""}</div>
-      ${a.popis?`<p class="desc">${esc(a.popis)}</p>`:""}
-      ${chips?`<div class="chips">${chips}</div>`:""}
+      <div><h3>${a.url?`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.nazev)}</a>`:esc(a.nazev)}</h3>${kde?`<div class="where">${kde}${compact?` · <span>${esc(fmtCz(a.zacatek.slice(0,10)))}</span>`:""}</div>`:""}</div>
+      ${a.popis && !compact?`<p class="desc">${esc(a.popis)}</p>`:""}
+      ${chips && !compact?`<div class="chips">${chips}</div>`:""}
       <div class="foot"><span>zdroj: ${esc(a.zdroj||"")}</span><span class="acts"><button type="button" data-link="a${esc(a.id)}" title="Zkopírovat odkaz">Odkaz</button><a href="${gcal(a)}" target="_blank" rel="noopener">Přidat do kalendáře</a></span></div>
     </article>`;
   }
@@ -619,29 +619,37 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
     const pravidla = sv.druhy.map(dr => { const r = dr.pravidla.filter(x=>x.zony.includes(zona.id)).map(x=>x.popis); return r.length ? `<li><strong>${esc(dr.nazev)}:</strong> ${esc([...new Set(r)].join(", "))}</li>` : ""; }).join("");
     const webcal = `webcal://${location.host}/svoz-${zona.id}.ics`;
     const blocks = [];
+    // nejbližší akce: příštích 7 dní
+    const lim7 = addDays(t, 7);
+    const budouci = AK.filter(a => (a.konec||a.zacatek).slice(0,10) >= t);
+    // akce, které začínají v příštích 7 dnech; dlouhodobé (kurzy, výstavy), které už běží, jen jedním řádkem
+    const tydenAkce = budouci.filter(a => a.zacatek.slice(0,10) >= t && a.zacatek.slice(0,10) <= lim7).sort((a,b)=>a.zacatek.localeCompare(b.zacatek));
+    const probiha = budouci.filter(a => a.zacatek.slice(0,10) < t).sort((a,b)=>(a.konec||"").localeCompare(b.konec||""));
+    blocks.push(`<section class="prak" id="tyden"><h2 class="group-h">Tento týden v Pečkách a okolí</h2>
+      ${tydenAkce.length ? tydenAkce.slice(0,10).map(a=>akceCard(a,true)).join("") : `<div class="empty" style="padding:16px 0">V příštích sedmi dnech zatím nic nahlášeného.</div>`}
+      ${probiha.length ? `<p class="desc" style="margin:6px 0 0"><strong>Dlouhodobě probíhá:</strong> ${probiha.slice(0,6).map(a=>`${a.url?`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.nazev)}</a>`:esc(a.nazev)}${a.konec?` (do ${+a.konec.slice(8,10)}. ${+a.konec.slice(5,7)}.)`:""}`).join(", ")}${probiha.length>6?" a další":""}.</p>` : ""}
+      <div class="cal"><a class="btn" href="/?akce">Všechny akce (${budouci.length})</a><span class="muted">Z kalendáře Pečeckého regionu a aktualit města, staženo ${esc(A.aktualizovano||"")}.</span></div></section>`);
+    // svoz
     blocks.push(`<section class="prak" id="svoz"><h2 class="group-h">Svoz odpadu · ${esc(zona.nazev)}</h2>
       <div class="next">${nextCards}</div>
-      <div class="cal"><a class="btn" href="/svoz-${esc(zona.id)}.ics" download>Stáhnout kalendář</a><a class="btn" href="${webcal}">Odebírat v telefonu</a><span class="muted">Připomínka přijde večer před svozem. Odebírání se samo aktualizuje, když město změní harmonogram.</span></div>
-      <ul class="desc" style="margin:12px 0 0;padding-left:18px">${pravidla}</ul>
-      <p class="src">${esc(sv.poznamka)} Zdroj: <a href="${esc(sv.zdrojUrl)}" target="_blank" rel="noopener">${esc(sv.zdroj)}</a> · ověřeno ${esc(sv.overeno)}</p></section>`);
-    const sd = PR.sbernyDvur;
-    blocks.push(`<section class="prak" id="dvur"><h2 class="group-h">Sběrný dvůr</h2>
-      <article class="card"><h3>${esc(sd.nazev)}</h3><div class="addr">${esc(sd.adresa)}<a href="https://mapy.cz/zakladni?q=${encodeURIComponent(sd.adresa)}" target="_blank" rel="noopener">mapa ↗</a></div>
-      <div>${openStatus(sd.otevreno)}</div>${hoursHtml({otevreno:sd.otevreno})}
-      <dl class="contacts"><dt>Kontakt</dt><dd>${esc(sd.kontakt)}</dd><dt>Zdarma</dt><dd>${esc(sd.zdarma)}</dd><dt>Placené</dt><dd>${esc(sd.placene)}</dd></dl>
-      <div class="foot"><span>zdroj: <a href="${esc(sd.web)}" target="_blank" rel="noopener">${esc(sd.zdroj)}</a>, ověřeno ${esc(sd.overeno)}</span></div></article></section>`);
-    const zdravi = P.filter(p=>p.kategorie==="Zdravotnictví").sort((a,b)=> (a.podkategorie.includes("Pohotovost")?-1:0) - (b.podkategorie.includes("Pohotovost")?-1:0) || (b.otevreno?1:0)-(a.otevreno?1:0) || a.nazev.localeCompare(b.nazev,"cs"));
-    blocks.push(`<section class="prak" id="zdravi"><h2 class="group-h">Zdraví dnes</h2><div class="zdravi">${zdravi.map(p=>`<article class="card"><h3>${p.slug?`<a href="/podnik/${esc(p.slug)}/">${esc(p.nazev)}</a>`:esc(p.nazev)}</h3><div class="muted" style="font-size:13px">${esc(p.podkategorie.join(", "))}${p.adresa?` · ${esc(p.adresa)}`:""}</div>${p.otevreno?`<div>${openStatus(p.otevreno)}</div>`:`<div class="today">otevírací dobu neznáme</div>`}${p.telefony.length?`<div><a href="tel:${p.telefony[0].replace(/\s+/g,"")}">${esc(p.telefony[0])}</a></div>`:""}</article>`).join("")}</div>
-      <p class="src">Z katalogu podniků, u každého záznamu je datum ověření na jeho stránce.</p></section>`);
-    blocks.push(`<section class="prak" id="poruchy"><h2 class="group-h">Poruchy a odstávky: kam volat</h2><div class="grid">${PR.poruchy.map(p=>`<article class="card"><h3>${esc(p.co)}</h3><div>${esc(p.kdo)}</div><div style="font:600 22px/1.1 var(--display)"><a href="tel:${p.telefon.replace(/\s+/g,"")}">${esc(p.telefon)}</a></div><p class="desc">${esc(p.pozn)}</p><div class="foot"><span>zdroj: ${p.web?`<a href="${esc(p.web)}" target="_blank" rel="noopener">${esc(p.zdroj)}</a>`:esc(p.zdroj)}, ověřeno ${esc(p.overeno)}</span></div></article>`).join("")}</div></section>`);
+      <div class="cal"><a class="btn" href="/svoz-${esc(zona.id)}.ics" download>Stáhnout kalendář</a><a class="btn" href="${webcal}">Odebírat v telefonu</a><span class="muted">Připomínka přijde večer před svozem.</span></div>
+      <details class="desc" style="margin:10px 0 0"><summary style="cursor:pointer">Pravidla svozu pro zónu ${esc(zona.nazev)}</summary><ul style="margin:8px 0 0;padding-left:18px">${pravidla}</ul><p style="margin:8px 0 0">${esc(sv.poznamka)} Zónu změníte v nabídce nahoře.</p></details>
+      <p class="src">Zdroj: <a href="${esc(sv.zdrojUrl)}" target="_blank" rel="noopener">${esc(sv.zdroj)}</a> · ověřeno ${esc(sv.overeno)}</p></section>`);
+    // uzavírky a odstávky
     const oz = (PR.oznameni.polozky||[]).filter(o => !q || norm(o.nazev+" "+o.text).includes(q));
     blocks.push(`<section class="prak" id="omezeni"><h2 class="group-h">Aktuální uzavírky a odstávky</h2>${oz.length ? oz.map(o=>`<article class="notice"><h3><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.nazev)}</a></h3><div class="meta">${o.od?`od ${esc(fmtCz(o.od.slice(0,10)))}${o.do?` do ${esc(fmtCz(o.do.slice(0,10)))}`:""} · `:""}zveřejněno ${esc(fmtCz((o.zverejneno||"").slice(0,10)))} · ${esc(o.zdroj)}</div><p>${esc(o.text.slice(0,320))}${o.text.length>320?"…":""}</p></article>`).join("") : `<div class="empty" style="padding:16px 0">Město teď žádné omezení nehlásí.</div>`}
-      <p class="src">Automaticky z aktualit města Pečky, kontrolováno denně${PR.oznameni.aktualizovano?`, naposledy ${esc(PR.oznameni.aktualizovano)}`:""}. Plánované odstávky elektřiny hlásí ČEZ Distribuce jen ve svém vyhledávání, odkaz je výše u poruch.</p></section>`);
+      <p class="src">Automaticky z aktualit města Pečky, kontrolováno denně${PR.oznameni.aktualizovano?`, naposledy ${esc(PR.oznameni.aktualizovano)}`:""}. Plánované odstávky elektřiny hlásí ČEZ Distribuce jen ve svém vyhledávání, odkaz je níže u poruch.</p></section>`);
+    // poruchy
+    blocks.push(`<section class="prak" id="poruchy"><h2 class="group-h">Poruchy a odstávky: kam volat</h2><div class="grid">${PR.poruchy.map(p=>`<article class="card"><h3>${esc(p.co)}</h3><div>${esc(p.kdo)}</div><div style="font:600 22px/1.1 var(--display)"><a href="tel:${p.telefon.replace(/\s+/g,"")}">${esc(p.telefon)}</a></div><p class="desc">${esc(p.pozn)}</p><div class="foot"><span>zdroj: ${p.web?`<a href="${esc(p.web)}" target="_blank" rel="noopener">${esc(p.zdroj)}</a>`:esc(p.zdroj)}, ověřeno ${esc(p.overeno)}</span></div></article>`).join("")}</div></section>`);
+    // zdraví dnes
+    const zdravi = P.filter(p=>p.kategorie==="Zdravotnictví").sort((a,b)=> (a.podkategorie.includes("Pohotovost")?-1:0) - (b.podkategorie.includes("Pohotovost")?-1:0) || (b.otevreno?1:0)-(a.otevreno?1:0) || a.nazev.localeCompare(b.nazev,"cs"));
+    blocks.push(`<section class="prak" id="zdravi"><h2 class="group-h">Zdraví dnes</h2><div class="zdravi">${zdravi.map(p=>`<article class="card"><h3>${p.slug?`<a href="/podnik/${esc(p.slug)}/">${esc(p.nazev)}</a>`:esc(p.nazev)}</h3><div class="muted" style="font-size:13px">${esc(p.podkategorie.join(", "))}${p.adresa?` · ${esc(p.adresa)}`:""}</div>${p.otevreno?`<div>${openStatus(p.otevreno)}</div>`:`<div class="today">otevírací dobu neznáme</div>`}${p.telefony.length?`<div><a href="tel:${p.telefony[0].replace(/\s+/g,"")}">${esc(p.telefony[0])}</a></div>`:""}</article>`).join("")}</div>
+      <p class="src">Z katalogu podniků, u každého záznamu je datum ověření na jeho stránce. Sběrný dvůr a úřad najdete v <a href="/?podniky&kat=M%C4%9Bsto%20a%20instituce">Podnicích</a>.</p></section>`);
     el.innerHTML = blocks.join("");
-    $("#count").textContent = `${oz.length} ${oz.length===1?"omezení":oz.length<5?"omezení":"omezení"} · svoz pro ${zona.nazev}`;
+    $("#count").textContent = `${tydenAkce.length} akcí v příštích 7 dnech · ${oz.length} omezení · svoz ${zona.nazev}`;
   }
   function renderPrTabs(){
-    $("#tabs").innerHTML = [["svoz","Svoz odpadu"],["dvur","Sběrný dvůr"],["zdravi","Zdraví dnes"],["poruchy","Poruchy"],["omezeni","Uzavírky a odstávky"]].map(([id,l])=>`<a class="tab" href="#${id}" data-anchor="${id}">${l}</a>`).join("");
+    $("#tabs").innerHTML = [["tyden","Tento týden"],["svoz","Svoz odpadu"],["omezeni","Uzavírky a odstávky"],["poruchy","Poruchy"],["zdravi","Zdraví dnes"]].map(([id,l])=>`<a class="tab" href="#${id}" data-anchor="${id}">${l}</a>`).join("");
   }
   $("#prZona").addEventListener("change", e => { pr.zona = e.target.value; try { localStorage.setItem("svozZona", pr.zona); } catch(err){} renderPrakticke(); });
   tabs.addEventListener("click", e => { const a = e.target.closest("a[data-anchor]"); if(!a) return; e.preventDefault(); const t = document.getElementById(a.dataset.anchor); if(t) t.scrollIntoView({behavior:"smooth", block:"start"}); });
@@ -651,7 +659,7 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
     podniky: {sub:"obchody, služby, řemeslníci, restaurace a lékaři v Pečkách a nejbližším okolí", ph:"Hledat název, ulici, telefon, činnost…", src:"Data pocházejí z katalogu firem na webu města Pečky, z Firmy.cz a z webu OC Pečky. Údaje průběžně ověřujeme, ale mohou být zastaralé. Když najdete chybu nebo tu něco chybí, použijte odkaz „Nahlásit změnu“ u záznamu."},
     akce: {sub:"co se děje v Pečkách a v okolních obcích: kultura, sport, spolky, město", ph:"Hledat akci, místo, obec…", src:"Akce se každý den stahují z kalendáře Pečeckého regionu a z aktualit města Pečky. Pořadatelé, přidejte svou akci do kalendáře na pececkyregion.cz a objeví se i tady."},
     vylety: {sub:"kam se vydat z Peček pěšky, na kole nebo vlakem o jednu stanici dál", ph:"Hledat místo, obec, popis…", src:"Místa jsou vybraná ručně. Souřadnice pocházejí z OpenStreetMap, údaje z Wikipedie a webů obcí. Otevírací doby zámku nebo koupaliště ověřte před cestou u provozovatele."},
-    prakticke: {sub:"svoz odpadu, sběrný dvůr, lékaři dnes, poruchy a aktuální omezení ve městě", ph:"Hledat v uzavírkách a odstávkách…", src:"Praktické údaje mají vždy uvedený zdroj a datum ověření. Svoz vychází z harmonogramu města, uzavírky a odstávky se denně stahují z aktualit města Pečky. Když se něco změnilo, dejte vědět přes Nahlásit změnu."}
+    prakticke: {sub:"co se děje tento týden, kdy je svoz, co je zavřené a kam volat, když něco nefunguje", ph:"Hledat v uzavírkách a odstávkách…", src:"Praktické údaje mají vždy uvedený zdroj a datum ověření. Svoz vychází z harmonogramu města, akce a omezení se denně stahují z kalendáře Pečeckého regionu a z aktualit města Pečky. Když se něco změnilo, dejte vědět přes Nahlásit změnu."}
   };
   function setMode(m){
     ak.mode = m;
@@ -661,7 +669,7 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
     const noMap = m==="akce" || m==="prakticke";
     $("#mapToggle").disabled = noMap; $("#mapToggle").title = noMap ? "Tato sekce mapu nemá" : "Zobrazí vybrané záznamy na mapě";
     $("#map").hidden = !mapOn || noMap;
-    const url = new URL(location); for(const k of ["akce","vylety","prakticke"]) url.searchParams.delete(k); if(m!=="podniky") url.searchParams.set(m,""); history.replaceState(null,"",url);
+    const url = new URL(location); for(const k of ["akce","vylety","prakticke","podniky"]) url.searchParams.delete(k); if(m!=="prakticke") url.searchParams.set(m,""); history.replaceState(null,"",url);
     if(m==="akce"){ renderAkceTabs(); renderAkce(); } else if(m==="vylety"){ renderVylTabs(); renderVylety(); } else if(m==="prakticke"){ renderPrZona(); renderPrTabs(); renderPrakticke(); } else { renderTabs(); renderSubs(); render(); }
   }
   $("#modePodniky").addEventListener("click", ()=>setMode("podniky"));
@@ -678,8 +686,11 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
   if(u.get("q")){ state.q = u.get("q"); $("#q").value = state.q; }
   if(u.get("zona")) pr.zona = u.get("zona");
   const h = location.hash.slice(1);
-  if(u.has("prakticke") || ["svoz","dvur","zdravi","poruchy","omezeni"].includes(h)) setMode("prakticke");
-  else if(u.has("akce") || h.startsWith("a")) setMode("akce"); else if(u.has("vylety") || h.startsWith("v")) setMode("vylety"); else { renderTabs(); renderSubs(); render(); }
+  // úvodní stránka = Praktické; Podniky přes ?podniky, ?kat=…, ?q=… nebo odkaz na kartu #p…
+  if(u.has("akce") || h.startsWith("a")) setMode("akce");
+  else if(u.has("vylety") || h.startsWith("v")) setMode("vylety");
+  else if(u.has("podniky") || u.has("kat") || u.has("q") || h.startsWith("p")) setMode("podniky");
+  else setMode("prakticke");
   highlightHash();
   // po načtení fontů se karty posunou, tak ještě jednou
   if(location.hash){ window.addEventListener("load", highlightHash); if(document.fonts && document.fonts.ready) document.fonts.ready.then(highlightHash); }

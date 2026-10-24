@@ -184,22 +184,26 @@ module.exports = function buildPages(data, akce, vylety, prakticke) {
   // praktické informace
   if (prakticke) {
     clean("prakticke");
-    const sv = prakticke.svoz, sd = prakticke.sbernyDvur;
+    const sv = prakticke.svoz;
     const today = new Date().toISOString().slice(0, 10);
+    const lim7 = new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10);
+    const tyden = (akce.akce || []).filter(a => (a.konec || a.zacatek).slice(0, 10) >= today && a.zacatek.slice(0, 10) <= lim7).sort((a, b) => a.zacatek.localeCompare(b.zacatek));
+    const fmtA = a => { const d = new Date(a.zacatek.slice(0, 10) + "T12:00"); return `${d.getDate()}. ${d.getMonth() + 1}.${a.zacatek.length > 10 && !a.zacatek.endsWith("T00:00") ? " " + a.zacatek.slice(11) : ""}`; };
     const nextOf = (z, dr) => (sv.dny[z][dr] || []).find(d => d >= today);
     const fmtD = d => d ? `${+d.slice(8, 10)}. ${+d.slice(5, 7)}.` : "–";
     const zoneRows = sv.zony.map(z => `<tr><th>${esc(z.nazev)}</th>${sv.druhy.map(dr => `<td>${fmtD(nextOf(z.id, dr.id))}</td>`).join("")}<td><a href="/svoz-${z.id}.ics">kalendář</a></td></tr>`).join("");
     const pravidla = sv.druhy.map(dr => `<li><strong>${esc(dr.nazev)}:</strong> ${esc([...new Set(dr.pravidla.map(r => r.popis))].join("; "))}${dr.popis ? ` (${esc(dr.popis)})` : ""}</li>`).join("");
     const oz = (prakticke.oznameni.polozky || []).slice(0, 10).map(o => `<li class="card"><h3><a href="${esc(o.url)}" rel="noopener" target="_blank">${esc(o.nazev)}</a></h3><div class="muted">${o.od ? `od ${fmtD(o.od)}${o.do ? ` do ${fmtD(o.do)}` : ""} · ` : ""}zveřejněno ${fmtD(o.zverejneno)}</div><p class="muted">${esc(o.text.slice(0, 240))}</p></li>`).join("");
-    const body = `<h1>Praktické Pečky</h1><p class="lead">Svoz odpadu, sběrný dvůr, poruchy a aktuální omezení ve městě. Údaje mají vždy uvedený zdroj a datum ověření.</p>
+    const body = `<h1>Praktické Pečky</h1><p class="lead">Co se děje tento týden, kdy je svoz odpadu, aktuální uzavírky a odstávky, kam volat při poruše a kdo z lékařů má dnes otevřeno. Údaje mají vždy uvedený zdroj a datum ověření.</p>
+<h2>Tento týden v Pečkách a okolí</h2>${tyden.length ? `<ul class="list">${tyden.slice(0, 8).map(a => `<li class="card"><h3>${a.url ? `<a href="${esc(a.url)}" rel="noopener" target="_blank">${esc(a.nazev)}</a>` : esc(a.nazev)}</h3><div><strong>${fmtA(a)}</strong> · ${esc([a.misto, a.obec].filter((x, i, arr) => x && arr.indexOf(x) === i).join(", "))}</div></li>`).join("")}</ul>` : `<p class="muted">V příštích sedmi dnech zatím nic nahlášeného.</p>`}<p><a class="btn" href="/akce/">Všechny akce</a></p>
 <h2>Svoz odpadu ${sv.rok}: nejbližší termíny</h2>
 <div style="overflow-x:auto"><table class="hours"><thead><tr><th>Zóna</th>${sv.druhy.map(dr => `<th>${esc(dr.nazev.split(" (")[0])}</th>`).join("")}<th></th></tr></thead><tbody>${zoneRows}</tbody></table></div>
 <ul>${pravidla}</ul><p class="muted">${esc(sv.poznamka)} Zdroj: <a href="${esc(sv.zdrojUrl)}" rel="noopener" target="_blank">${esc(sv.zdroj)}</a>, ověřeno ${esc(sv.overeno)}.</p>
-<p><a class="btn primary" href="/?prakticke">Otevřít s výběrem zóny a připomínkami</a></p>
-<h2>Sběrný dvůr</h2><p>${esc(sd.adresa)} · ${esc(sd.kontakt)}</p>${hoursRows(sd.otevreno)}<p>${esc(sd.zdarma)}</p><p class="muted">${esc(sd.placene)} Zdroj: <a href="${esc(sd.web)}" rel="noopener" target="_blank">${esc(sd.zdroj)}</a>, ověřeno ${esc(sd.overeno)}.</p>
+<p><a class="btn primary" href="/">Otevřít s výběrem zóny a připomínkami</a></p>
+<h2>Aktuální uzavírky a odstávky</h2>${oz ? `<ul class="list">${oz}</ul>` : `<p class="muted">Město teď žádné omezení nehlásí.</p>`}<p class="muted">Z aktualit města Pečky, kontrolováno denně${prakticke.oznameni.aktualizovano ? `, naposledy ${esc(prakticke.oznameni.aktualizovano)}` : ""}.</p>
 <h2>Poruchy a odstávky: kam volat</h2><ul class="list">${prakticke.poruchy.map(p => `<li class="card"><h3>${esc(p.co)}</h3><div>${esc(p.kdo)}</div><div><a href="tel:${p.telefon.replace(/\s+/g, "")}">${esc(p.telefon)}</a></div><p class="muted">${esc(p.pozn)}</p>${p.web ? `<a href="${esc(p.web)}" rel="noopener" target="_blank">web</a>` : ""}</li>`).join("")}</ul>
-<h2>Aktuální uzavírky a odstávky</h2>${oz ? `<ul class="list">${oz}</ul>` : `<p class="muted">Město teď žádné omezení nehlásí.</p>`}<p class="muted">Z aktualit města Pečky, kontrolováno denně${prakticke.oznameni.aktualizovano ? `, naposledy ${esc(prakticke.oznameni.aktualizovano)}` : ""}.</p>`;
-    emit("prakticke/index.html", page({ title: "Svoz odpadu, sběrný dvůr a poruchy v Pečkách | Kam v Pečkách", description: `Harmonogram svozu odpadu ${sv.rok} pro Pečky a Velké Chvalovice po zónách, kalendář ke stažení, otevírací doba sběrného dvora, telefony na poruchy vody, elektřiny a plynu, aktuální uzavírky.`, canonical: `${BASE}/prakticke/`, body, crumbs: [{ text: "Kam v Pečkách", href: "/" }, { text: "Praktické" }] }));
+<h2>Zdraví dnes</h2><ul class="list">${podniky.filter(p => p.kategorie === "Zdravotnictví").sort((a, b) => (a.podkategorie.includes("Pohotovost") ? -1 : 0) - (b.podkategorie.includes("Pohotovost") ? -1 : 0) || a.nazev.localeCompare(b.nazev, "cs")).map(businessCard).join("")}</ul>`;
+    emit("prakticke/index.html", page({ title: "Svoz odpadu, akce tento týden a poruchy v Pečkách | Kam v Pečkách", description: `Harmonogram svozu odpadu ${sv.rok} pro Pečky a Velké Chvalovice po zónách s kalendářem ke stažení, akce na tento týden, aktuální uzavírky, telefony na poruchy vody, elektřiny a plynu a lékaři s dnešní otevírací dobou.`, canonical: `${BASE}/prakticke/`, body, crumbs: [{ text: "Kam v Pečkách", href: "/" }, { text: "Praktické" }] }));
     urls.push({ loc: `${BASE}/prakticke/`, priority: "0.9", changefreq: "daily" });
   }
 

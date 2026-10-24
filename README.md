@@ -127,7 +127,9 @@ styl `leaflet.css` v repozitáři). Akce souřadnice nemají, tam je mapa vypnut
 
 ## Praktické Pečky
 
-Čtvrtá záložka: svoz odpadu, sběrný dvůr, zdraví dnes, telefony na poruchy a aktuální uzavírky a odstávky.
+Úvodní stránka webu (`/`): akce na příštích 7 dní, svoz odpadu podle zóny, aktuální uzavírky a odstávky,
+telefony na poruchy a lékaři s dnešní otevírací dobou. Podniky se otevírají přes záložku nebo `/?podniky`.
+Sběrný dvůr je v Podnicích (kategorie Město a instituce) s hodinami ověřenými u Pečeckých služeb.
 
 - `data/prakticke.json`: svoz jako **pravidla** (den v týdnu, interval `tydne` / `sude-tydny` / `liche-tydny` /
   `prvni-v-mesici`, období `od`–`do`, výjimky `navic` a `vynechat`), sběrný dvůr, telefony na poruchy, klíčová slova
