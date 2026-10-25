@@ -45,7 +45,8 @@ function compute(svoz) {
 function ics(svoz, zona, dny) {
   const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Kam v Pečkách//svoz odpadu//CS", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
     `X-WR-CALNAME:Svoz odpadu – ${zona.nazev}`, "X-WR-TIMEZONE:Europe/Prague", "X-WR-CALDESC:Svoz odpadu podle harmonogramu města Pečky. Připomínka večer před svozem."];
-  const stamp = new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z";
+  // DTSTAMP z data ověření, ne z času buildu, aby denní build neměnil soubory, které se nezměnily
+  const stamp = (svoz.overeno || "2026-01-01").replace(/-/g, "") + "T000000Z";
   for (const dr of svoz.druhy) {
     for (const day of dny[dr.id] || []) {
       const d = day.replace(/-/g, "");

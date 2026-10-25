@@ -152,6 +152,16 @@ select{padding:9px 32px 9px 10px;border:1px solid var(--line-strong);border-radi
 .zdravi{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
 .zdravi .card{padding:10px 14px;gap:4px}.zdravi h3{font-size:18px}
 .zdravi .today{font-size:14px;color:var(--muted)}
+.svoz-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+table.svoz{border-collapse:collapse;width:100%;min-width:640px;font-variant-numeric:tabular-nums}
+table.svoz th,table.svoz td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.svoz thead th{font:600 13px/1.2 var(--body);text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:var(--chip)}
+table.svoz thead th .dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--c,var(--accent));margin-right:6px;vertical-align:-1px}
+table.svoz tbody th{font:600 17px/1.2 var(--display);white-space:nowrap}
+table.svoz td strong{display:block;font:600 16px/1.2 var(--display)}
+table.svoz td small{display:block;color:var(--muted);font-size:12.5px}table.svoz td small.soon{color:var(--accent);font-weight:600}
+table.svoz td.ics{font-size:13.5px;white-space:nowrap}
+table.svoz tbody tr:last-child th,table.svoz tbody tr:last-child td{border-bottom:0}
 .notice{border-left:4px solid var(--warn);background:var(--surface);border:1px solid var(--line);border-left-width:4px;border-radius:8px;padding:12px 16px;margin-bottom:10px}
 .notice h3{margin:0 0 4px;font:600 19px/1.2 var(--display)}.notice .meta{font-size:13px;color:var(--muted)}.notice p{margin:6px 0 0;font-size:14.5px;color:var(--ink)}
 
@@ -493,12 +503,17 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
     $("#count").textContent = `${list.length} akcí`;
     const el = $("#list");
     if(!list.length){ el.innerHTML = `<div class="empty">${AK.length ? "V tomto období nic není. Zkuste delší období nebo okolí Peček." : "Akce se zatím nestáhly."}</div>`; return; }
+    el.innerHTML = akceByDay(list);
+  }
+  // seznam akcí seskupený po dnech s nadpisem dne (dnes / zítra)
+  function akceByDay(list){
+    const t = today(), zitra = addDays(t,1);
     const groups = new Map();
     for(const a of list){ const d = a.zacatek.slice(0,10) < t ? t : a.zacatek.slice(0,10); if(!groups.has(d)) groups.set(d,[]); groups.get(d).push(a); }
-    el.innerHTML = [...groups].map(([d,v]) => {
+    return [...groups].map(([d,v]) => {
       const dt = new Date(d+"T12:00");
       const rel = d===t ? `<span class="rel">dnes</span>` : d===zitra ? `<span class="rel soon">zítra</span>` : "";
-      return `<section class="day"><h2>${DNY[dt.getDay()]} ${dt.getDate()}. ${MES[dt.getMonth()]}${dt.getFullYear()!==new Date().getFullYear()?" "+dt.getFullYear():""} ${rel}</h2>${v.map(akceCard).join("")}</section>`;
+      return `<section class="day"><h2>${DNY[dt.getDay()]} ${dt.getDate()}. ${MES[dt.getMonth()]}${dt.getFullYear()!==new Date().getFullYear()?" "+dt.getFullYear():""} ${rel}</h2>${v.map(a=>akceCard(a)).join("")}</section>`;
     }).join("");
   }
   function renderAkceTabs(){
@@ -607,50 +622,35 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
     const el = $("#list");
     if(!PR){ el.innerHTML = `<div class="empty">Praktické informace se zatím nenačetly.</div>`; $("#count").textContent=""; return; }
     const sv = PR.svoz, t = today();
-    const zona = sv.zony.find(z=>z.id===pr.zona) || sv.zony[0];
-    const dny = sv.dny[zona.id] || {};
-    const q = norm(state.q).trim();
-    const nextCards = sv.druhy.map(dr => {
-      const list = (dny[dr.id]||[]).filter(d=>d>=t);
-      if(!list.length) return `<div class="card" style="--c:${dr.barva}"><div class="kind">${esc(dr.nazev)}</div><div class="when">–</div><div class="more">v roce ${sv.rok} už žádný svoz</div></div>`;
-      const first = list[0], rel = relDay(first);
-      return `<div class="card" style="--c:${dr.barva}"><div class="kind">${esc(dr.nazev)}</div><div class="when">${esc(fmtCz(first))}</div><div class="rel ${rel==="dnes"?"today":""}">${esc(rel)}</div><div class="more">potom ${list.slice(1,4).map(d=>`${+d.slice(8,10)}. ${+d.slice(5,7)}.`).join(", ")}</div></div>`;
-    }).join("");
-    const pravidla = sv.druhy.map(dr => { const r = dr.pravidla.filter(x=>x.zony.includes(zona.id)).map(x=>x.popis); return r.length ? `<li><strong>${esc(dr.nazev)}:</strong> ${esc([...new Set(r)].join(", "))}</li>` : ""; }).join("");
-    const webcal = `webcal://${location.host}/svoz-${zona.id}.ics`;
     const blocks = [];
-    // nejbližší akce: příštích 7 dní
+    // tento týden: akce v příštích 7 dnech, po dnech jako v záložce Akce (probíhající kurzy a výstavy spadnou pod dnešek)
     const lim7 = addDays(t, 7);
     const budouci = AK.filter(a => (a.konec||a.zacatek).slice(0,10) >= t);
-    // akce, které začínají v příštích 7 dnech; dlouhodobé (kurzy, výstavy), které už běží, jen jedním řádkem
-    const tydenAkce = budouci.filter(a => a.zacatek.slice(0,10) >= t && a.zacatek.slice(0,10) <= lim7).sort((a,b)=>a.zacatek.localeCompare(b.zacatek));
-    const probiha = budouci.filter(a => a.zacatek.slice(0,10) < t).sort((a,b)=>(a.konec||"").localeCompare(b.konec||""));
+    const tydenAkce = budouci.filter(a => a.zacatek.slice(0,10) <= lim7).sort((a,b)=>a.zacatek.localeCompare(b.zacatek));
     blocks.push(`<section class="prak" id="tyden"><h2 class="group-h">Tento týden v Pečkách a okolí</h2>
-      ${tydenAkce.length ? tydenAkce.slice(0,10).map(a=>akceCard(a,true)).join("") : `<div class="empty" style="padding:16px 0">V příštích sedmi dnech zatím nic nahlášeného.</div>`}
-      ${probiha.length ? `<p class="desc" style="margin:6px 0 0"><strong>Dlouhodobě probíhá:</strong> ${probiha.slice(0,6).map(a=>`${a.url?`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.nazev)}</a>`:esc(a.nazev)}${a.konec?` (do ${+a.konec.slice(8,10)}. ${+a.konec.slice(5,7)}.)`:""}`).join(", ")}${probiha.length>6?" a další":""}.</p>` : ""}
+      ${tydenAkce.length ? akceByDay(tydenAkce) : `<div class="empty" style="padding:16px 0">V příštích sedmi dnech zatím nic nahlášeného.</div>`}
       <div class="cal"><a class="btn" href="/?akce">Všechny akce (${budouci.length})</a><span class="muted">Z kalendáře Pečeckého regionu a aktualit města, staženo ${esc(A.aktualizovano||"")}.</span></div></section>`);
-    // svoz
-    blocks.push(`<section class="prak" id="svoz"><h2 class="group-h">Svoz odpadu · ${esc(zona.nazev)}</h2>
-      <div class="next">${nextCards}</div>
-      <div class="cal"><a class="btn" href="/svoz-${esc(zona.id)}.ics" download>Stáhnout kalendář</a><a class="btn" href="${webcal}">Odebírat v telefonu</a><span class="muted">Připomínka přijde večer před svozem.</span></div>
-      <details class="desc" style="margin:10px 0 0"><summary style="cursor:pointer">Pravidla svozu pro zónu ${esc(zona.nazev)}</summary><ul style="margin:8px 0 0;padding-left:18px">${pravidla}</ul><p style="margin:8px 0 0">${esc(sv.poznamka)} Zónu změníte v nabídce nahoře.</p></details>
+    // svoz: nejbližší termíny pro všechny části města v jedné tabulce
+    const nextOf = (z, dr) => (sv.dny[z][dr]||[]).find(d=>d>=t);
+    const cell = d => { if(!d) return `<td>–</td>`; const rel = relDay(d); return `<td><strong>${esc(fmtCz(d))}</strong><small class="${rel==="dnes"||rel==="zítra"?"soon":""}">${esc(rel)}</small></td>`; };
+    const rows = sv.zony.map(z => `<tr><th>${esc(z.nazev)}</th>${sv.druhy.map(dr=>cell(nextOf(z.id, dr.id))).join("")}<td class="ics"><a href="/svoz-${esc(z.id)}.ics" download title="Stáhnout kalendář">stáhnout</a> · <a href="webcal://${location.host}/svoz-${esc(z.id)}.ics" title="Odebírat v telefonu, připomínka večer před svozem">odebírat</a></td></tr>`).join("");
+    const pravidla = sv.druhy.map(dr => `<li><strong>${esc(dr.nazev)}:</strong> ${esc([...new Set(dr.pravidla.map(x => (x.zony.length < sv.zony.length ? x.zony.map(id => (sv.zony.find(z=>z.id===id)||{}).nazev).join(" a ") + ": " : "") + x.popis))].join("; "))}</li>`).join("");
+    blocks.push(`<section class="prak" id="svoz"><h2 class="group-h">Svoz odpadu: nejbližší termíny</h2>
+      <div class="svoz-wrap"><table class="svoz"><thead><tr><th>Část města</th>${sv.druhy.map(dr=>`<th style="--c:${dr.barva}"><span class="dot"></span>${esc(dr.nazev.split(" (")[0])}</th>`).join("")}<th>Kalendář</th></tr></thead><tbody>${rows}</tbody></table></div>
+      <p class="desc" style="margin:10px 0 0">Kalendář pro vaši část města si stáhněte nebo odebírejte v telefonu, připomínka přijde večer před svozem. Plast a papír se sváží v pytlích od domu.</p>
+      <details class="desc" style="margin:8px 0 0"><summary style="cursor:pointer">Pravidla svozu ${sv.rok}</summary><ul style="margin:8px 0 0;padding-left:18px">${pravidla}</ul><p style="margin:8px 0 0">${esc(sv.poznamka)}</p></details>
       <p class="src">Zdroj: <a href="${esc(sv.zdrojUrl)}" target="_blank" rel="noopener">${esc(sv.zdroj)}</a> · ověřeno ${esc(sv.overeno)}</p></section>`);
     // uzavírky a odstávky
-    const oz = (PR.oznameni.polozky||[]).filter(o => !q || norm(o.nazev+" "+o.text).includes(q));
+    const q = "";
+    const oz = (PR.oznameni.polozky||[]);
     blocks.push(`<section class="prak" id="omezeni"><h2 class="group-h">Aktuální uzavírky a odstávky</h2>${oz.length ? oz.map(o=>`<article class="notice"><h3><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.nazev)}</a></h3><div class="meta">${o.od?`od ${esc(fmtCz(o.od.slice(0,10)))}${o.do?` do ${esc(fmtCz(o.do.slice(0,10)))}`:""} · `:""}zveřejněno ${esc(fmtCz((o.zverejneno||"").slice(0,10)))} · ${esc(o.zdroj)}</div><p>${esc(o.text.slice(0,320))}${o.text.length>320?"…":""}</p></article>`).join("") : `<div class="empty" style="padding:16px 0">Město teď žádné omezení nehlásí.</div>`}
       <p class="src">Automaticky z aktualit města Pečky, kontrolováno denně${PR.oznameni.aktualizovano?`, naposledy ${esc(PR.oznameni.aktualizovano)}`:""}. Plánované odstávky elektřiny hlásí ČEZ Distribuce jen ve svém vyhledávání, odkaz je níže u poruch.</p></section>`);
     // poruchy
     blocks.push(`<section class="prak" id="poruchy"><h2 class="group-h">Poruchy a odstávky: kam volat</h2><div class="grid">${PR.poruchy.map(p=>`<article class="card"><h3>${esc(p.co)}</h3><div>${esc(p.kdo)}</div><div style="font:600 22px/1.1 var(--display)"><a href="tel:${p.telefon.replace(/\s+/g,"")}">${esc(p.telefon)}</a></div><p class="desc">${esc(p.pozn)}</p><div class="foot"><span>zdroj: ${p.web?`<a href="${esc(p.web)}" target="_blank" rel="noopener">${esc(p.zdroj)}</a>`:esc(p.zdroj)}, ověřeno ${esc(p.overeno)}</span></div></article>`).join("")}</div></section>`);
-    // zdraví dnes
-    const zdravi = P.filter(p=>p.kategorie==="Zdravotnictví").sort((a,b)=> (a.podkategorie.includes("Pohotovost")?-1:0) - (b.podkategorie.includes("Pohotovost")?-1:0) || (b.otevreno?1:0)-(a.otevreno?1:0) || a.nazev.localeCompare(b.nazev,"cs"));
-    blocks.push(`<section class="prak" id="zdravi"><h2 class="group-h">Zdraví dnes</h2><div class="zdravi">${zdravi.map(p=>`<article class="card"><h3>${p.slug?`<a href="/podnik/${esc(p.slug)}/">${esc(p.nazev)}</a>`:esc(p.nazev)}</h3><div class="muted" style="font-size:13px">${esc(p.podkategorie.join(", "))}${p.adresa?` · ${esc(p.adresa)}`:""}</div>${p.otevreno?`<div>${openStatus(p.otevreno)}</div>`:`<div class="today">otevírací dobu neznáme</div>`}${p.telefony.length?`<div><a href="tel:${p.telefony[0].replace(/\s+/g,"")}">${esc(p.telefony[0])}</a></div>`:""}</article>`).join("")}</div>
-      <p class="src">Z katalogu podniků, u každého záznamu je datum ověření na jeho stránce. Sběrný dvůr a úřad najdete v <a href="/?podniky&kat=M%C4%9Bsto%20a%20instituce">Podnicích</a>.</p></section>`);
     el.innerHTML = blocks.join("");
-    $("#count").textContent = `${tydenAkce.length} akcí v příštích 7 dnech · ${oz.length} omezení · svoz ${zona.nazev}`;
+    $("#count").textContent = "";
   }
-  function renderPrTabs(){
-    $("#tabs").innerHTML = [["tyden","Tento týden"],["svoz","Svoz odpadu"],["omezeni","Uzavírky a odstávky"],["poruchy","Poruchy"],["zdravi","Zdraví dnes"]].map(([id,l])=>`<a class="tab" href="#${id}" data-anchor="${id}">${l}</a>`).join("");
-  }
+  function renderPrTabs(){ $("#tabs").innerHTML = ""; }
   $("#prZona").addEventListener("change", e => { pr.zona = e.target.value; try { localStorage.setItem("svozZona", pr.zona); } catch(err){} renderPrakticke(); });
   tabs.addEventListener("click", e => { const a = e.target.closest("a[data-anchor]"); if(!a) return; e.preventDefault(); const t = document.getElementById(a.dataset.anchor); if(t) t.scrollIntoView({behavior:"smooth", block:"start"}); });
 
@@ -669,6 +669,7 @@ footer nav.seo{width:100%;font-size:13.5px;line-height:1.8}footer nav.seo span{c
     const noMap = m==="akce" || m==="prakticke";
     $("#mapToggle").disabled = noMap; $("#mapToggle").title = noMap ? "Tato sekce mapu nemá" : "Zobrazí vybrané záznamy na mapě";
     $("#map").hidden = !mapOn || noMap;
+    document.querySelector(".toolbar").hidden = m==="prakticke";   // úvodní stránka je bez filtrů
     const url = new URL(location); for(const k of ["akce","vylety","prakticke","podniky"]) url.searchParams.delete(k); if(m!=="prakticke") url.searchParams.set(m,""); history.replaceState(null,"",url);
     if(m==="akce"){ renderAkceTabs(); renderAkce(); } else if(m==="vylety"){ renderVylTabs(); renderVylety(); } else if(m==="prakticke"){ renderPrZona(); renderPrTabs(); renderPrakticke(); } else { renderTabs(); renderSubs(); render(); }
   }
