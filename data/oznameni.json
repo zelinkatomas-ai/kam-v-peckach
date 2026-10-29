@@ -1,6 +1,18 @@
 {
- "aktualizovano": "2026-10-28 10:36",
+ "aktualizovano": "2026-10-29 10:55",
  "polozky": [
+  {
+   "id": "mesto-497024",
+   "nazev": "Upozornění na odstávku elektřiny dne 19.11.2026 v čp. 1042 Chvalovická, Pečky",
+   "url": "https://pecky.cz/default/report/497024_upozorneni-na-odstavku-elektriny-dne-19-11-2026-v-cp-1042-chvalovicka-pecky",
+   "zverejneno": "2026-10-29T11:24",
+   "platiPro": "Celé město",
+   "text": "Odstávky a poruchy Upozornění na odstávku elektřiny dne 19.11.2026 v čp. 1042, Chvalovická, Pečky v době od 7.30 – 15.30 hodin.",
+   "od": null,
+   "do": null,
+   "zdroj": "Město Pečky",
+   "videno": "2026-10-29"
+  },
   {
    "id": "mesto-495458",
    "nazev": "UZAVÍRKA SILNICE II/329, tř. Jana Švermy v Pečkách.",
@@ -11,7 +23,7 @@
    "od": null,
    "do": null,
    "zdroj": "Město Pečky",
-   "videno": "2026-10-28"
+   "videno": "2026-10-29"
   },
   {
    "id": "mesto-493185",
