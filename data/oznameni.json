@@ -1,6 +1,18 @@
 {
- "aktualizovano": "2026-10-29 10:55",
+ "aktualizovano": "2026-10-30 10:53",
  "polozky": [
+  {
+   "id": "mesto-497345",
+   "nazev": "ODSTÁVKA PITNÉ VODY Z DŮVODU HAVÁRIE",
+   "url": "https://pecky.cz/default/report/497345_odstavka-pitne-vody-z-duvodu-havarie",
+   "zverejneno": "2026-10-30T10:57",
+   "platiPro": "Celé město",
+   "text": "Pečecké služby ODSTÁVKA PITNÉ VODY Z DŮVODU HAVÁRIE Vážení občané, z důvodu havárie na vodovodním řadu došlo dne 30. 10. 2026 k mimořádnému přerušení dodávky pitné vody na Masarykově náměstí a v jeho okolí. Na odstranění havárie se pracuje. Omlouváme se za vzniklé komplikace a děkujeme za pochopení a trpělivost.",
+   "od": null,
+   "do": null,
+   "zdroj": "Město Pečky",
+   "videno": "2026-10-30"
+  },
   {
    "id": "mesto-497024",
    "nazev": "Upozornění na odstávku elektřiny dne 19.11.2026 v čp. 1042 Chvalovická, Pečky",
@@ -11,7 +23,7 @@
    "od": null,
    "do": null,
    "zdroj": "Město Pečky",
-   "videno": "2026-10-29"
+   "videno": "2026-10-30"
   },
   {
    "id": "mesto-495458",
