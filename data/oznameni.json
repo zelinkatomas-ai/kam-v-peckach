@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-11-01 11:18",
+ "aktualizovano": "2026-11-02 12:28",
  "polozky": [
   {
    "id": "mesto-497345",
@@ -11,7 +11,19 @@
    "od": null,
    "do": null,
    "zdroj": "Město Pečky",
-   "videno": "2026-11-01"
+   "videno": "2026-11-02"
+  },
+  {
+   "id": "mesto-497577",
+   "nazev": "UPOZORNĚNÍ NA PŘERUŠENÍ DODÁVKY PITNÉ VODY",
+   "url": "https://pecky.cz/default/report/497577_upozorneni-na-preruseni-dodavky-pitne-vody",
+   "zverejneno": "2026-10-30T10:48",
+   "platiPro": "Celé město",
+   "text": "Pečecké služby UPOZORNĚNÍ NA PŘERUŠENÍ DODÁVKY PITNÉ VODY Vážení občané, upozorňujeme vás, že v pondělí 2. 11. 2026 bude z důvodu výměny součásti vodovodního řadu přerušena dodávka pitné vody v následujících lokalitách: Část ulice J. A. Komenského (v úseku mezi ulicemi Tř. 5. května a Chvalovická). Ulice Chvalovická. Ulice V Kaštánkách. Ulice Nymburská. Areál TONA. Ulice U Měnírny. Velké Chvalovice. Předpokládaná doba odstávky: od 9:00 do 13:00 hodin. Po obnovení dodávky vody může dojít ke krátkodobému zakalení vody, které by mělo po krátkém odpuštění vody odeznít. Omlouváme se za vzniklé komplikace a děkujeme za pochopení. Pečecké služby, s.r.o.",
+   "od": null,
+   "do": null,
+   "zdroj": "Město Pečky",
+   "videno": "2026-11-02"
   },
   {
    "id": "mesto-497024",
@@ -23,7 +35,7 @@
    "od": null,
    "do": null,
    "zdroj": "Město Pečky",
-   "videno": "2026-11-01"
+   "videno": "2026-11-02"
   },
   {
    "id": "mesto-495458",
