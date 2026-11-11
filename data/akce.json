@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-11-10 12:41",
+ "aktualizovano": "2026-11-11 11:54",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "mesto-488003",
@@ -44,42 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-11-10"
-  },
-  {
-   "id": "region-1484",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/instalace-martina-fera-1484_232cs1036.html",
-   "nazev": "Instalace Martina Féra",
-   "misto": "evangelická fara -Szalatnayova síň",
-   "kategorie": [
-    "církevní setkání",
-    "evangelická bohoslužba"
-   ],
-   "obrazek": "http://www.velim.cz/evt_image.php?img=6239&width=500&v=1793779621",
-   "zacatek": "2026-11-08T14:30",
-   "konec": null,
-   "obec": "Velim",
-   "popis": "Farní sbor českobratrské církve evangelické ve Velimi",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-11-08"
-  },
-  {
-   "id": "region-305",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/svatomartinsky-lampionovy-pruvod-sadska-305_84cs4492.html",
-   "nazev": "Svatomartinský lampionový průvod Sadská",
-   "misto": "Sadská",
-   "kategorie": [
-    "akce pro celou rodinu"
-   ],
-   "obrazek": "https://www.piskova-lhota.cz/evt_image.php?img=1088&width=500&v=1793885287",
-   "zacatek": "2026-11-08T17:00",
-   "konec": null,
-   "obec": "Písková Lhota",
-   "popis": "Svatomartinský lampionový průvod Sadská lampionovy-pruvod-2026 Sadská.jpg JPG obrázek JPG obrázek",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-11-08"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-924",
@@ -108,41 +73,6 @@
    ],
    "obrazek": "",
    "zacatek": "2026-11-10T08:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
-  },
-  {
-   "id": "region-823",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_465cs2703.html",
-   "nazev": "Jóga pro seniory",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "zdravotní cvičení"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500&v=1777895298",
-   "zacatek": "2026-11-10T10:30",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "Komunitní centrum Ratenice",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
-  },
-  {
-   "id": "region-446",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/anglictina-446_98cs2703.html",
-   "nazev": "Angličtina",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "kurz",
-    "školení"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-11-10T14:30",
    "konec": null,
    "obec": "Ratenice",
    "popis": "",
@@ -181,7 +111,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-444",
@@ -199,7 +129,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-445",
@@ -218,7 +148,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-448",
@@ -235,7 +165,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-532",
@@ -253,7 +183,7 @@
    "popis": "Obec Křečhoř vás zve na lampionový a strašidelný průvod! Přijďte s lampiony, kostýmy a trochou odvahy. Těšit se můžete na podzimní večer plný světýlek, strašidel a zábavy pro malé i velké. Sraz u mateřské školy v Křečhoři, pátek 13.11.2026, od 17:30 Těšíme se na vás!",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-922",
@@ -270,7 +200,7 @@
    "popis": "divadelní představení Divadlo - 13.11.2026 - A do pyžam Divadlo - 13.11.2026 - A do pyžam.PDF",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "mesto-498982",
@@ -285,7 +215,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/498982/degustace-13.12.2026.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-05T10:55",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-487",
@@ -302,7 +232,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-2410",
@@ -319,7 +249,7 @@
    "popis": "Dne 14. listopadu 2026 se uskuteční pohádka Jak Kašpárek s Honzou hledali poklad. Srdečně vás zveme na pohádku \"Jak Kašpárek s Honzou hledali poklad\", která se uskuteční 14. listopadu 2026 od 14:30 v Místní knihovně v Plaňanech. Tato unikátní dvouscéna slibuje skvělou zábavu pro všechny. Přijďte si užít krásný příběh a strávit příjemné odpoledne s námi. divadelní představení pohádky",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-852",
@@ -336,7 +266,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-730",
@@ -353,7 +283,42 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
+  },
+  {
+   "id": "region-823",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/joga-pro-seniory-823_466cs2703.html",
+   "nazev": "Jóga pro seniory",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "zdravotní cvičení"
+   ],
+   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3004&width=500&v=1777895298",
+   "zacatek": "2026-11-17T10:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "Komunitní centrum Ratenice",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-11-11"
+  },
+  {
+   "id": "region-446",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/anglictina-446_99cs2703.html",
+   "nazev": "Angličtina",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "kurz",
+    "školení"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-11-17T14:30",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-11-11"
   },
   {
    "id": "mesto-500073",
@@ -368,7 +333,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/500073/svetlejsi-0-3.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-09T13:14",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "mesto-498280",
@@ -383,7 +348,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/498280/koncert-19.11.2026-Cecilie-1.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-03T15:01",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-722",
@@ -401,7 +366,7 @@
    "popis": "Plné vstupné: 150 Kč Vstupné činí 150 Kč v předprodeji a 200 Kč na místě.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-542",
@@ -418,7 +383,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-2181",
@@ -452,7 +417,7 @@
    "popis": "Zveme vás na Adventní jarmark žáků ZŠ Plaňany, který se koná 26. listopadu 2026. Adventní jarmark žáků Základní školy Plaňany se uskuteční 26. listopadu 2026 od 15:15 do 16:30. Navštivte je a vyberte si z pestré nabídky dekorací nebo dárečků pod stromeček. Na jarmarku nebudou chybět ani oblíbené perníčky. K dispozici bude také občerstvení v podobě čaje, svařeného vína a různých pochutin. Přijďte si užít předvánoční atmosféru a podpořit naše žáky.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-1488",
@@ -469,7 +434,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-1485",
@@ -489,7 +454,7 @@
    "popis": "Vánoční melodie zahraje COLLEGIUM MUSICUM KOLÍN Vánoční melodie &ndash; adventní koncert ve Velimi Farní sbor Českobratrské církve evangelické ve Velimi zve na 18. adventní koncert , který se uskuteční v neděli 29. listopadu 2026 od 14 hodin v Szalatnayově síni na evangelické faře (Sokolská 26, Velim).",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-875",
@@ -506,7 +471,24 @@
    "popis": "29.11.2026 od 16:00 před obecním úřadem",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
+  },
+  {
+   "id": "region-2418",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/amelie-adventni-koncert-2418_456cs194.html",
+   "nazev": "AMELIE- ADVENTNÍ KONCERT",
+   "misto": "Husův sbor",
+   "kategorie": [
+    "koncert"
+   ],
+   "obrazek": "https://www.planany.eu/evt_image.php?img=4396&width=500&v=1794327740",
+   "zacatek": "2026-11-29T17:00",
+   "konec": null,
+   "obec": "Plaňany",
+   "popis": "Vstupné dobrovolné - příspěvek na opravu kostelních lavic",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-11-11"
   },
   {
    "id": "region-399",
@@ -523,7 +505,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-878",
@@ -541,7 +523,7 @@
    "popis": "5.12.2026 od 17:30 v KC Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-879",
@@ -558,7 +540,7 @@
    "popis": "5.12.2026 od 17:30",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "mesto-496608",
@@ -588,7 +570,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/500578/vanocni-koncert-15.12.2026.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-10T13:38",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "mesto-500582",
@@ -603,7 +585,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/500582/vanocni-koncert-Small-Bandu-18.12.2026.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-10T13:36",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-2177",
@@ -637,7 +619,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-409",
@@ -654,7 +636,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   },
   {
    "id": "region-2405",
@@ -671,7 +653,7 @@
    "popis": "Dne 20. února 2027 se koná hasičský ples. Hasičský ples se uskuteční 20. února 2027 v kulturním domě v Radimi. Jako každý rok na vás čeká příjemná atmosféra, tanec a zábava pro všechny. Připravena bude i bohatá tombola. Podrobnosti a program akce budou zveřejněny později, proto si nezapomeňte zapsat datum do kalendáře.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-10"
+   "videno": "2026-11-11"
   }
  ]
 }
