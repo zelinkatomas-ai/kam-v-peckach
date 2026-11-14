@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-11-13 12:15",
+ "aktualizovano": "2026-11-14 11:30",
  "akce": [
   {
    "id": "mesto-461140",
@@ -14,7 +14,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461140/Digitalni-odysea.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:27",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "mesto-461147",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "mesto-488003",
@@ -44,25 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-11-13"
-  },
-  {
-   "id": "region-724",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/knizni-klubicko-724_375cs2703.html",
-   "nazev": "Knižní klubíčko",
-   "misto": "Knihovna",
-   "kategorie": [
-    "akce pro děti",
-    "akce pro rodiče"
-   ],
-   "obrazek": "http://www.ratenice.cz/evt_image.php?img=3042&width=500&v=1788440571",
-   "zacatek": "2026-11-11T10:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-11-11"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-532",
@@ -129,7 +111,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-2410",
@@ -146,7 +128,7 @@
    "popis": "Dne 14. listopadu 2026 se uskuteční pohádka Jak Kašpárek s Honzou hledali poklad. Srdečně vás zveme na pohádku \"Jak Kašpárek s Honzou hledali poklad\", která se uskuteční 14. listopadu 2026 od 14:30 v Místní knihovně v Plaňanech. Tato unikátní dvouscéna slibuje skvělou zábavu pro všechny. Přijďte si užít krásný příběh a strávit příjemné odpoledne s námi. divadelní představení pohádky",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-307",
@@ -163,7 +145,7 @@
    "popis": "Svatomartinské hody 14.11.2026 od 15:00. Svatomartinská vína 2026 Kostelní Lhota.jpg JPG obrázek JPG obrázek",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-929",
@@ -180,7 +162,7 @@
    "popis": "Koncert 14.11.2026 Lstiboř Typ: PDF dokument, Velikost: 415.01 kB Koncert 14.11.2026 Lstiboř.pdf PDF dokument PDF dokument",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-306",
@@ -197,7 +179,7 @@
    "popis": "Lampionový průvod při Svotomartinských hodech v Kostelní Lhotě v sobotu 14.11. od 16:11 hod. Sraz v 16:00 u Trafa Lampionový průvod",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-852",
@@ -214,7 +196,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-730",
@@ -231,7 +213,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-446",
@@ -249,7 +231,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-474",
@@ -266,7 +248,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "mesto-500073",
@@ -281,7 +263,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/500073/svetlejsi-0-3.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-09T13:14",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-444",
@@ -299,7 +281,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-445",
@@ -318,7 +300,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "mesto-498280",
@@ -333,7 +315,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/498280/koncert-19.11.2026-Cecilie-1.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-03T15:01",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-448",
@@ -350,7 +332,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-722",
@@ -368,7 +350,7 @@
    "popis": "Plné vstupné: 150 Kč Vstupné činí 150 Kč v předprodeji a 200 Kč na místě.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-542",
@@ -385,7 +367,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-823",
@@ -402,7 +384,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-2181",
@@ -436,7 +418,7 @@
    "popis": "Zveme vás na Adventní jarmark žáků ZŠ Plaňany, který se koná 26. listopadu 2026. Adventní jarmark žáků Základní školy Plaňany se uskuteční 26. listopadu 2026 od 15:15 do 16:30. Navštivte je a vyberte si z pestré nabídky dekorací nebo dárečků pod stromeček. Na jarmarku nebudou chybět ani oblíbené perníčky. K dispozici bude také občerstvení v podobě čaje, svařeného vína a různých pochutin. Přijďte si užít předvánoční atmosféru a podpořit naše žáky.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-537",
@@ -458,7 +440,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-1488",
@@ -475,7 +457,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-1485",
@@ -495,7 +477,7 @@
    "popis": "Vánoční melodie zahraje COLLEGIUM MUSICUM KOLÍN Vánoční melodie &ndash; adventní koncert ve Velimi Farní sbor Českobratrské církve evangelické ve Velimi zve na 18. adventní koncert , který se uskuteční v neděli 29. listopadu 2026 od 14 hodin v Szalatnayově síni na evangelické faře (Sokolská 26, Velim).",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-875",
@@ -512,7 +494,7 @@
    "popis": "29.11.2026 od 16:00 před obecním úřadem",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-2418",
@@ -529,7 +511,7 @@
    "popis": "Vstupné dobrovolné - příspěvek na opravu kostelních lavic",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-399",
@@ -546,7 +528,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-535",
@@ -563,7 +545,24 @@
    "popis": "Mikuláš, anděl i čert jsou na cestě! I letos se Mikuláš, anděl a čert vydají za dětmi až k Vám domů, aby společně vykouzlili tu pravou mikulášskou atmosféru. Máte zájem o jejich návštěvu? Přihlášky můžete podávat osobně na obecním úřadě nebo zasílat e-mailem na adresu podatelna@krechor.cz",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
+  },
+  {
+   "id": "region-2420",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/certovske-odpoledne-2420_457cs194.html",
+   "nazev": "Čertovské odpoledne",
+   "misto": "Plaňany",
+   "kategorie": [
+    "akce pro děti"
+   ],
+   "obrazek": "https://www.planany.eu/evt_image.php?img=4397&width=500&v=1794514659",
+   "zacatek": "2026-12-05T15:00",
+   "konec": null,
+   "obec": "Plaňany",
+   "popis": "JUNÁK A HASIČI PLAŇANY",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-11-14"
   },
   {
    "id": "region-878",
@@ -581,7 +580,7 @@
    "popis": "5.12.2026 od 17:30 v KC Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-879",
@@ -598,7 +597,7 @@
    "popis": "5.12.2026 od 17:30",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "mesto-496608",
@@ -628,7 +627,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/500578/vanocni-koncert-15.12.2026.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-10T13:38",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "mesto-500582",
@@ -643,7 +642,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/500582/vanocni-koncert-Small-Bandu-18.12.2026.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-10T13:36",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-2177",
@@ -677,7 +676,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-409",
@@ -694,7 +693,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   },
   {
    "id": "region-2405",
@@ -711,7 +710,7 @@
    "popis": "Dne 20. února 2027 se koná hasičský ples. Hasičský ples se uskuteční 20. února 2027 v kulturním domě v Radimi. Jako každý rok na vás čeká příjemná atmosféra, tanec a zábava pro všechny. Připravena bude i bohatá tombola. Podrobnosti a program akce budou zveřejněny později, proto si nezapomeňte zapsat datum do kalendáře.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-13"
+   "videno": "2026-11-14"
   }
  ]
 }
