@@ -1,5 +1,5 @@
 {
- "aktualizovano": "2026-11-25 14:26",
+ "aktualizovano": "2026-11-26 13:56",
  "akce": [
   {
    "id": "mesto-461140",
@@ -29,7 +29,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/461147/ZS-vu3v-knihovna.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-08-31T07:25",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "mesto-488003",
@@ -44,7 +44,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/488003/Vedomy-dech-2026-pdzm-page-001.jpeg",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-09-29T08:57",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "mesto-502232",
@@ -59,7 +59,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/502232/Advent-2026-1.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-18T08:32",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "mesto-502550",
@@ -74,24 +74,7 @@
    "obrazek": "",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-18T08:57",
-   "videno": "2026-11-25"
-  },
-  {
-   "id": "region-474",
-   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/hasici-474_137cs2703.html",
-   "nazev": "Hasiči",
-   "misto": "Komunitní centrum",
-   "kategorie": [
-    "hasičská soutěž"
-   ],
-   "obrazek": "",
-   "zacatek": "2026-11-25T16:00",
-   "konec": null,
-   "obec": "Ratenice",
-   "popis": "",
-   "vhodne": [],
-   "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-2181",
@@ -126,7 +109,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-2403",
@@ -143,7 +126,7 @@
    "popis": "Zveme vás na Adventní jarmark žáků ZŠ Plaňany, který se koná 26. listopadu 2026. Adventní jarmark žáků Základní školy Plaňany se uskuteční 26. listopadu 2026 od 15:15 do 16:30. Navštivte je a vyberte si z pestré nabídky dekorací nebo dárečků pod stromeček. Na jarmarku nebudou chybět ani oblíbené perníčky. K dispozici bude také občerstvení v podobě čaje, svařeného vína a různých pochutin. Přijďte si užít předvánoční atmosféru a podpořit naše žáky.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-445",
@@ -162,7 +145,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-448",
@@ -179,7 +162,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-542",
@@ -196,7 +179,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "mesto-503588",
@@ -211,7 +194,7 @@
    "obrazek": "https://pecky.cz/files/pecky/attachments/503588/Divadelni-plakat-Vzpominky-zustanou.png",
    "zdroj": "Město Pečky",
    "zverejneno": "2026-11-23T10:21",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-537",
@@ -233,7 +216,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "mesto-502231",
@@ -265,7 +248,25 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
+  },
+  {
+   "id": "region-1497",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/mistrovske-utkani-ve-stolnim-tenisu-1497_239cs1036.html",
+   "nazev": "Mistrovské utkání ve stolním tenisu",
+   "misto": "Sokolovna Velim",
+   "kategorie": [
+    "nespecifikováno/ostatní",
+    "stolní tenis"
+   ],
+   "obrazek": "http://www.velim.cz/evt_image.php?img=6254&width=500&v=1795595783",
+   "zacatek": "2026-11-28T17:00",
+   "konec": null,
+   "obec": "Velim",
+   "popis": "TJ Sokol Velim, oddíl stolního tenisu",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-11-26"
   },
   {
    "id": "region-1485",
@@ -285,7 +286,7 @@
    "popis": "Vánoční melodie zahraje COLLEGIUM MUSICUM KOLÍN Vánoční melodie &ndash; adventní koncert ve Velimi Farní sbor Českobratrské církve evangelické ve Velimi zve na 18. adventní koncert , který se uskuteční v neděli 29. listopadu 2026 od 14 hodin v Szalatnayově síni na evangelické faře (Sokolská 26, Velim).",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-875",
@@ -302,7 +303,7 @@
    "popis": "29.11.2026 od 16:00 před obecním úřadem",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-2418",
@@ -319,7 +320,7 @@
    "popis": "Vstupné dobrovolné - příspěvek na opravu kostelních lavic",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-933",
@@ -336,7 +337,7 @@
    "popis": "každou adventní neděli se rozzáří hvězda Cesta světla - Adventní hvězdy v Tatcích Typ: PDF dokument, Velikost: 765.55 kB Cesta světla Adventní hvězdy v Tatcích",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-399",
@@ -353,7 +354,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-823",
@@ -370,7 +371,7 @@
    "popis": "Komunitní centrum Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-446",
@@ -388,7 +389,24 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
+  },
+  {
+   "id": "region-474",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/hasici-474_138cs2703.html",
+   "nazev": "Hasiči",
+   "misto": "Komunitní centrum",
+   "kategorie": [
+    "hasičská soutěž"
+   ],
+   "obrazek": "",
+   "zacatek": "2026-12-02T16:00",
+   "konec": null,
+   "obec": "Ratenice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-11-26"
   },
   {
    "id": "region-882",
@@ -405,7 +423,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-1494",
@@ -422,7 +440,24 @@
    "popis": "Farní společenství římskokatolické církve",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
+  },
+  {
+   "id": "region-724",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/rozsveceni-vanocniho-stromecku-na-navsi-724_200cs3394.html",
+   "nazev": "Rozsvěcení vánočního stromečku na návsi",
+   "misto": "Milčice - náves u bývalé školy",
+   "kategorie": [
+    "rozsvícení vánočního stromu"
+   ],
+   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5372&width=500&v=1795615362",
+   "zacatek": "2026-12-04T17:00",
+   "konec": null,
+   "obec": "Milčice",
+   "popis": "",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-11-26"
   },
   {
    "id": "region-535",
@@ -439,7 +474,7 @@
    "popis": "Mikuláš, anděl i čert jsou na cestě! I letos se Mikuláš, anděl a čert vydají za dětmi až k Vám domů, aby společně vykouzlili tu pravou mikulášskou atmosféru. Máte zájem o jejich návštěvu? Přihlášky můžete podávat osobně na obecním úřadě nebo zasílat e-mailem na adresu podatelna@krechor.cz",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-2420",
@@ -456,7 +491,24 @@
    "popis": "JUNÁK A HASIČI PLAŇANY",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
+  },
+  {
+   "id": "region-725",
+   "url": "https://www.pececkyregion.cz/aktuality/kalendar-akci/mikulasska-obchuzka-5122026-725_201cs3394.html",
+   "nazev": "Mikulášská obchůzka 5.12.2026",
+   "misto": "Milčice",
+   "kategorie": [
+    "ostatní"
+   ],
+   "obrazek": "https://www.obec-milcice.cz/evt_image.php?img=5373&width=500&v=1795615519",
+   "zacatek": "2026-12-05T17:00",
+   "konec": null,
+   "obec": "Milčice",
+   "popis": "Přejete si, aby k vám zavítal 5. prosince večer Mikuláš se svou družinou? Můžete mu také letos zanechat vzkaz v obchodě Olinka a zároveň si zajistit nadílku dobrot, případně kontaktovat pana Patrika Jánského ml. https://www.facebook.com/patrik.jansky.509",
+   "vhodne": [],
+   "zdroj": "Pečecký region",
+   "videno": "2026-11-26"
   },
   {
    "id": "region-878",
@@ -474,7 +526,7 @@
    "popis": "5.12.2026 od 17:30 v KC Ratenice",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-879",
@@ -491,7 +543,22 @@
    "popis": "5.12.2026 od 17:30",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
+  },
+  {
+   "id": "mesto-504853",
+   "url": "https://pecky.cz/default/report/504853_vanocni-vystava-zaku-vytvarneho-oboru-zus-pecky",
+   "nazev": "Vánoční výstava žáků výtvarného oboru ZUŠ Pečky",
+   "zacatek": "2026-12-07T14:00",
+   "konec": "2026-12-11T17:00",
+   "misto": "Pečky",
+   "obec": "Pečky",
+   "kategorie": [],
+   "popis": "Vánoční výstava žáků výtvarného oboru ZUŠ Pečky",
+   "obrazek": "https://pecky.cz/files/pecky/attachments/504853/Vanocni-vystava-VO.jpeg",
+   "zdroj": "Město Pečky",
+   "zverejneno": "2026-11-26T08:46",
+   "videno": "2026-11-26"
   },
   {
    "id": "region-2422",
@@ -508,7 +575,7 @@
    "popis": "Plné vstupné: 300 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "mesto-496608",
@@ -540,7 +607,7 @@
    "popis": "vánoční stromečky, handmade výrobky, dobroty a spousta dalších Vánoční jarmark - 12.12.2026 Typ: PDF dokument, Velikost: 424.39 kB Vánoční jarmark - 12.12.2026.PDF",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-1493",
@@ -559,7 +626,7 @@
    "popis": "Plné vstupné: 100 Kč",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "mesto-500578",
@@ -623,7 +690,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-409",
@@ -640,7 +707,7 @@
    "popis": "",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   },
   {
    "id": "region-2405",
@@ -657,7 +724,7 @@
    "popis": "Dne 20. února 2027 se koná hasičský ples. Hasičský ples se uskuteční 20. února 2027 v kulturním domě v Radimi. Jako každý rok na vás čeká příjemná atmosféra, tanec a zábava pro všechny. Připravena bude i bohatá tombola. Podrobnosti a program akce budou zveřejněny později, proto si nezapomeňte zapsat datum do kalendáře.",
    "vhodne": [],
    "zdroj": "Pečecký region",
-   "videno": "2026-11-25"
+   "videno": "2026-11-26"
   }
  ]
 }
